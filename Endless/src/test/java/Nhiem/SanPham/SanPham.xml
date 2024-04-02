@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="SanPham" parallel="false">
+	<test name="SanPhamTest">
+		<classes>
+			<class name="Nhiem.SanPham.capNhapCTSPTest" />
+			<class name="Nhiem.SanPham.CapNhapTest" />
+			<class name="Nhiem.SanPham.taoMaCTSPTest" />
+			<class name="Nhiem.SanPham.taoMaSPTest" />
+			<class name="Nhiem.SanPham.themTest" />
+			<class name="Nhiem.SanPham.themCTSPTest" />
+		</classes>
+	</test>
+</suite>
