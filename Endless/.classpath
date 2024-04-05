@@ -36,8 +36,6 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="/Project_Endless/dist/lib/AbsoluteLayout.jar"/>
-	<classpathentry kind="lib" path="D:/SOF304/JDBC/mssql-jdbc-12.2.0.jre11.jar"/>
 	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER">
 		<attributes>
 			<attribute name="module" value="true"/>

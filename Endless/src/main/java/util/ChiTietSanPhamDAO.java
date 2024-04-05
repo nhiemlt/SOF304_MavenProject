@@ -17,7 +17,7 @@ public class ChiTietSanPhamDAO extends EndlessDAO<ChiTietSanPham, String> {
     String SELECT_ALL_BY_MASANPHAM = "SELECT * FROM ChiTietSanPham where MaSP = ?";
     String SELECT_BY_ID_SQL = "SELECT * FROM ChiTietSanPham WHERE MaCTSP = ?";
     String SELECT_DESC = "SELECT * FROM ChiTietSanPham order by MaCTSP";
-    String SELECT_ID_DESC = "SELECT * FROM ChiTietSanPham where MaSP = ? order by MaCTSP";
+    String SELECT_ID_DESC = "SELECT * FROM ChiTietSanPham where MaSP = ? order by MaCTSP DESC";
     
     @Override
     public void insert(ChiTietSanPham chiTietSP) {

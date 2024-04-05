@@ -1,10 +1,13 @@
-/blankchart/
+/controller/
+/cell/
+/chart/
+/document/
+/icon/
+/image/
 /main/
+/blankchart/
 /model/
 /swing/
 /util/
 /view/
-/cell/
-/chart/
-/controller/
 /META-INF/

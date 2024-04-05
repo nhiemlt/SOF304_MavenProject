@@ -17,8 +17,11 @@ import javax.swing.table.DefaultTableCellRenderer;
 import javax.swing.table.DefaultTableModel;
 
 import model.ChiTietSanPham;
+import model.KichThuoc;
+import model.MauSac;
 import util.Auth;
 import util.ChiTietSanPhamDAO;
+import util.KhuyenMaiDAO;
 import util.KichThuocDAO;
 import util.LoaiGiayDAO;
 import util.MauSacDAO;
@@ -269,14 +272,26 @@ public class SanPham extends javax.swing.JPanel {
 
 	// Hàm để kiểm thử chức năng tạo mã chi tiết sản phẩm
 	public String taoMaCTSP_Test(String maSP, List<ChiTietSanPham> list) {
-		model.ChiTietSanPham ctsp;
-		try {
-			ctsp = list.get(0);
-		} catch (Exception e) {
+		if (maSP == null || maSP.isEmpty()) {
+			return null;
+		} else if (spDAO.selectById(maSP) == null) {
+			return null;
+		}
+
+		ChiTietSanPham ctsp = new ChiTietSanPham();
+		int i = 0;
+		for (ChiTietSanPham chiTietSanPham : list) {
+			if (chiTietSanPham.getMaCTSP().substring(0, maSP.length()).equals(maSP)) {
+				ctsp = chiTietSanPham;
+				
+				i++;
+			}
+		}
+
+		if (i == 0) {
 			ctsp = new ChiTietSanPham();
 			ctsp.setMaCTSP(maSP + "-0");
 		}
-
 		String oldID = ctsp.getMaCTSP();
 		String number = oldID.split("-")[1];
 		String newID = maSP + "-";
@@ -302,10 +317,18 @@ public class SanPham extends javax.swing.JPanel {
 	}
 
 	// Hàm để kiểm thử chức năng tạo thêm sản phẩm
-	public void Them_Test(model.SanPham sp) {
-		String maSP = sp.getMaSP() == null ? taoMaSP() : sp.getMaSP();
-		sp.setMaSP(maSP);
-		spDAO.insert(sp);
+	public String Them_Test(model.SanPham sp) {
+		sp.setMaSP(taoMaSP());
+		if (batLoiSanPham_Test(sp).isEmpty()) {
+			try {
+				spDAO.insert(sp);
+				LamMoi();
+				return "PASS";
+			} catch (Exception e) {
+				return e + "";
+			}
+		}
+		return batLoiSanPham_Test(sp);
 	}
 
 	void ThemCTSP(String maSP) {
@@ -325,9 +348,17 @@ public class SanPham extends javax.swing.JPanel {
 	}
 
 	// Hàm để kiểm thử chức năng tạo thêm chi tiết sản phẩm
-	public void ThemCTSP_Test(String maSP, ChiTietSanPham ctsp) {
-		ctsp.setMaCTSP(taoMaCTSP(maSP));
-		ctspDAO.insert(ctsp);
+	public String ThemCTSP_Test(ChiTietSanPham ctsp) {
+		ctsp.setMaCTSP(taoMaCTSP(ctsp.getMaSP()));
+		if (batLoiChiTietSanPham_Test(ctsp).isEmpty()) {;
+			try {
+				ctspDAO.insert(ctsp);
+				return "pass";
+			} catch (Exception e) {
+				return e+"";
+			}
+		}
+		return batLoiChiTietSanPham_Test(ctsp);
 	}
 
 	void CapNhat() {
@@ -350,8 +381,7 @@ public class SanPham extends javax.swing.JPanel {
 	public void CapNhat_Test(model.SanPham sp) {
 		spDAO.update(sp);
 	}
-	
-	
+
 	// Hàm để kiểm thử chức năng tạo cập nhập chi tiết sản phẩm
 	public void CapNhatCTSP_Test(model.ChiTietSanPham ctsp) {
 		ctspDAO.update(ctsp);
@@ -394,8 +424,6 @@ public class SanPham extends javax.swing.JPanel {
 			}
 		}
 	}
-	
-	
 
 	void XoaCTSP() {
 		if (!Auth.isManager()) {
@@ -485,32 +513,47 @@ public class SanPham extends javax.swing.JPanel {
 		return true;
 	}
 
+	
+	//TEST
 	public String batLoiSanPham_Test(model.SanPham sp) {
 		String err = "";
 
-		if (sp.getTenSP().isEmpty()) {
-			err += "Tên sản phẩm không được bỏ trống\n";
-		} else if (sp.getTenSP().matches("[0-9].*$")) {
-			err += "Tên sản phẩm không được chứa số\n";
+		if (sp.getMaKM()!=null) {
+			KhuyenMaiDAO kmDAO = new KhuyenMaiDAO();
+			if (kmDAO.selectByID(sp.getMaKM()) == null) {
+				err += "Lỗi mã KM không tồn tại";
+			}
+		}
+		if (sp.getMaLoaiGiay()!=null) {
+			LoaiGiayDAO lgDAO = new LoaiGiayDAO();
+			if (lgDAO.selectById(sp.getMaLoaiGiay()) == null) {
+				err += "Lỗi mã LG không tồn tại";
+			}
+		}
+		if (sp.getTenSP()==null || sp.getMaLoaiGiay()==null) {
+			err += "Lỗi nhập thiếu dữ liệu";
+		}else {
+			if (sp.getTenSP().matches("[0-9].*$")) {
+				err += "Tên sản phẩm không được chứa số";
+			}
+
+			if (sp.getDonGiaNhap() <= 0) {
+				err += "Lỗi giá nhập <=0";
+			}
+
+			if (sp.getDonGiaBan() <= 0) {
+				err += "Lỗi giá bán <=0";
+			}
+
+			if (sp.getDonGiaBan() < sp.getDonGiaNhap()) {
+				err += "Lỗi giá bán nhỏ hơn giá nhập";
+			}
+
+			if (!sp.getMaVach().matches("^[^a-zA-Z\\p{P}]*$")) {
+				err += "Mã vạch không được chứa ký tự đặc biệt và chữ cái";
+			}
 		}
 
-		if (sp.getDonGiaNhap() <= 0) {
-			err += "Giá nhập phải là số dương và không được bỏ trống\n";
-		}
-
-		if (sp.getDonGiaBan() <= 0) {
-			err += "Giá bán phải là số dương và không được bỏ trống\n";
-		}
-
-		if (sp.getDonGiaBan() < sp.getDonGiaNhap()) {
-			err += "Giá bán phải lớn hơn giá nhập\n";
-		}
-
-		if (sp.getMaVach().isEmpty()) {
-			err += "Mã vạch sản phẩm không được bỏ trống\n";
-		} else if (!sp.getMaVach().matches("^[^a-zA-Z\\p{P}]*$")) {
-			err += "Mã vạch không được chứa ký tự đặc biệt và chữ cái\n";
-		}
 
 		return err;
 	}
@@ -531,6 +574,51 @@ public class SanPham extends javax.swing.JPanel {
 		}
 		return true;
 	}
+
+	public String batLoiChiTietSanPham_Test(ChiTietSanPham ctsp) {
+		String err = "";
+
+		if (ctsp.getMaCTSP()== null) {
+			err += "Lỗi bỏ trống mã CTSP";
+		}
+		if (ctsp.getMaSP().isEmpty()) {
+			err += "Lỗi bỏ trống mã SP";
+		}
+		else {
+			model.SanPham sp = spDAO.selectById(ctsp.getMaSP());
+			if (sp==null) {
+				return "Lỗi sản phẩm không tồn tại";
+			}
+		}
+		if (ctsp.getMaMau()==null || ctsp.getMaMau().isEmpty()) {
+			err += "Lỗi bỏ trống mã màu";
+		}
+		else {
+			MauSac mauSac = new MauSacDAO().selectByID(ctsp.getMaMau());
+			if (mauSac==null) {
+				return "Lỗi mã màu không tồn tại";
+			}
+		}
+		if (ctsp.getMaKT()== null || ctsp.getMaKT().isEmpty()) {
+			err += "Lỗi bỏ trống mã kích thước";
+		}
+		else {
+			KichThuoc kt = new KichThuocDAO().selectByID(ctsp.getMaKT());
+			if(kt==null) {
+				err += "Lỗi mã kích thước không tồn tại";
+			}
+		}
+		try {
+			int a = ctsp.getSoLuong() / 2;
+			if (ctsp.getSoLuong() <= 0) {
+				err += "Lỗi số lượng <0 ";
+			}
+		} catch (Exception e) {
+			err += "Lỗi số lượng bỏ trống hoặc sai kiểu dữ liệu ";
+		}
+		return err;
+	}
+	
 
 	void chonAnh() {
 		if (fileChooser.showOpenDialog(this) == JFileChooser.APPROVE_OPTION) {
