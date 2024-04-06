@@ -378,8 +378,18 @@ public class SanPham extends javax.swing.JPanel {
 	}
 
 	// Hàm để kiểm thử chức năng tạo cập nhập sản phẩm
-	public void CapNhat_Test(model.SanPham sp) {
-		spDAO.update(sp);
+	public String CapNhat_Test(model.SanPham sp) {
+		if (batLoiSanPham_Test(sp).isEmpty()) {
+			try {
+				spDAO.update(sp);
+				return "Cập nhật thành công";
+			} catch (Exception e) {
+				return "Cập nhật thất bại!";
+			}
+		}
+		else {
+			return batLoiSanPham_Test(sp);
+		}
 	}
 
 	// Hàm để kiểm thử chức năng tạo cập nhập chi tiết sản phẩm
@@ -553,8 +563,6 @@ public class SanPham extends javax.swing.JPanel {
 				err += "Mã vạch không được chứa ký tự đặc biệt và chữ cái";
 			}
 		}
-
-
 		return err;
 	}
 
