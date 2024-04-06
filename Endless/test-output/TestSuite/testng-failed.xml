@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestSuite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Nhiem.ThuocTinh.themMauSacTest">
+        <methods>
+          <include name="TC_TMS_03"/>
+        </methods>
+      </class> <!-- Nhiem.ThuocTinh.themMauSacTest -->
+      <class name="Nhiem.ThuocTinh.taoMaMSTest">
+        <methods>
+          <include name="TC_TAOMAMS_04"/>
+        </methods>
+      </class> <!-- Nhiem.ThuocTinh.taoMaMSTest -->
+      <class name="Nhiem.ThuocTinh.taoMaKTTest">
+        <methods>
+          <include name="TC_TAO_MAKT_04"/>
+        </methods>
+      </class> <!-- Nhiem.ThuocTinh.taoMaKTTest -->
+      <class name="Nhiem.ThuocTinh.themKichThuocTest">
+        <methods>
+          <include name="TC_TKT_04"/>
+          <include name="TC_TKT_03"/>
+        </methods>
+      </class> <!-- Nhiem.ThuocTinh.themKichThuocTest -->
+      <class name="Nhiem.ThuocTinh.capNhapMauSac">
+        <methods>
+          <include name="TC_CNM_03"/>
+        </methods>
+      </class> <!-- Nhiem.ThuocTinh.capNhapMauSac -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->

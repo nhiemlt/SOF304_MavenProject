@@ -3,22 +3,16 @@
 <suite name="Failed suite [SanPham]">
   <test thread-count="5" name="SanPhamTest(failed)">
     <classes>
-      <class name="Nhiem.SanPham.themCTSPTest">
-        <methods>
-          <include name="TC_THEMCTSP_01"/>
-        </methods>
-      </class> <!-- Nhiem.SanPham.themCTSPTest -->
       <class name="Nhiem.SanPham.capNhapCTSPTest">
         <methods>
-          <include name="TC_CAPNHATCTSP_03"/>
-          <include name="TC_CAPNHATCTSP_02"/>
+          <include name="TC_CAPNHATCTSP_10"/>
+          <include name="TC_CAPNHATCTSP_11"/>
         </methods>
       </class> <!-- Nhiem.SanPham.capNhapCTSPTest -->
       <class name="Nhiem.SanPham.CapNhapTest">
         <methods>
-          <include name="TC_CAPNHAT_02"/>
-          <include name="TC_CAPNHAT_03"/>
-          <include name="TC_CAPNHAT_04"/>
+          <include name="TC_CAPNHAT_05"/>
+          <include name="TC_CAPNHAT_07"/>
         </methods>
       </class> <!-- Nhiem.SanPham.CapNhapTest -->
     </classes>

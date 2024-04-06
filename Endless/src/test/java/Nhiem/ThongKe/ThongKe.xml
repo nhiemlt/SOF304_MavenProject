@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="ThongKe" parallel="false">
+	<test name="ThongKeTest">
+		<classes>
+			<class name="Nhiem.ThongKe.xuatDanhSachTest" />
+		</classes>
+	</test>
+</suite>

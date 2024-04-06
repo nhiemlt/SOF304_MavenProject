@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Nhiem.ThongKe.xuatDanhSachTest">
+      <class name="Nhiem.XNumber.XNumberParseTest">
         <methods>
-          <include name="TC_XUAT_DANH_SACH_02"/>
-          <include name="TC_XUAT_DANH_SACH_03"/>
+          <include name="TC_PARSEINT_02"/>
         </methods>
-      </class> <!-- Nhiem.ThongKe.xuatDanhSachTest -->
+      </class> <!-- Nhiem.XNumber.XNumberParseTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -21,7 +21,7 @@ public class EncodeTest {
 
     @Test(description = "Kiểm tra khi có lỗi xảy ra khi tạo mật khẩu mới")
     public void TC_HASH_02() {
-        String plainPassword = "123456";
+        String plainPassword = null;
         try {
             String hashedPassword = ec.hashPassword(plainPassword);
             assertNull(hashedPassword);
@@ -40,7 +40,7 @@ public class EncodeTest {
     @Test(description = "Kiểm tra khi mật khẩu nhập vào không khớp với mật khẩu đã mã hóa")
     public void TC_CHECK_02() {
         String plainPassword = "123456";
-        String hashedPassword = ec.hashPassword("Password123!");
+        String hashedPassword = ec.hashPassword("abc123@@");
         assertFalse(ec.checkPassword(plainPassword, hashedPassword));
     }
 

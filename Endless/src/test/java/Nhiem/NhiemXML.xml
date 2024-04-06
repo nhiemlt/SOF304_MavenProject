@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="NhiemXMFTestSuite">
+    <test name="EncodeTest">
+        <packages>
+            <package name="Nhiem.Encode"/>
+        </packages>
+    </test>
+    <test name="SanPhamTest">
+        <packages>
+            <package name="Nhiem.SanPham"/>
+        </packages>
+    </test>
+    <test name="ThongKeTest">
+        <packages>
+            <package name="Nhiem.ThongKe"/>
+        </packages>
+    </test>
+    <test name="ThuocTinhTest">
+        <packages>
+            <package name="Nhiem.ThuocTinh"/>
+        </packages>
+    </test>
+</suite>
