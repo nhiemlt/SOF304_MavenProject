@@ -1,9 +1,10 @@
+/META-INF/
 /blankchart/
-/model/
-/util/
+/cell/
 /chart/
 /controller/
 /main/
+/model/
 /swing/
+/util/
 /view/
-/META-INF/

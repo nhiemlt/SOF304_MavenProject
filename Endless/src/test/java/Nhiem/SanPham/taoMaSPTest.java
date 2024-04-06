@@ -3,8 +3,6 @@ package Nhiem.SanPham;
 import view.SanPham;
 
 import static org.testng.Assert.assertEquals;
-import static org.testng.Assert.assertSame;
-import static org.testng.Assert.assertThrows;
 import static org.testng.Assert.assertTrue;
 
 import java.util.ArrayList;

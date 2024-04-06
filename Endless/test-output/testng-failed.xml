@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Nhiem.SanPham.CapNhapTest">
+      <class name="Nhiem.ThongKe.xuatDanhSachTest">
         <methods>
-          <include name="TC_CAPNHAT_05"/>
-          <include name="TC_CAPNHAT_07"/>
+          <include name="TC_XUAT_DANH_SACH_02"/>
+          <include name="TC_XUAT_DANH_SACH_03"/>
         </methods>
-      </class> <!-- Nhiem.SanPham.CapNhapTest -->
+      </class> <!-- Nhiem.ThongKe.xuatDanhSachTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

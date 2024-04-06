@@ -19,6 +19,7 @@ public class KichThuocDAO extends EndlessDAO<KichThuoc, String> {
     String INSERT_SQL = "INSERT INTO KichThuoc(MaKichThuoc, TenKichThuoc, Mota) VALUES(?,?,?)";
     String UPDATE_SQL = "UPDATE KichThuoc SET TenKichThuoc=?, Mota=? WHERE MaKichThuoc=?";
     String DELETE_SQL = "DELETE FROM KichThuoc WHERE TenKichThuoc like ?";
+    String DELETE_BY_ID = "DELETE FROM KichThuoc WHERE MaKichThuoc = ?";
     String SELECT_BY_ID_SQL = "SELECT * FROM KichThuoc WHERE MaKichThuoc=?";
     String SELECT_DESC = "Select * from KichThuoc order by MaKichThuoc desc";
     String SELECT_ALL_SQL = "SELECT * FROM KichThuoc";
@@ -43,6 +44,10 @@ public class KichThuocDAO extends EndlessDAO<KichThuoc, String> {
     @Override
     public void delete(String tenkt) {
         ConnectDB.executeUpdate(DELETE_SQL, tenkt);
+    }
+    
+    public void deleteByID(String id) {
+        ConnectDB.executeUpdate(DELETE_BY_ID, id);
     }
 
     public KichThuoc selectByID(String id) {

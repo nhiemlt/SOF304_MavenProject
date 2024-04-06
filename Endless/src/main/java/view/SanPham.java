@@ -393,8 +393,18 @@ public class SanPham extends javax.swing.JPanel {
 	}
 
 	// Hàm để kiểm thử chức năng tạo cập nhập chi tiết sản phẩm
-	public void CapNhatCTSP_Test(model.ChiTietSanPham ctsp) {
-		ctspDAO.update(ctsp);
+	public String CapNhatCTSP_Test(model.ChiTietSanPham ctsp) {
+		if (batLoiChiTietSanPham_Test(ctsp).isEmpty()) {
+			try {
+				ctspDAO.update(ctsp);
+				return "Cập nhật thành công";
+			} catch (Exception e) {
+				return  "Cập nhật thất bại!";
+			}
+		}
+		else {
+			return batLoiChiTietSanPham_Test(ctsp);
+		}
 	}
 
 	void CapNhatCTSP() {
@@ -589,7 +599,7 @@ public class SanPham extends javax.swing.JPanel {
 		if (ctsp.getMaCTSP()== null) {
 			err += "Lỗi bỏ trống mã CTSP";
 		}
-		if (ctsp.getMaSP().isEmpty()) {
+		if (ctsp.getMaSP()== null ||ctsp.getMaSP().isEmpty()) {
 			err += "Lỗi bỏ trống mã SP";
 		}
 		else {

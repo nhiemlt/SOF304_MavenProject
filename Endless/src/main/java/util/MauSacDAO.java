@@ -19,6 +19,7 @@ public class MauSacDAO extends EndlessDAO<MauSac, String> {
     String INSERT_SQL = "INSERT INTO MauSac(MaMauSac, TenMauSac, Mota) VALUES(?,?,?)";
     String UPDATE_SQL = "UPDATE MauSac SET TenMauSac=?, Mota=? WHERE MaMauSac=?";
     String DELETE_SQL = "DELETE FROM MauSac WHERE TenMauSac like ?";
+    String DELETE_BY_ID = "DELETE FROM MauSac WHERE MaMauSac = ?";
     String SELECT_BY_ID_SQL = "SELECT * FROM MauSac WHERE MaMauSac=?";
     String SELECT_DESC = "Select * from MauSac order by MaMauSac desc";
     String SELECT_ALL_SQL = "SELECT * FROM MauSac";
@@ -43,6 +44,10 @@ public class MauSacDAO extends EndlessDAO<MauSac, String> {
     @Override
     public void delete(String tenms) {
         ConnectDB.executeUpdate(DELETE_SQL, tenms);
+    }
+    
+    public void deleteByID(String id) {
+        ConnectDB.executeUpdate(DELETE_BY_ID, id);
     }
 
     public MauSac selectByID(String id) {
