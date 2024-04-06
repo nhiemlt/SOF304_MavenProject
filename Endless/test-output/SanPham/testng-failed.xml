@@ -5,7 +5,7 @@
     <classes>
       <class name="Nhiem.SanPham.themCTSPTest">
         <methods>
-          <include name="TC_THEMCTSP_01"/>
+          <include name="TC_THEMCTSP_02"/>
         </methods>
       </class> <!-- Nhiem.SanPham.themCTSPTest -->
       <class name="Nhiem.SanPham.capNhapCTSPTest">
