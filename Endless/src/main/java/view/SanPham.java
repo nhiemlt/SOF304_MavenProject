@@ -238,7 +238,7 @@ public class SanPham extends javax.swing.JPanel {
 			return "SP001";
 		}
 
-		model.SanPham sp = list.get(0);
+		model.SanPham sp = list.get(list.size()-1);
 		String oldID = sp.getMaSP();
 		String number = oldID.substring(2, oldID.length());
 		String newID = "SP";
@@ -549,7 +549,7 @@ public class SanPham extends javax.swing.JPanel {
 				err += "Lỗi giá bán nhỏ hơn giá nhập";
 			}
 
-			if (!sp.getMaVach().matches("^[^a-zA-Z\\p{P}]*$")) {
+			if (sp.getMaVach()!=null && !sp.getMaVach().matches("^[^a-zA-Z\\p{P}]*$")) {
 				err += "Mã vạch không được chứa ký tự đặc biệt và chữ cái";
 			}
 		}
@@ -611,7 +611,7 @@ public class SanPham extends javax.swing.JPanel {
 		try {
 			int a = ctsp.getSoLuong() / 2;
 			if (ctsp.getSoLuong() <= 0) {
-				err += "Lỗi số lượng <0 ";
+				err += "Lỗi số lượng <0";
 			}
 		} catch (Exception e) {
 			err += "Lỗi số lượng bỏ trống hoặc sai kiểu dữ liệu ";

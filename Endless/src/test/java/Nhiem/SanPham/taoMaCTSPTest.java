@@ -2,9 +2,6 @@ package Nhiem.SanPham;
 
 import view.SanPham;
 
-import static org.testng.Assert.assertEquals;
-import static org.testng.Assert.assertTrue;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -17,7 +14,7 @@ public class taoMaCTSPTest {
 	
 	SanPham form = new SanPham();
 
-	@Test
+    @Test(description = "Kiểm tra khi danh sách là null")
     public void TC_TAOMACTSP_01() {
         List<ChiTietSanPham> list = null;
         String expectedResult = null;
@@ -25,7 +22,7 @@ public class taoMaCTSPTest {
         Assert.assertNull(actualResult);
     }
 
-    @Test
+    @Test(description = "Kiểm tra khi danh sách là rỗng")
     public void TC_TAOMACTSP_02() {
         List<ChiTietSanPham> list = new ArrayList<>();
         String expectedResult = "SP001-0";
@@ -33,7 +30,7 @@ public class taoMaCTSPTest {
         Assert.assertNull(actualResult);
     }
 
-    @Test
+    @Test(description = "Kiểm tra khi danh sách không rỗng")
     public void TC_TAOMACTSP_03() {
         List<ChiTietSanPham> list = new ArrayList<>();
         ChiTietSanPham ctsp= new ChiTietSanPham();
@@ -44,14 +41,14 @@ public class taoMaCTSPTest {
         Assert.assertEquals(actualResult, expectedResult);
     }
 
-    @Test
+    @Test(description = "Kiểm tra khi tham số MaSP là null")
     public void TC_TAOMACTSP_04() {
         List<ChiTietSanPham> list = new ArrayList<>();
         String actualResult = form.taoMaCTSP_Test(null, list);
         Assert.assertNull(actualResult);
     }
 
-    @Test
+    @Test(description = "Kiểm tra khi danh sách có một phần tử")
     public void TC_TAOMACTSP_05() {
         List<ChiTietSanPham> list = new ArrayList<>();
         ChiTietSanPham ctsp = new ChiTietSanPham();
@@ -62,8 +59,7 @@ public class taoMaCTSPTest {
         Assert.assertEquals(actualResult, expectedResult);
     }
 
-
-    @Test
+    @Test(description = "Kiểm tra khi danh sách có nhiều hơn một phần tử")
     public void TC_TAOMACTSP_06() {
         List<ChiTietSanPham> list = new ArrayList<>();
         ChiTietSanPham ctsp1 = new ChiTietSanPham();
@@ -77,7 +73,7 @@ public class taoMaCTSPTest {
         Assert.assertEquals(actualResult, expectedResult);
     }
 
-    @Test
+    @Test(description = "Kiểm tra khi danh sách có một phần tử")
     public void TC_TAOMACTSP_07() {
         List<ChiTietSanPham> list = new ArrayList<>();
         ChiTietSanPham ctsp = new ChiTietSanPham();
@@ -88,7 +84,7 @@ public class taoMaCTSPTest {
         Assert.assertEquals(actualResult, expectedResult);
     }
 
-    @Test
+    @Test(description = "Kiểm tra khi danh sách rỗng")
     public void TC_TAOMACTSP_08() {
         List<ChiTietSanPham> list = new ArrayList<>();
         String expectedResult = "SP010-1";
@@ -96,7 +92,7 @@ public class taoMaCTSPTest {
         Assert.assertEquals(actualResult, expectedResult);
     }
 
-    @Test
+    @Test(description = "Kiểm tra khi danh sách rỗng")
     public void TC_TAOMACTSP_09() {
         List<ChiTietSanPham> list = new ArrayList<>();
         String expectedResult = "SP012-1";
