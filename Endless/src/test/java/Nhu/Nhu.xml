@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="NhuXMFTestSuite">
+    <test name="DoiMatKhauTest">
+        <packages>
+            <package name="Nhu.DoiMatKhau"/>
+        </packages>
+    </test>
+    <test name="KhachHangTest">
+        <packages>
+            <package name="Nhu.KhachHang"/>
+        </packages>
+    </test>
+    <test name="KhuyenMaiTest">
+        <packages>
+            <package name="Nhu.KhuyenMai"/>
+        </packages>
+    </test>
+    <test name="ServerTest">
+        <packages>
+            <package name="Nhu.Server"/>
+        </packages>
+    </test>
+</suite>

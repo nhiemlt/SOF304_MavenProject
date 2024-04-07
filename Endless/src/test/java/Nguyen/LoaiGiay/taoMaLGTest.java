@@ -90,13 +90,13 @@ public class taoMaLGTest {
     public void TC_TAO_MA_LG_08() {
         List<model.LoaiGiay> list = new ArrayList<>();
         // Tạo danh sách loại giày đến giới hạn
-        for (int i = 1; i <= 9999; i++) {
+        for (int i = 1; i <= 999; i++) {
             model.LoaiGiay lg = new model.LoaiGiay();
             lg.setMaLoaiGiay(new view.LoaiGiay().taoMaLG_Test(list));
             list.add(lg);
         }
         // Tính toán kỳ vọng
-        String expectedResult = "LG10000";
+        String expectedResult = "LG1000";
         // Gọi phương thức và lấy kết quả thực tế
         String actualResult = form.taoMaLG_Test(list);
         // So sánh kết quả

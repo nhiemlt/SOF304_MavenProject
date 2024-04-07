@@ -62,6 +62,10 @@ public class NhapHang extends javax.swing.JPanel {
         initComponents();
         initForm();
     }
+    
+    public NhapHang(String text) {
+    	
+    }
 
     public void initComBoBox(String text) {
         if (text.isEmpty()) {

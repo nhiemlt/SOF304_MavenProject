@@ -38,9 +38,23 @@ public class chuyenServer extends javax.swing.JPanel {
 	}
 
 	public String chuyenDoi_Test(String sever, String database) {
+
+		if (sever.isEmpty() || sever == null) {
+			return "Lỗi bỏ trống sever vào file sever.txt";
+		}
+		if (database.isEmpty() || database == null) {
+			return "Lỗi bỏ trống database vào file sever.txt";
+		}
+		if (database.matches(".*[!@#$%^&*].*")) {
+			return "Lỗi: Database không được chứa ký tự đặc biệt";
+		}
+		if (sever.matches(".*[!@#$%^&*].*")) {
+			return "Lỗi: Sever không được chứa ký tự đặc biệt";
+		}
+
 		String contentToSave = "Sever: " + sever + "\nDatabase: " + database;
 		XFile xf = new XFile();
-		
+
 		try {
 			xf.saveToFile("sever.txt", contentToSave);
 		} catch (Exception e) {

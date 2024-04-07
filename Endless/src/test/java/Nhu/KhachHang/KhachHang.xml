@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="KhachHang" parallel="false">
+	<test name="KhachHangTest">
+		<classes>
+			<class name="Nhu.KhachHang.CapNhatTest" />
+			<class name="Nhu.KhachHang.TaoMaKHTest" />
+			<class name="Nhu.KhachHang.ThemTest" />
+			<class name="Nhu.KhachHang.XoaTest" />
+		</classes>
+	</test>
+</suite>

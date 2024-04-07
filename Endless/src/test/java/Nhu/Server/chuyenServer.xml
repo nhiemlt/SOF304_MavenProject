@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Server" parallel="false">
+	<test name="ChuyenDoiTest">
+		<classes>
+			<class name="Nhu.Server.ChuyenDoiTest" />
+			
+		</classes>
+	</test>
+</suite>

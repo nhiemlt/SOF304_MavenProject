@@ -13,6 +13,8 @@ import util.NhanVienDAO;
 
 public class taoMaCTNHTest {
 	
+	view.NhapHang form = new view.NhapHang("TEST");
+	
 	@BeforeClass
 	public void setStatus() {
 		NhanVien nv = new NhanVienDAO().selectById("NV001");
@@ -24,7 +26,7 @@ public class taoMaCTNHTest {
         String maDN = "DN001";
         List<model.ChiTietNhapHang> list = null;
         String expectedResult = "DN001-1";
-        String actualResult = new view.NhapHang().taoMaCTNH_Test(maDN, list);
+        String actualResult =form.taoMaCTNH_Test(maDN, list);
         Assert.assertEquals(actualResult, expectedResult);
     }
 
@@ -33,7 +35,7 @@ public class taoMaCTNHTest {
         List<model.ChiTietNhapHang> list = new ArrayList<>();
         String maDN = "DN002";
         String expectedResult = "DN002-1";
-        String actualResult = new view.NhapHang().taoMaCTNH_Test(maDN, list);
+        String actualResult =form.taoMaCTNH_Test(maDN, list);
         Assert.assertEquals(actualResult, expectedResult);
     }
 
@@ -43,7 +45,7 @@ public class taoMaCTNHTest {
         List<model.ChiTietNhapHang> list = new ArrayList<>();
         list.add(new model.ChiTietNhapHang());
         String expectedResult = "DN003-1";
-        String actualResult = new view.NhapHang().taoMaCTNH_Test(maDN, list);
+        String actualResult =form.taoMaCTNH_Test(maDN, list);
         Assert.assertEquals(actualResult, expectedResult);
     }
 
@@ -55,7 +57,7 @@ public class taoMaCTNHTest {
         ctnh.setMaCTDN("DN004-1");
         list.add(ctnh);
         String expectedResult = "DN004-2";
-        String actualResult = new view.NhapHang().taoMaCTNH_Test(maDN, list);
+        String actualResult =form.taoMaCTNH_Test(maDN, list);
         Assert.assertEquals(actualResult, expectedResult);
     }
 
@@ -67,7 +69,7 @@ public class taoMaCTNHTest {
         ctnh.setMaCTDN("DN005-999");
         list.add(ctnh);
         String expectedResult = "DN005-1000";
-        String actualResult = new view.NhapHang().taoMaCTNH_Test(maDN, list);
+        String actualResult =form.taoMaCTNH_Test(maDN, list);
         Assert.assertEquals(actualResult, expectedResult);
     }
 
@@ -76,7 +78,7 @@ public class taoMaCTNHTest {
         String maDN = "DN@#$";
         List<model.ChiTietNhapHang> list = new ArrayList<>();
         String expectedResult = "DN@#$-1";
-        String actualResult = new view.NhapHang().taoMaCTNH_Test(maDN, list);
+        String actualResult =form.taoMaCTNH_Test(maDN, list);
         Assert.assertEquals(actualResult, expectedResult);
     }
 
@@ -88,7 +90,7 @@ public class taoMaCTNHTest {
         ctnh.setMaCTDN("DN007-0");
         list.add(ctnh);
         String expectedResult = "DN007-1";
-        String actualResult = new view.NhapHang().taoMaCTNH_Test(maDN, list);
+        String actualResult =form.taoMaCTNH_Test(maDN, list);
         Assert.assertEquals(actualResult, expectedResult);
     }
 
@@ -101,7 +103,7 @@ public class taoMaCTNHTest {
         list.add(ctnh);
         String expectedResult = "DN008-0";
         try {
-         new view.NhapHang().taoMaCTNH_Test(maDN, list);
+        form.taoMaCTNH_Test(maDN, list);
 		} catch (Exception e) {
 			expectedResult = e+"";
 		}

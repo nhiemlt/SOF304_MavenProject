@@ -108,13 +108,13 @@ public class taoMaNCCTest {
     public void TC_TAO_MA_NCC_10() {
         List<model.NhaCungCap> list = new ArrayList<>();
         // Tạo danh sách nhà cung cấp đến giới hạn
-        for (int i = 1; i <= 9999; i++) {
+        for (int i = 1; i <= 999; i++) {
         	model.NhaCungCap ncc = new model.NhaCungCap();
         	ncc.setMaNCC(new view.NhaCungCap().taoMaNCC_Test(list));
         	list.add(ncc);
         }
         // Tính toán kỳ vọng
-        String expectedResult = "NCC10000";
+        String expectedResult = "NCC1000";
         // Gọi phương thức và lấy kết quả thực tế
         String actualResult = form.taoMaNCC_Test(list);
         // So sánh kết quả

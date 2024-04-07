@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [NhuXMFTestSuite]">
+  <test thread-count="5" name="DoiMatKhauTest(failed)">
+    <classes>
+      <class name="Nhu.DoiMatKhau.DoiMatKhauTest">
+        <methods>
+          <include name="TC_09"/>
+        </methods>
+      </class> <!-- Nhu.DoiMatKhau.DoiMatKhauTest -->
+    </classes>
+  </test> <!-- DoiMatKhauTest(failed) -->
+  <test thread-count="5" name="KhachHangTest(failed)">
+    <classes>
+      <class name="Nhu.KhachHang.XoaTest">
+        <methods>
+          <include name="TC_XOA_01"/>
+        </methods>
+      </class> <!-- Nhu.KhachHang.XoaTest -->
+    </classes>
+  </test> <!-- KhachHangTest(failed) -->
+  <test thread-count="5" name="KhuyenMaiTest(failed)">
+    <classes>
+      <class name="Nhu.KhuyenMai.CapNhatTest">
+        <methods>
+          <include name="TC_CAPNHATKM_02"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Nhu.KhuyenMai.CapNhatTest -->
+      <class name="Nhu.KhuyenMai.ThemTest">
+        <methods>
+          <include name="TC_THEMKM_02"/>
+          <include name="TC_THEMKM_04"/>
+          <include name="TC_THEMKM_03"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Nhu.KhuyenMai.ThemTest -->
+    </classes>
+  </test> <!-- KhuyenMaiTest(failed) -->
+</suite> <!-- Failed suite [NhuXMFTestSuite] -->

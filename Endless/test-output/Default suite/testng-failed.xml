@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Nhiem.XNumber.XNumberParseTest">
+      <class name="Nguyen.LoaiGiay.taoMaLGTest">
         <methods>
-          <include name="TC_PARSEINT_02"/>
+          <include name="TC_TAO_MA_LG_08"/>
         </methods>
-      </class> <!-- Nhiem.XNumber.XNumberParseTest -->
+      </class> <!-- Nguyen.LoaiGiay.taoMaLGTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

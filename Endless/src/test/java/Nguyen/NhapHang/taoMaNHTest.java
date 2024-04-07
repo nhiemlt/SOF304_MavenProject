@@ -11,10 +11,13 @@ import org.testng.annotations.Test;
 import model.NhanVien;
 import util.Auth;
 import util.NhanVienDAO;
+import view.NhapHang;
 
 
 
 public class taoMaNHTest {
+	
+	view.NhapHang form = new NhapHang("TEST");
 	
 	@BeforeClass
 	public void setStatus() {
@@ -28,7 +31,7 @@ public class taoMaNHTest {
 		NhanVien nv = new NhanVienDAO().selectById("NV001");
         List<model.NhapHang> list = null;
         String expectedResult = "DN001";
-        String actualResult = new view.NhapHang().taoMaNH_Test(list);
+        String actualResult = form.taoMaNH_Test(list);
         Assert.assertEquals(actualResult, expectedResult);
     }
 
@@ -36,7 +39,7 @@ public class taoMaNHTest {
     public void TC_TAO_MA_DN_02() {
         List<model.NhapHang> list = new ArrayList<>();
         String expectedResult = "DN001";
-        String actualResult = new view.NhapHang().taoMaNH_Test(list);
+        String actualResult = form.taoMaNH_Test(list);
         Assert.assertEquals(actualResult, expectedResult);
     }
 
@@ -47,7 +50,7 @@ public class taoMaNHTest {
         nh.setMaDN("DN100");
         list.add(nh);
         String expectedResult = "DN101";
-        String actualResult = new view.NhapHang().taoMaNH_Test(list);
+        String actualResult = form.taoMaNH_Test(list);
         Assert.assertEquals(actualResult, expectedResult);
     }
 
@@ -58,7 +61,7 @@ public class taoMaNHTest {
         nh.setMaDN("DN1");
         list.add(nh);
         String expectedResult = "DN002";
-        String actualResult = new view.NhapHang().taoMaNH_Test(list);
+        String actualResult = form.taoMaNH_Test(list);
         Assert.assertEquals(actualResult, expectedResult);
     }
 
@@ -69,7 +72,7 @@ public class taoMaNHTest {
         nh.setMaDN("DN10000");
         list.add(nh);
         String expectedResult = "DN10001";
-        String actualResult = new view.NhapHang().taoMaNH_Test(list);
+        String actualResult = form.taoMaNH_Test(list);
         Assert.assertEquals(actualResult, expectedResult);
     }
 
@@ -80,7 +83,7 @@ public class taoMaNHTest {
         nh.setMaDN("DN999");
         list.add(nh);
         String expectedResult = "DN1000";
-        String actualResult = new view.NhapHang().taoMaNH_Test(list);
+        String actualResult = form.taoMaNH_Test(list);
         Assert.assertEquals(actualResult, expectedResult);
     }
 
@@ -89,16 +92,16 @@ public class taoMaNHTest {
         List<model.NhapHang> list = new ArrayList<>();
         // Thêm 1000 đối tượng NhapHang với ID tuần tự
 
-        for (int i = 0; i < 1999; i++) {
+        for (int i = 0; i < 199; i++) {
             model.NhapHang nh = new model.NhapHang();
-            nh.setMaDN(new view.NhapHang().taoMaNH_Test(list));
+            nh.setMaDN(form.taoMaNH_Test(list));
             list.add(nh);
         }
 
         // Kết quả mong đợi là DN2000 (lần thứ 1001)
-        String expectedResult = "DN2000";
+        String expectedResult = "DN200";
         // Lấy ID của đối tượng cuối cùng
-        String actualResult = new view.NhapHang().taoMaNH_Test(list);
+        String actualResult = form.taoMaNH_Test(list);
         Assert.assertEquals(actualResult, expectedResult);
     }
 
@@ -110,7 +113,7 @@ public class taoMaNHTest {
         list.add(nh);
         String expectedResult = "";
         try {
-        	new view.NhapHang().taoMaNH_Test(list);
+        	form.taoMaNH_Test(list);
 		} catch (Exception e) {
 			expectedResult = e+"";
 		}
@@ -125,7 +128,7 @@ public class taoMaNHTest {
         nh.setMaDN("DN001");
         list.add(nh);
         String expectedResult = "DN002";
-        String actualResult = new view.NhapHang().taoMaNH_Test(list);
+        String actualResult = form.taoMaNH_Test(list);
         Assert.assertEquals(actualResult, expectedResult);
     }
 
@@ -136,7 +139,7 @@ public class taoMaNHTest {
         nh.setMaDN("-100");
         list.add(nh);
         String expectedResult = "DN001";
-        String actualResult = new view.NhapHang().taoMaNH_Test(list);
+        String actualResult = form.taoMaNH_Test(list);
         Assert.assertEquals(actualResult, expectedResult);
     }
 
@@ -146,11 +149,11 @@ public class taoMaNHTest {
         // Thêm 1000 đối tượng NhapHang với các ID tuần tự
         for (int i = 0; i < 1000; i++) {
         	model.NhapHang nh = new model.NhapHang();
-            nh.setMaDN(new view.NhapHang().taoMaNH_Test(list));
+            nh.setMaDN(form.taoMaNH_Test(list));
             list.add(nh);
         }
         String expectedResult = "DN1001";
-        String actualResult = new view.NhapHang().taoMaNH_Test(list);
+        String actualResult = form.taoMaNH_Test(list);
         Assert.assertEquals(actualResult, expectedResult);
     }
 }

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="DoiMatKhau" parallel="false">
+	<test name="DoiMatKhauTest">
+		<classes>
+			<class name="Nhu.DoiMatKhau.DoiMatKhauTest" />
+			
+		</classes>
+	</test>
+</suite>
