@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="NguyenXMFTestSuite">
+    <test name="LoaiGiayTest">
+        <packages>
+            <package name="Nguyen.LoaiGiay"/>
+        </packages>
+    </test>
+    <test name="LoginTest">
+        <packages>
+            <package name="Nguyen.Login"/>
+        </packages>
+    </test>
+    <test name="NhaCungCapTest">
+        <packages>
+            <package name="Nguyen.NhaCungCap"/>
+        </packages>
+    </test>
+    <test name="NhanVienTest">
+        <packages>
+            <package name="Nguyen.NhanVien"/>
+        </packages>
+    </test>
+    <test name="NhapHangTest">
+        <packages>
+            <package name="Nguyen.NhapHang"/>
+        </packages>
+    </test>
+    <test name="QuenMatKhauTest">
+        <packages>
+            <package name="Nguyen.QuenMatKhau"/>
+        </packages>
+    </test>
+</suite>

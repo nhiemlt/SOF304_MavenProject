@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="LoaiGiay" parallel="false">
+	<test name="LoaiGiayTest">
+		<classes>
+			<class name="Nguyen.LoaiGiay.taoMaLGTest" />
+			<class name="Nguyen.LoaiGiay.themTest" />
+		</classes>
+	</test>
+</suite>

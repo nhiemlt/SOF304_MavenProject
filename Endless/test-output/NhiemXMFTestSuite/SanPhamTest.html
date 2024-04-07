@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>53/5/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Apr 06 22:54:18 ICT 2024</td>
+<td>Started on:</td><td>Sun Apr 07 13:59:08 ICT 2024</td>
 </tr>
-<tr><td>Total time:</td><td>3 seconds (3211 ms)</td>
+<tr><td>Total time:</td><td>7 seconds (7784 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,19 +75,19 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='Nhiem.SanPham.capNhapCTSPTest.TC_CAPNHATCTSP_11()'><b>TC_CAPNHATCTSP_11</b><br>Test class: Nhiem.SanPham.capNhapCTSPTest<br>Test method: Cập nhật với mô tả null</td>
-<td><div><pre>java.lang.AssertionError: expected [Cập nhật thành công] but found [Lỗi bỏ trống mã màu]
-	at Nhiem.SanPham.capNhapCTSPTest.TC_CAPNHATCTSP_11(capNhapCTSPTest.java:123)
+<td title='Nhiem.SanPham.CapNhapTest.TC_CAPNHAT_05()'><b>TC_CAPNHAT_05</b><br>Test class: Nhiem.SanPham.CapNhapTest<br>Test method: Cập nhật với tên sản phẩm chứa số</td>
+<td><div><pre>java.lang.AssertionError: expected [Tên sản phẩm không được chứa số] but found [Cập nhật thành công]
+	at Nhiem.SanPham.CapNhapTest.TC_CAPNHAT_05(CapNhapTest.java:56)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace406358588", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace406358588'><pre>java.lang.AssertionError: expected [Cập nhật thành công] but found [Lỗi bỏ trống mã màu]
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1612496268", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1612496268'><pre>java.lang.AssertionError: expected [Tên sản phẩm không được chứa số] but found [Cập nhật thành công]
 	at org.testng.Assert.fail(Assert.java:99)
 	at org.testng.Assert.failNotEquals(Assert.java:1037)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
 	at org.testng.Assert.assertEquals(Assert.java:122)
 	at org.testng.Assert.assertEquals(Assert.java:629)
 	at org.testng.Assert.assertEquals(Assert.java:639)
-	at Nhiem.SanPham.capNhapCTSPTest.TC_CAPNHATCTSP_11(capNhapCTSPTest.java:123)
+	at Nhiem.SanPham.CapNhapTest.TC_CAPNHAT_05(CapNhapTest.java:56)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
@@ -116,14 +116,14 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>Nhiem.SanPham.capNhapCTSPTest@6e1d8f9e</td></tr>
+<td>Nhiem.SanPham.CapNhapTest@5be067de</td></tr>
 <tr>
 <td title='Nhiem.SanPham.themTest.TC_THEMSP_01()'><b>TC_THEMSP_01</b><br>Test class: Nhiem.SanPham.themTest<br>Test method: Thêm sản phẩm mới thành công</td>
 <td><div><pre>java.lang.AssertionError: expected [PASS] but found [java.lang.RuntimeException: com.microsoft.sqlserver.jdbc.SQLServerException: Violation of UNIQUE KEY constraint &apos;UQ__SanPham__8BBF4A1CBD3A9718&apos;. Cannot insert duplicate key in object &apos;dbo.SanPham&apos;. The duplicate key value is (100001).]
 	at Nhiem.SanPham.themTest.TC_THEMSP_01(themTest.java:26)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1590481849", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1590481849'><pre>java.lang.AssertionError: expected [PASS] but found [java.lang.RuntimeException: com.microsoft.sqlserver.jdbc.SQLServerException: Violation of UNIQUE KEY constraint &apos;UQ__SanPham__8BBF4A1CBD3A9718&apos;. Cannot insert duplicate key in object &apos;dbo.SanPham&apos;. The duplicate key value is (100001).]
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace403960809", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace403960809'><pre>java.lang.AssertionError: expected [PASS] but found [java.lang.RuntimeException: com.microsoft.sqlserver.jdbc.SQLServerException: Violation of UNIQUE KEY constraint &apos;UQ__SanPham__8BBF4A1CBD3A9718&apos;. Cannot insert duplicate key in object &apos;dbo.SanPham&apos;. The duplicate key value is (100001).]
 	at org.testng.Assert.fail(Assert.java:99)
 	at org.testng.Assert.failNotEquals(Assert.java:1037)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
@@ -159,57 +159,14 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>Nhiem.SanPham.themTest@70925b45</td></tr>
-<tr>
-<td title='Nhiem.SanPham.CapNhapTest.TC_CAPNHAT_05()'><b>TC_CAPNHAT_05</b><br>Test class: Nhiem.SanPham.CapNhapTest<br>Test method: Cập nhật với tên sản phẩm chứa số</td>
-<td><div><pre>java.lang.AssertionError: expected [Tên sản phẩm không được chứa số] but found [Cập nhật thành công]
-	at Nhiem.SanPham.CapNhapTest.TC_CAPNHAT_05(CapNhapTest.java:56)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace8197402", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace8197402'><pre>java.lang.AssertionError: expected [Tên sản phẩm không được chứa số] but found [Cập nhật thành công]
-	at org.testng.Assert.fail(Assert.java:99)
-	at org.testng.Assert.failNotEquals(Assert.java:1037)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
-	at org.testng.Assert.assertEquals(Assert.java:122)
-	at org.testng.Assert.assertEquals(Assert.java:629)
-	at org.testng.Assert.assertEquals(Assert.java:639)
-	at Nhiem.SanPham.CapNhapTest.TC_CAPNHAT_05(CapNhapTest.java:56)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>0</td>
-<td>Nhiem.SanPham.CapNhapTest@1991f767</td></tr>
+<td>Nhiem.SanPham.themTest@56b78e55</td></tr>
 <tr>
 <td title='Nhiem.SanPham.capNhapCTSPTest.TC_CAPNHATCTSP_10()'><b>TC_CAPNHATCTSP_10</b><br>Test class: Nhiem.SanPham.capNhapCTSPTest<br>Test method: Cập nhật với mã kích thước rỗng</td>
 <td><div><pre>java.lang.AssertionError: expected [Lỗi bỏ trống mã kích thước] but found [Lỗi bỏ trống mã màuLỗi bỏ trống mã kích thước]
 	at Nhiem.SanPham.capNhapCTSPTest.TC_CAPNHATCTSP_10(capNhapCTSPTest.java:113)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1868809295", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1868809295'><pre>java.lang.AssertionError: expected [Lỗi bỏ trống mã kích thước] but found [Lỗi bỏ trống mã màuLỗi bỏ trống mã kích thước]
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1853422837", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1853422837'><pre>java.lang.AssertionError: expected [Lỗi bỏ trống mã kích thước] but found [Lỗi bỏ trống mã màuLỗi bỏ trống mã kích thước]
 	at org.testng.Assert.fail(Assert.java:99)
 	at org.testng.Assert.failNotEquals(Assert.java:1037)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
@@ -245,14 +202,14 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>Nhiem.SanPham.capNhapCTSPTest@6e1d8f9e</td></tr>
+<td>Nhiem.SanPham.capNhapCTSPTest@62435e70</td></tr>
 <tr>
 <td title='Nhiem.SanPham.CapNhapTest.TC_CAPNHAT_07()'><b>TC_CAPNHAT_07</b><br>Test class: Nhiem.SanPham.CapNhapTest<br>Test method: Cập nhật sản phẩm không tồn tại</td>
 <td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;model.SanPham.setTenSP(String)&quot; because &quot;sp&quot; is null
 	at Nhiem.SanPham.CapNhapTest.TC_CAPNHAT_07(CapNhapTest.java:71)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1418245573", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1418245573'><pre>java.lang.NullPointerException: Cannot invoke &quot;model.SanPham.setTenSP(String)&quot; because &quot;sp&quot; is null
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1970377948", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1970377948'><pre>java.lang.NullPointerException: Cannot invoke &quot;model.SanPham.setTenSP(String)&quot; because &quot;sp&quot; is null
 	at Nhiem.SanPham.CapNhapTest.TC_CAPNHAT_07(CapNhapTest.java:71)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
@@ -282,7 +239,50 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>Nhiem.SanPham.CapNhapTest@1991f767</td></tr>
+<td>Nhiem.SanPham.CapNhapTest@5be067de</td></tr>
+<tr>
+<td title='Nhiem.SanPham.capNhapCTSPTest.TC_CAPNHATCTSP_11()'><b>TC_CAPNHATCTSP_11</b><br>Test class: Nhiem.SanPham.capNhapCTSPTest<br>Test method: Cập nhật với mô tả null</td>
+<td><div><pre>java.lang.AssertionError: expected [Cập nhật thành công] but found [Lỗi bỏ trống mã màu]
+	at Nhiem.SanPham.capNhapCTSPTest.TC_CAPNHATCTSP_11(capNhapCTSPTest.java:123)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2008746677", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2008746677'><pre>java.lang.AssertionError: expected [Cập nhật thành công] but found [Lỗi bỏ trống mã màu]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:629)
+	at org.testng.Assert.assertEquals(Assert.java:639)
+	at Nhiem.SanPham.capNhapCTSPTest.TC_CAPNHATCTSP_11(capNhapCTSPTest.java:123)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>Nhiem.SanPham.capNhapCTSPTest@62435e70</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -292,270 +292,270 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='Nhiem.SanPham.themCTSPTest.TC_THEMCTSP_02()'><b>TC_THEMCTSP_02</b><br>Test class: Nhiem.SanPham.themCTSPTest<br>Test method: Thiếu MaSP</td>
-<td></td>
-<td>0</td>
-<td>Nhiem.SanPham.themCTSPTest@552518c3</td></tr>
-<tr>
-<td title='Nhiem.SanPham.CapNhapTest.TC_CAPNHAT_03()'><b>TC_CAPNHAT_03</b><br>Test class: Nhiem.SanPham.CapNhapTest<br>Test method: Cập nhật với giá bán <= 0</td>
-<td></td>
-<td>0</td>
-<td>Nhiem.SanPham.CapNhapTest@1991f767</td></tr>
-<tr>
-<td title='Nhiem.SanPham.capNhapCTSPTest.TC_CAPNHATCTSP_01()'><b>TC_CAPNHATCTSP_01</b><br>Test class: Nhiem.SanPham.capNhapCTSPTest<br>Test method: Cập nhật thành công</td>
-<td></td>
-<td>0</td>
-<td>Nhiem.SanPham.capNhapCTSPTest@6e1d8f9e</td></tr>
-<tr>
-<td title='Nhiem.SanPham.taoMaSPTest.TC_TAOMASP_10()'><b>TC_TAOMASP_10</b><br>Test class: Nhiem.SanPham.taoMaSPTest<br>Test method: Kiểm tra khi sử dụng số âm làm ID</td>
-<td></td>
-<td>0</td>
-<td>Nhiem.SanPham.taoMaSPTest@72f46e16</td></tr>
-<tr>
-<td title='Nhiem.SanPham.CapNhapTest.TC_CAPNHAT_06()'><b>TC_CAPNHAT_06</b><br>Test class: Nhiem.SanPham.CapNhapTest<br>Test method: Cập nhật với mã vạch chứa ký tự đặc biệt và chữ cái</td>
-<td></td>
-<td>0</td>
-<td>Nhiem.SanPham.CapNhapTest@1991f767</td></tr>
-<tr>
-<td title='Nhiem.SanPham.themTest.TC_THEMSP_08()'><b>TC_THEMSP_08</b><br>Test class: Nhiem.SanPham.themTest<br>Test method: Thêm sản phẩm với mã khuyến mãi không tồn tại</td>
-<td></td>
-<td>0</td>
-<td>Nhiem.SanPham.themTest@70925b45</td></tr>
-<tr>
-<td title='Nhiem.SanPham.taoMaSPTest.TC_TAOMASP_07()'><b>TC_TAOMASP_07</b><br>Test class: Nhiem.SanPham.taoMaSPTest<br>Test method: Kiểm tra khi sử dụng số vượt quá giới hạn</td>
-<td></td>
-<td>0</td>
-<td>Nhiem.SanPham.taoMaSPTest@72f46e16</td></tr>
-<tr>
-<td title='Nhiem.SanPham.CapNhapTest.TC_CAPNHAT_10()'><b>TC_CAPNHAT_10</b><br>Test class: Nhiem.SanPham.CapNhapTest<br>Test method: Cập nhật với thiếu dữ liệu</td>
-<td></td>
-<td>0</td>
-<td>Nhiem.SanPham.CapNhapTest@1991f767</td></tr>
-<tr>
-<td title='Nhiem.SanPham.themTest.TC_THEMSP_03()'><b>TC_THEMSP_03</b><br>Test class: Nhiem.SanPham.themTest<br>Test method: Thêm sản phẩm với dữ liệu thiếu</td>
-<td></td>
-<td>0</td>
-<td>Nhiem.SanPham.themTest@70925b45</td></tr>
-<tr>
-<td title='Nhiem.SanPham.capNhapCTSPTest.TC_CAPNHATCTSP_02()'><b>TC_CAPNHATCTSP_02</b><br>Test class: Nhiem.SanPham.capNhapCTSPTest<br>Test method: Cập nhật với dữ liệu trống</td>
-<td></td>
-<td>0</td>
-<td>Nhiem.SanPham.capNhapCTSPTest@6e1d8f9e</td></tr>
-<tr>
-<td title='Nhiem.SanPham.CapNhapTest.TC_CAPNHAT_08()'><b>TC_CAPNHAT_08</b><br>Test class: Nhiem.SanPham.CapNhapTest<br>Test method: Cập nhật với mã khuyến mãi không tồn tại</td>
-<td></td>
-<td>0</td>
-<td>Nhiem.SanPham.CapNhapTest@1991f767</td></tr>
-<tr>
-<td title='Nhiem.SanPham.taoMaSPTest.TC_TAOMASP_11()'><b>TC_TAOMASP_11</b><br>Test class: Nhiem.SanPham.taoMaSPTest<br>Test method: Kiểm tra khi sử dụng danh sách lớn</td>
-<td></td>
-<td>0</td>
-<td>Nhiem.SanPham.taoMaSPTest@72f46e16</td></tr>
-<tr>
-<td title='Nhiem.SanPham.themCTSPTest.TC_THEMCTSP_05()'><b>TC_THEMCTSP_05</b><br>Test class: Nhiem.SanPham.themCTSPTest<br>Test method: Màu sắc không tồn tại</td>
-<td></td>
-<td>0</td>
-<td>Nhiem.SanPham.themCTSPTest@552518c3</td></tr>
-<tr>
-<td title='Nhiem.SanPham.capNhapCTSPTest.TC_CAPNHATCTSP_06()'><b>TC_CAPNHATCTSP_06</b><br>Test class: Nhiem.SanPham.capNhapCTSPTest<br>Test method: Cập nhật với số lượng lớn hơn 0</td>
-<td></td>
-<td>0</td>
-<td>Nhiem.SanPham.capNhapCTSPTest@6e1d8f9e</td></tr>
-<tr>
-<td title='Nhiem.SanPham.themTest.TC_THEMSP_02()'><b>TC_THEMSP_02</b><br>Test class: Nhiem.SanPham.themTest<br>Test method: Thêm sản phẩm với mã sản phẩm trùng</td>
-<td></td>
-<td>0</td>
-<td>Nhiem.SanPham.themTest@70925b45</td></tr>
-<tr>
 <td title='Nhiem.SanPham.capNhapCTSPTest.TC_CAPNHATCTSP_04()'><b>TC_CAPNHATCTSP_04</b><br>Test class: Nhiem.SanPham.capNhapCTSPTest<br>Test method: Cập nhật với dữ liệu chứa ký tự đặc biệt</td>
 <td></td>
 <td>0</td>
-<td>Nhiem.SanPham.capNhapCTSPTest@6e1d8f9e</td></tr>
-<tr>
-<td title='Nhiem.SanPham.taoMaSPTest.TC_TAOMASP_06()'><b>TC_TAOMASP_06</b><br>Test class: Nhiem.SanPham.taoMaSPTest<br>Test method: Kiểm tra khi sử dụng số lớn nhất cho ID</td>
-<td></td>
-<td>0</td>
-<td>Nhiem.SanPham.taoMaSPTest@72f46e16</td></tr>
-<tr>
-<td title='Nhiem.SanPham.themCTSPTest.TC_THEMCTSP_06()'><b>TC_THEMCTSP_06</b><br>Test class: Nhiem.SanPham.themCTSPTest<br>Test method: Thiếu Mã Kích Thước</td>
-<td></td>
-<td>0</td>
-<td>Nhiem.SanPham.themCTSPTest@552518c3</td></tr>
-<tr>
-<td title='Nhiem.SanPham.taoMaSPTest.TC_TAOMASP_09()'><b>TC_TAOMASP_09</b><br>Test class: Nhiem.SanPham.taoMaSPTest<br>Test method: Kiểm tra khi sử dụng số 0 dẫn đầu cho ID</td>
-<td></td>
-<td>0</td>
-<td>Nhiem.SanPham.taoMaSPTest@72f46e16</td></tr>
-<tr>
-<td title='Nhiem.SanPham.capNhapCTSPTest.TC_CAPNHATCTSP_9()'><b>TC_CAPNHATCTSP_9</b><br>Test class: Nhiem.SanPham.capNhapCTSPTest<br>Test method: Cập nhật với mã màu rỗng</td>
-<td></td>
-<td>0</td>
-<td>Nhiem.SanPham.capNhapCTSPTest@6e1d8f9e</td></tr>
-<tr>
-<td title='Nhiem.SanPham.taoMaSPTest.TC_TAOMASP_08()'><b>TC_TAOMASP_08</b><br>Test class: Nhiem.SanPham.taoMaSPTest<br>Test method: Kiểm tra khi sử dụng ký tự đặc biệt trong MaSP</td>
-<td></td>
-<td>0</td>
-<td>Nhiem.SanPham.taoMaSPTest@72f46e16</td></tr>
-<tr>
-<td title='Nhiem.SanPham.taoMaSPTest.TC_TAOMASP_04()'><b>TC_TAOMASP_04</b><br>Test class: Nhiem.SanPham.taoMaSPTest<br>Test method: Kiểm tra khi MaSP ngắn hơn 3 ký tự</td>
-<td></td>
-<td>0</td>
-<td>Nhiem.SanPham.taoMaSPTest@72f46e16</td></tr>
-<tr>
-<td title='Nhiem.SanPham.taoMaCTSPTest.TC_TAOMACTSP_04()'><b>TC_TAOMACTSP_04</b><br>Test class: Nhiem.SanPham.taoMaCTSPTest<br>Test method: Kiểm tra khi tham số MaSP là null</td>
-<td></td>
-<td>0</td>
-<td>Nhiem.SanPham.taoMaCTSPTest@2a65bb85</td></tr>
-<tr>
-<td title='Nhiem.SanPham.taoMaCTSPTest.TC_TAOMACTSP_03()'><b>TC_TAOMACTSP_03</b><br>Test class: Nhiem.SanPham.taoMaCTSPTest<br>Test method: Kiểm tra khi danh sách không rỗng</td>
-<td></td>
-<td>0</td>
-<td>Nhiem.SanPham.taoMaCTSPTest@2a65bb85</td></tr>
-<tr>
-<td title='Nhiem.SanPham.themCTSPTest.TC_THEMCTSP_03()'><b>TC_THEMCTSP_03</b><br>Test class: Nhiem.SanPham.themCTSPTest<br>Test method: Sản phẩm không tồn tại</td>
-<td></td>
-<td>0</td>
-<td>Nhiem.SanPham.themCTSPTest@552518c3</td></tr>
-<tr>
-<td title='Nhiem.SanPham.CapNhapTest.TC_CAPNHAT_04()'><b>TC_CAPNHAT_04</b><br>Test class: Nhiem.SanPham.CapNhapTest<br>Test method: Cập nhật với giá bán nhỏ hơn giá nhập</td>
-<td></td>
-<td>0</td>
-<td>Nhiem.SanPham.CapNhapTest@1991f767</td></tr>
-<tr>
-<td title='Nhiem.SanPham.capNhapCTSPTest.TC_CAPNHATCTSP_03()'><b>TC_CAPNHATCTSP_03</b><br>Test class: Nhiem.SanPham.capNhapCTSPTest<br>Test method: Cập nhật khi sản phẩm không tồn tại</td>
-<td></td>
-<td>0</td>
-<td>Nhiem.SanPham.capNhapCTSPTest@6e1d8f9e</td></tr>
-<tr>
-<td title='Nhiem.SanPham.taoMaSPTest.TC_TAOMASP_05()'><b>TC_TAOMASP_05</b><br>Test class: Nhiem.SanPham.taoMaSPTest<br>Test method: Kiểm tra khi MaSP dài hơn 5 ký tự</td>
-<td></td>
-<td>0</td>
-<td>Nhiem.SanPham.taoMaSPTest@72f46e16</td></tr>
-<tr>
-<td title='Nhiem.SanPham.capNhapCTSPTest.TC_CAPNHATCTSP_05()'><b>TC_CAPNHATCTSP_05</b><br>Test class: Nhiem.SanPham.capNhapCTSPTest<br>Test method: Cập nhật với số lượng bằng 0</td>
-<td></td>
-<td>0</td>
-<td>Nhiem.SanPham.capNhapCTSPTest@6e1d8f9e</td></tr>
-<tr>
-<td title='Nhiem.SanPham.themCTSPTest.TC_THEMCTSP_04()'><b>TC_THEMCTSP_04</b><br>Test class: Nhiem.SanPham.themCTSPTest<br>Test method: Thiếu Mã Màu Sắc</td>
-<td></td>
-<td>0</td>
-<td>Nhiem.SanPham.themCTSPTest@552518c3</td></tr>
-<tr>
-<td title='Nhiem.SanPham.taoMaSPTest.TC_TAOMASP_02()'><b>TC_TAOMASP_02</b><br>Test class: Nhiem.SanPham.taoMaSPTest<br>Test method: Kiểm tra khi danh sách là rỗng</td>
-<td></td>
-<td>0</td>
-<td>Nhiem.SanPham.taoMaSPTest@72f46e16</td></tr>
-<tr>
-<td title='Nhiem.SanPham.themTest.TC_THEMSP_05()'><b>TC_THEMSP_05</b><br>Test class: Nhiem.SanPham.themTest<br>Test method: Thêm sản phẩm với giá bán nhỏ hơn giá nhập</td>
-<td></td>
-<td>0</td>
-<td>Nhiem.SanPham.themTest@70925b45</td></tr>
-<tr>
-<td title='Nhiem.SanPham.themCTSPTest.TC_THEMCTSP_01()'><b>TC_THEMCTSP_01</b><br>Test class: Nhiem.SanPham.themCTSPTest<br>Test method: Chèn ChiTietSanPham hợp lệ</td>
-<td></td>
-<td>0</td>
-<td>Nhiem.SanPham.themCTSPTest@552518c3</td></tr>
-<tr>
-<td title='Nhiem.SanPham.themTest.TC_THEMSP_09()'><b>TC_THEMSP_09</b><br>Test class: Nhiem.SanPham.themTest<br>Test method: Thêm sản phẩm với mã loại giày không tồn tại</td>
-<td></td>
-<td>0</td>
-<td>Nhiem.SanPham.themTest@70925b45</td></tr>
-<tr>
-<td title='Nhiem.SanPham.CapNhapTest.TC_CAPNHAT_01()'><b>TC_CAPNHAT_01</b><br>Test class: Nhiem.SanPham.CapNhapTest<br>Test method: Cập nhật thông tin sản phẩm thành công</td>
-<td></td>
-<td>0</td>
-<td>Nhiem.SanPham.CapNhapTest@1991f767</td></tr>
-<tr>
-<td title='Nhiem.SanPham.themCTSPTest.TC_THEMCTSP_08()'><b>TC_THEMCTSP_08</b><br>Test class: Nhiem.SanPham.themCTSPTest<br>Test method: Số lượng không hợp lệ</td>
-<td></td>
-<td>0</td>
-<td>Nhiem.SanPham.themCTSPTest@552518c3</td></tr>
-<tr>
-<td title='Nhiem.SanPham.taoMaSPTest.TC_TAOMASP_03()'><b>TC_TAOMASP_03</b><br>Test class: Nhiem.SanPham.taoMaSPTest<br>Test method: Kiểm tra khi danh sách không rỗng</td>
-<td></td>
-<td>0</td>
-<td>Nhiem.SanPham.taoMaSPTest@72f46e16</td></tr>
-<tr>
-<td title='Nhiem.SanPham.taoMaCTSPTest.TC_TAOMACTSP_07()'><b>TC_TAOMACTSP_07</b><br>Test class: Nhiem.SanPham.taoMaCTSPTest<br>Test method: Kiểm tra khi danh sách có một phần tử</td>
-<td></td>
-<td>0</td>
-<td>Nhiem.SanPham.taoMaCTSPTest@2a65bb85</td></tr>
-<tr>
-<td title='Nhiem.SanPham.CapNhapTest.TC_CAPNHAT_09()'><b>TC_CAPNHAT_09</b><br>Test class: Nhiem.SanPham.CapNhapTest<br>Test method: Cập nhật với mã loại giày không tồn tại</td>
-<td></td>
-<td>0</td>
-<td>Nhiem.SanPham.CapNhapTest@1991f767</td></tr>
-<tr>
-<td title='Nhiem.SanPham.taoMaCTSPTest.TC_TAOMACTSP_05()'><b>TC_TAOMACTSP_05</b><br>Test class: Nhiem.SanPham.taoMaCTSPTest<br>Test method: Kiểm tra khi danh sách có một phần tử</td>
-<td></td>
-<td>0</td>
-<td>Nhiem.SanPham.taoMaCTSPTest@2a65bb85</td></tr>
-<tr>
-<td title='Nhiem.SanPham.themTest.TC_THEMSP_04()'><b>TC_THEMSP_04</b><br>Test class: Nhiem.SanPham.themTest<br>Test method: Thêm sản phẩm với giá nhập và giá bán là 0</td>
-<td></td>
-<td>0</td>
-<td>Nhiem.SanPham.themTest@70925b45</td></tr>
-<tr>
-<td title='Nhiem.SanPham.taoMaCTSPTest.TC_TAOMACTSP_08()'><b>TC_TAOMACTSP_08</b><br>Test class: Nhiem.SanPham.taoMaCTSPTest<br>Test method: Kiểm tra khi danh sách rỗng</td>
-<td></td>
-<td>0</td>
-<td>Nhiem.SanPham.taoMaCTSPTest@2a65bb85</td></tr>
+<td>Nhiem.SanPham.capNhapCTSPTest@62435e70</td></tr>
 <tr>
 <td title='Nhiem.SanPham.CapNhapTest.TC_CAPNHAT_02()'><b>TC_CAPNHAT_02</b><br>Test class: Nhiem.SanPham.CapNhapTest<br>Test method: Cập nhật với giá nhập <= 0</td>
 <td></td>
 <td>0</td>
-<td>Nhiem.SanPham.CapNhapTest@1991f767</td></tr>
-<tr>
-<td title='Nhiem.SanPham.taoMaCTSPTest.TC_TAOMACTSP_06()'><b>TC_TAOMACTSP_06</b><br>Test class: Nhiem.SanPham.taoMaCTSPTest<br>Test method: Kiểm tra khi danh sách có nhiều hơn một phần tử</td>
-<td></td>
-<td>0</td>
-<td>Nhiem.SanPham.taoMaCTSPTest@2a65bb85</td></tr>
-<tr>
-<td title='Nhiem.SanPham.themTest.TC_THEMSP_07()'><b>TC_THEMSP_07</b><br>Test class: Nhiem.SanPham.themTest<br>Test method: Thêm sản phẩm với mã vạch chứa ký tự đặc biệt</td>
-<td></td>
-<td>0</td>
-<td>Nhiem.SanPham.themTest@70925b45</td></tr>
-<tr>
-<td title='Nhiem.SanPham.themCTSPTest.TC_THEMCTSP_07()'><b>TC_THEMCTSP_07</b><br>Test class: Nhiem.SanPham.themCTSPTest<br>Test method: Kích thước không tồn tại</td>
-<td></td>
-<td>0</td>
-<td>Nhiem.SanPham.themCTSPTest@552518c3</td></tr>
+<td>Nhiem.SanPham.CapNhapTest@5be067de</td></tr>
 <tr>
 <td title='Nhiem.SanPham.themTest.TC_THEMSP_06()'><b>TC_THEMSP_06</b><br>Test class: Nhiem.SanPham.themTest<br>Test method: Thêm sản phẩm với tên sản phẩm chứa số</td>
 <td></td>
 <td>0</td>
-<td>Nhiem.SanPham.themTest@70925b45</td></tr>
+<td>Nhiem.SanPham.themTest@56b78e55</td></tr>
 <tr>
-<td title='Nhiem.SanPham.taoMaCTSPTest.TC_TAOMACTSP_02()'><b>TC_TAOMACTSP_02</b><br>Test class: Nhiem.SanPham.taoMaCTSPTest<br>Test method: Kiểm tra khi danh sách là rỗng</td>
+<td title='Nhiem.SanPham.taoMaCTSPTest.TC_TAOMACTSP_05()'><b>TC_TAOMACTSP_05</b><br>Test class: Nhiem.SanPham.taoMaCTSPTest<br>Test method: Kiểm tra khi danh sách có một phần tử</td>
 <td></td>
 <td>0</td>
-<td>Nhiem.SanPham.taoMaCTSPTest@2a65bb85</td></tr>
+<td>Nhiem.SanPham.taoMaCTSPTest@172ca72b</td></tr>
 <tr>
-<td title='Nhiem.SanPham.taoMaCTSPTest.TC_TAOMACTSP_09()'><b>TC_TAOMACTSP_09</b><br>Test class: Nhiem.SanPham.taoMaCTSPTest<br>Test method: Kiểm tra khi danh sách rỗng</td>
+<td title='Nhiem.SanPham.CapNhapTest.TC_CAPNHAT_09()'><b>TC_CAPNHAT_09</b><br>Test class: Nhiem.SanPham.CapNhapTest<br>Test method: Cập nhật với mã loại giày không tồn tại</td>
 <td></td>
 <td>0</td>
-<td>Nhiem.SanPham.taoMaCTSPTest@2a65bb85</td></tr>
-<tr>
-<td title='Nhiem.SanPham.capNhapCTSPTest.TC_CAPNHATCTSP_7()'><b>TC_CAPNHATCTSP_7</b><br>Test class: Nhiem.SanPham.capNhapCTSPTest<br>Test method: Cập nhật với mã sản phẩm rỗng</td>
-<td></td>
-<td>0</td>
-<td>Nhiem.SanPham.capNhapCTSPTest@6e1d8f9e</td></tr>
+<td>Nhiem.SanPham.CapNhapTest@5be067de</td></tr>
 <tr>
 <td title='Nhiem.SanPham.taoMaCTSPTest.TC_TAOMACTSP_01()'><b>TC_TAOMACTSP_01</b><br>Test class: Nhiem.SanPham.taoMaCTSPTest<br>Test method: Kiểm tra khi danh sách là null</td>
 <td></td>
 <td>0</td>
-<td>Nhiem.SanPham.taoMaCTSPTest@2a65bb85</td></tr>
+<td>Nhiem.SanPham.taoMaCTSPTest@172ca72b</td></tr>
 <tr>
-<td title='Nhiem.SanPham.capNhapCTSPTest.TC_CAPNHATCTSP_8()'><b>TC_CAPNHATCTSP_8</b><br>Test class: Nhiem.SanPham.capNhapCTSPTest<br>Test method: Cập nhật với số lượng âm</td>
+<td title='Nhiem.SanPham.taoMaSPTest.TC_TAOMASP_07()'><b>TC_TAOMASP_07</b><br>Test class: Nhiem.SanPham.taoMaSPTest<br>Test method: Kiểm tra khi sử dụng số vượt quá giới hạn</td>
 <td></td>
 <td>0</td>
-<td>Nhiem.SanPham.capNhapCTSPTest@6e1d8f9e</td></tr>
+<td>Nhiem.SanPham.taoMaSPTest@6b5176f2</td></tr>
+<tr>
+<td title='Nhiem.SanPham.CapNhapTest.TC_CAPNHAT_06()'><b>TC_CAPNHAT_06</b><br>Test class: Nhiem.SanPham.CapNhapTest<br>Test method: Cập nhật với mã vạch chứa ký tự đặc biệt và chữ cái</td>
+<td></td>
+<td>0</td>
+<td>Nhiem.SanPham.CapNhapTest@5be067de</td></tr>
+<tr>
+<td title='Nhiem.SanPham.themCTSPTest.TC_THEMCTSP_01()'><b>TC_THEMCTSP_01</b><br>Test class: Nhiem.SanPham.themCTSPTest<br>Test method: Chèn ChiTietSanPham hợp lệ</td>
+<td></td>
+<td>0</td>
+<td>Nhiem.SanPham.themCTSPTest@2e5c7f0b</td></tr>
+<tr>
+<td title='Nhiem.SanPham.themCTSPTest.TC_THEMCTSP_07()'><b>TC_THEMCTSP_07</b><br>Test class: Nhiem.SanPham.themCTSPTest<br>Test method: Kích thước không tồn tại</td>
+<td></td>
+<td>0</td>
+<td>Nhiem.SanPham.themCTSPTest@2e5c7f0b</td></tr>
+<tr>
+<td title='Nhiem.SanPham.capNhapCTSPTest.TC_CAPNHATCTSP_06()'><b>TC_CAPNHATCTSP_06</b><br>Test class: Nhiem.SanPham.capNhapCTSPTest<br>Test method: Cập nhật với số lượng lớn hơn 0</td>
+<td></td>
+<td>0</td>
+<td>Nhiem.SanPham.capNhapCTSPTest@62435e70</td></tr>
+<tr>
+<td title='Nhiem.SanPham.themCTSPTest.TC_THEMCTSP_04()'><b>TC_THEMCTSP_04</b><br>Test class: Nhiem.SanPham.themCTSPTest<br>Test method: Thiếu Mã Màu Sắc</td>
+<td></td>
+<td>0</td>
+<td>Nhiem.SanPham.themCTSPTest@2e5c7f0b</td></tr>
+<tr>
+<td title='Nhiem.SanPham.taoMaCTSPTest.TC_TAOMACTSP_07()'><b>TC_TAOMACTSP_07</b><br>Test class: Nhiem.SanPham.taoMaCTSPTest<br>Test method: Kiểm tra khi danh sách có một phần tử</td>
+<td></td>
+<td>0</td>
+<td>Nhiem.SanPham.taoMaCTSPTest@172ca72b</td></tr>
+<tr>
+<td title='Nhiem.SanPham.themTest.TC_THEMSP_07()'><b>TC_THEMSP_07</b><br>Test class: Nhiem.SanPham.themTest<br>Test method: Thêm sản phẩm với mã vạch chứa ký tự đặc biệt</td>
+<td></td>
+<td>0</td>
+<td>Nhiem.SanPham.themTest@56b78e55</td></tr>
+<tr>
+<td title='Nhiem.SanPham.themTest.TC_THEMSP_09()'><b>TC_THEMSP_09</b><br>Test class: Nhiem.SanPham.themTest<br>Test method: Thêm sản phẩm với mã loại giày không tồn tại</td>
+<td></td>
+<td>0</td>
+<td>Nhiem.SanPham.themTest@56b78e55</td></tr>
+<tr>
+<td title='Nhiem.SanPham.taoMaCTSPTest.TC_TAOMACTSP_02()'><b>TC_TAOMACTSP_02</b><br>Test class: Nhiem.SanPham.taoMaCTSPTest<br>Test method: Kiểm tra khi danh sách là rỗng</td>
+<td></td>
+<td>0</td>
+<td>Nhiem.SanPham.taoMaCTSPTest@172ca72b</td></tr>
+<tr>
+<td title='Nhiem.SanPham.themCTSPTest.TC_THEMCTSP_05()'><b>TC_THEMCTSP_05</b><br>Test class: Nhiem.SanPham.themCTSPTest<br>Test method: Màu sắc không tồn tại</td>
+<td></td>
+<td>0</td>
+<td>Nhiem.SanPham.themCTSPTest@2e5c7f0b</td></tr>
+<tr>
+<td title='Nhiem.SanPham.taoMaSPTest.TC_TAOMASP_06()'><b>TC_TAOMASP_06</b><br>Test class: Nhiem.SanPham.taoMaSPTest<br>Test method: Kiểm tra khi sử dụng số lớn nhất cho ID</td>
+<td></td>
+<td>0</td>
+<td>Nhiem.SanPham.taoMaSPTest@6b5176f2</td></tr>
+<tr>
+<td title='Nhiem.SanPham.CapNhapTest.TC_CAPNHAT_03()'><b>TC_CAPNHAT_03</b><br>Test class: Nhiem.SanPham.CapNhapTest<br>Test method: Cập nhật với giá bán <= 0</td>
+<td></td>
+<td>0</td>
+<td>Nhiem.SanPham.CapNhapTest@5be067de</td></tr>
+<tr>
+<td title='Nhiem.SanPham.taoMaCTSPTest.TC_TAOMACTSP_06()'><b>TC_TAOMACTSP_06</b><br>Test class: Nhiem.SanPham.taoMaCTSPTest<br>Test method: Kiểm tra khi danh sách có nhiều hơn một phần tử</td>
+<td></td>
+<td>0</td>
+<td>Nhiem.SanPham.taoMaCTSPTest@172ca72b</td></tr>
+<tr>
+<td title='Nhiem.SanPham.taoMaSPTest.TC_TAOMASP_02()'><b>TC_TAOMASP_02</b><br>Test class: Nhiem.SanPham.taoMaSPTest<br>Test method: Kiểm tra khi danh sách là rỗng</td>
+<td></td>
+<td>0</td>
+<td>Nhiem.SanPham.taoMaSPTest@6b5176f2</td></tr>
+<tr>
+<td title='Nhiem.SanPham.themTest.TC_THEMSP_08()'><b>TC_THEMSP_08</b><br>Test class: Nhiem.SanPham.themTest<br>Test method: Thêm sản phẩm với mã khuyến mãi không tồn tại</td>
+<td></td>
+<td>0</td>
+<td>Nhiem.SanPham.themTest@56b78e55</td></tr>
 <tr>
 <td title='Nhiem.SanPham.taoMaSPTest.TC_TAOMASP_01()'><b>TC_TAOMASP_01</b><br>Test class: Nhiem.SanPham.taoMaSPTest<br>Test method: Kiểm tra khi danh sách là null</td>
 <td></td>
 <td>0</td>
-<td>Nhiem.SanPham.taoMaSPTest@72f46e16</td></tr>
+<td>Nhiem.SanPham.taoMaSPTest@6b5176f2</td></tr>
+<tr>
+<td title='Nhiem.SanPham.capNhapCTSPTest.TC_CAPNHATCTSP_03()'><b>TC_CAPNHATCTSP_03</b><br>Test class: Nhiem.SanPham.capNhapCTSPTest<br>Test method: Cập nhật khi sản phẩm không tồn tại</td>
+<td></td>
+<td>0</td>
+<td>Nhiem.SanPham.capNhapCTSPTest@62435e70</td></tr>
+<tr>
+<td title='Nhiem.SanPham.CapNhapTest.TC_CAPNHAT_01()'><b>TC_CAPNHAT_01</b><br>Test class: Nhiem.SanPham.CapNhapTest<br>Test method: Cập nhật thông tin sản phẩm thành công</td>
+<td></td>
+<td>0</td>
+<td>Nhiem.SanPham.CapNhapTest@5be067de</td></tr>
+<tr>
+<td title='Nhiem.SanPham.taoMaCTSPTest.TC_TAOMACTSP_03()'><b>TC_TAOMACTSP_03</b><br>Test class: Nhiem.SanPham.taoMaCTSPTest<br>Test method: Kiểm tra khi danh sách không rỗng</td>
+<td></td>
+<td>0</td>
+<td>Nhiem.SanPham.taoMaCTSPTest@172ca72b</td></tr>
+<tr>
+<td title='Nhiem.SanPham.capNhapCTSPTest.TC_CAPNHATCTSP_01()'><b>TC_CAPNHATCTSP_01</b><br>Test class: Nhiem.SanPham.capNhapCTSPTest<br>Test method: Cập nhật thành công</td>
+<td></td>
+<td>0</td>
+<td>Nhiem.SanPham.capNhapCTSPTest@62435e70</td></tr>
+<tr>
+<td title='Nhiem.SanPham.themCTSPTest.TC_THEMCTSP_08()'><b>TC_THEMCTSP_08</b><br>Test class: Nhiem.SanPham.themCTSPTest<br>Test method: Số lượng không hợp lệ</td>
+<td></td>
+<td>0</td>
+<td>Nhiem.SanPham.themCTSPTest@2e5c7f0b</td></tr>
+<tr>
+<td title='Nhiem.SanPham.taoMaSPTest.TC_TAOMASP_05()'><b>TC_TAOMASP_05</b><br>Test class: Nhiem.SanPham.taoMaSPTest<br>Test method: Kiểm tra khi MaSP dài hơn 5 ký tự</td>
+<td></td>
+<td>0</td>
+<td>Nhiem.SanPham.taoMaSPTest@6b5176f2</td></tr>
+<tr>
+<td title='Nhiem.SanPham.capNhapCTSPTest.TC_CAPNHATCTSP_02()'><b>TC_CAPNHATCTSP_02</b><br>Test class: Nhiem.SanPham.capNhapCTSPTest<br>Test method: Cập nhật với dữ liệu trống</td>
+<td></td>
+<td>0</td>
+<td>Nhiem.SanPham.capNhapCTSPTest@62435e70</td></tr>
+<tr>
+<td title='Nhiem.SanPham.taoMaSPTest.TC_TAOMASP_10()'><b>TC_TAOMASP_10</b><br>Test class: Nhiem.SanPham.taoMaSPTest<br>Test method: Kiểm tra khi sử dụng số âm làm ID</td>
+<td></td>
+<td>0</td>
+<td>Nhiem.SanPham.taoMaSPTest@6b5176f2</td></tr>
+<tr>
+<td title='Nhiem.SanPham.taoMaSPTest.TC_TAOMASP_03()'><b>TC_TAOMASP_03</b><br>Test class: Nhiem.SanPham.taoMaSPTest<br>Test method: Kiểm tra khi danh sách không rỗng</td>
+<td></td>
+<td>0</td>
+<td>Nhiem.SanPham.taoMaSPTest@6b5176f2</td></tr>
+<tr>
+<td title='Nhiem.SanPham.CapNhapTest.TC_CAPNHAT_10()'><b>TC_CAPNHAT_10</b><br>Test class: Nhiem.SanPham.CapNhapTest<br>Test method: Cập nhật với thiếu dữ liệu</td>
+<td></td>
+<td>0</td>
+<td>Nhiem.SanPham.CapNhapTest@5be067de</td></tr>
+<tr>
+<td title='Nhiem.SanPham.themCTSPTest.TC_THEMCTSP_03()'><b>TC_THEMCTSP_03</b><br>Test class: Nhiem.SanPham.themCTSPTest<br>Test method: Sản phẩm không tồn tại</td>
+<td></td>
+<td>0</td>
+<td>Nhiem.SanPham.themCTSPTest@2e5c7f0b</td></tr>
+<tr>
+<td title='Nhiem.SanPham.capNhapCTSPTest.TC_CAPNHATCTSP_9()'><b>TC_CAPNHATCTSP_9</b><br>Test class: Nhiem.SanPham.capNhapCTSPTest<br>Test method: Cập nhật với mã màu rỗng</td>
+<td></td>
+<td>0</td>
+<td>Nhiem.SanPham.capNhapCTSPTest@62435e70</td></tr>
+<tr>
+<td title='Nhiem.SanPham.capNhapCTSPTest.TC_CAPNHATCTSP_8()'><b>TC_CAPNHATCTSP_8</b><br>Test class: Nhiem.SanPham.capNhapCTSPTest<br>Test method: Cập nhật với số lượng âm</td>
+<td></td>
+<td>0</td>
+<td>Nhiem.SanPham.capNhapCTSPTest@62435e70</td></tr>
+<tr>
+<td title='Nhiem.SanPham.taoMaSPTest.TC_TAOMASP_11()'><b>TC_TAOMASP_11</b><br>Test class: Nhiem.SanPham.taoMaSPTest<br>Test method: Kiểm tra khi sử dụng danh sách lớn</td>
+<td></td>
+<td>0</td>
+<td>Nhiem.SanPham.taoMaSPTest@6b5176f2</td></tr>
+<tr>
+<td title='Nhiem.SanPham.taoMaCTSPTest.TC_TAOMACTSP_04()'><b>TC_TAOMACTSP_04</b><br>Test class: Nhiem.SanPham.taoMaCTSPTest<br>Test method: Kiểm tra khi tham số MaSP là null</td>
+<td></td>
+<td>0</td>
+<td>Nhiem.SanPham.taoMaCTSPTest@172ca72b</td></tr>
+<tr>
+<td title='Nhiem.SanPham.CapNhapTest.TC_CAPNHAT_04()'><b>TC_CAPNHAT_04</b><br>Test class: Nhiem.SanPham.CapNhapTest<br>Test method: Cập nhật với giá bán nhỏ hơn giá nhập</td>
+<td></td>
+<td>0</td>
+<td>Nhiem.SanPham.CapNhapTest@5be067de</td></tr>
+<tr>
+<td title='Nhiem.SanPham.taoMaSPTest.TC_TAOMASP_04()'><b>TC_TAOMASP_04</b><br>Test class: Nhiem.SanPham.taoMaSPTest<br>Test method: Kiểm tra khi MaSP ngắn hơn 3 ký tự</td>
+<td></td>
+<td>0</td>
+<td>Nhiem.SanPham.taoMaSPTest@6b5176f2</td></tr>
+<tr>
+<td title='Nhiem.SanPham.CapNhapTest.TC_CAPNHAT_08()'><b>TC_CAPNHAT_08</b><br>Test class: Nhiem.SanPham.CapNhapTest<br>Test method: Cập nhật với mã khuyến mãi không tồn tại</td>
+<td></td>
+<td>0</td>
+<td>Nhiem.SanPham.CapNhapTest@5be067de</td></tr>
+<tr>
+<td title='Nhiem.SanPham.capNhapCTSPTest.TC_CAPNHATCTSP_7()'><b>TC_CAPNHATCTSP_7</b><br>Test class: Nhiem.SanPham.capNhapCTSPTest<br>Test method: Cập nhật với mã sản phẩm rỗng</td>
+<td></td>
+<td>0</td>
+<td>Nhiem.SanPham.capNhapCTSPTest@62435e70</td></tr>
+<tr>
+<td title='Nhiem.SanPham.themTest.TC_THEMSP_03()'><b>TC_THEMSP_03</b><br>Test class: Nhiem.SanPham.themTest<br>Test method: Thêm sản phẩm với dữ liệu thiếu</td>
+<td></td>
+<td>0</td>
+<td>Nhiem.SanPham.themTest@56b78e55</td></tr>
+<tr>
+<td title='Nhiem.SanPham.taoMaSPTest.TC_TAOMASP_09()'><b>TC_TAOMASP_09</b><br>Test class: Nhiem.SanPham.taoMaSPTest<br>Test method: Kiểm tra khi sử dụng số 0 dẫn đầu cho ID</td>
+<td></td>
+<td>0</td>
+<td>Nhiem.SanPham.taoMaSPTest@6b5176f2</td></tr>
+<tr>
+<td title='Nhiem.SanPham.themCTSPTest.TC_THEMCTSP_02()'><b>TC_THEMCTSP_02</b><br>Test class: Nhiem.SanPham.themCTSPTest<br>Test method: Thiếu MaSP</td>
+<td></td>
+<td>0</td>
+<td>Nhiem.SanPham.themCTSPTest@2e5c7f0b</td></tr>
+<tr>
+<td title='Nhiem.SanPham.capNhapCTSPTest.TC_CAPNHATCTSP_05()'><b>TC_CAPNHATCTSP_05</b><br>Test class: Nhiem.SanPham.capNhapCTSPTest<br>Test method: Cập nhật với số lượng bằng 0</td>
+<td></td>
+<td>0</td>
+<td>Nhiem.SanPham.capNhapCTSPTest@62435e70</td></tr>
+<tr>
+<td title='Nhiem.SanPham.taoMaSPTest.TC_TAOMASP_08()'><b>TC_TAOMASP_08</b><br>Test class: Nhiem.SanPham.taoMaSPTest<br>Test method: Kiểm tra khi sử dụng ký tự đặc biệt trong MaSP</td>
+<td></td>
+<td>0</td>
+<td>Nhiem.SanPham.taoMaSPTest@6b5176f2</td></tr>
+<tr>
+<td title='Nhiem.SanPham.themTest.TC_THEMSP_04()'><b>TC_THEMSP_04</b><br>Test class: Nhiem.SanPham.themTest<br>Test method: Thêm sản phẩm với giá nhập và giá bán là 0</td>
+<td></td>
+<td>0</td>
+<td>Nhiem.SanPham.themTest@56b78e55</td></tr>
+<tr>
+<td title='Nhiem.SanPham.themCTSPTest.TC_THEMCTSP_06()'><b>TC_THEMCTSP_06</b><br>Test class: Nhiem.SanPham.themCTSPTest<br>Test method: Thiếu Mã Kích Thước</td>
+<td></td>
+<td>0</td>
+<td>Nhiem.SanPham.themCTSPTest@2e5c7f0b</td></tr>
+<tr>
+<td title='Nhiem.SanPham.themTest.TC_THEMSP_02()'><b>TC_THEMSP_02</b><br>Test class: Nhiem.SanPham.themTest<br>Test method: Thêm sản phẩm với mã sản phẩm trùng</td>
+<td></td>
+<td>0</td>
+<td>Nhiem.SanPham.themTest@56b78e55</td></tr>
+<tr>
+<td title='Nhiem.SanPham.themTest.TC_THEMSP_05()'><b>TC_THEMSP_05</b><br>Test class: Nhiem.SanPham.themTest<br>Test method: Thêm sản phẩm với giá bán nhỏ hơn giá nhập</td>
+<td></td>
+<td>0</td>
+<td>Nhiem.SanPham.themTest@56b78e55</td></tr>
+<tr>
+<td title='Nhiem.SanPham.taoMaCTSPTest.TC_TAOMACTSP_09()'><b>TC_TAOMACTSP_09</b><br>Test class: Nhiem.SanPham.taoMaCTSPTest<br>Test method: Kiểm tra khi danh sách rỗng</td>
+<td></td>
+<td>0</td>
+<td>Nhiem.SanPham.taoMaCTSPTest@172ca72b</td></tr>
+<tr>
+<td title='Nhiem.SanPham.taoMaCTSPTest.TC_TAOMACTSP_08()'><b>TC_TAOMACTSP_08</b><br>Test class: Nhiem.SanPham.taoMaCTSPTest<br>Test method: Kiểm tra khi danh sách rỗng</td>
+<td></td>
+<td>0</td>
+<td>Nhiem.SanPham.taoMaCTSPTest@172ca72b</td></tr>
 </table><p>
 </body>
 </html>

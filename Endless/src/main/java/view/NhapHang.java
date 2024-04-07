@@ -179,6 +179,26 @@ public class NhapHang extends javax.swing.JPanel {
         }
         return newID;
     }
+    
+    //Kiểm tra hàm tạo mã nhập hàng
+    public String taoMaNH_Test(List<model.NhapHang> list) {
+        if (list == null || list.isEmpty()) {
+            return ("DN001");
+        }
+        model.NhapHang nh = list.get(list.size() - 1);
+        String oldID = nh.getMaDN();
+        String number = oldID.substring(2, oldID.length());
+        String newID = "DN";
+        int idNumber = Integer.parseInt(number) + 1;
+        if (idNumber < 10) {
+            newID += "00" + idNumber;
+        } else if (idNumber < 100) {
+            newID += "0" + idNumber;
+        } else {
+            newID += idNumber;
+        }
+        return newID;
+    }
 
     public String taoMaCTNH(String maDN) {
         model.ChiTietNhapHang ctnh;
@@ -191,6 +211,30 @@ public class NhapHang extends javax.swing.JPanel {
 
         String oldID = ctnh.getMaCTDN();
         String number = oldID.split("-")[1];
+        String newID = maDN + "-";
+        int idNumber = Integer.parseInt(number) + 1;
+        newID += idNumber;
+        return newID;
+    }
+    
+    //Kiểm tra hàm tạo mã chi tiết nhập hàng
+    public String taoMaCTNH_Test(String maDN, List<ChiTietNhapHang> list) {
+        model.ChiTietNhapHang ctnh;
+        try {
+            ctnh = list.get(list.size() - 1);
+        } catch (Exception e) {
+            ctnh = new ChiTietNhapHang();
+            ctnh.setMaCTDN(maDN + "-0");
+        }
+
+        
+        String oldID = ctnh.getMaCTDN();
+        String number;
+        if (oldID != null) {
+            number = oldID.split("-")[1];
+        } else {
+            number = "0";
+        }
         String newID = maDN + "-";
         int idNumber = Integer.parseInt(number) + 1;
         newID += idNumber;
@@ -242,6 +286,22 @@ public class NhapHang extends javax.swing.JPanel {
         } catch (Exception e) {
             JOptionPane.showMessageDialog(this, "Thêm thất bại!");
             System.out.println(e);
+        }
+    }
+    //Kiểm tra hàm thêm đơn hàng
+    public String themDonNhap_Test(model.NhapHang nh) {
+        if (nh==null || nh.getMaNCC().isEmpty()) {
+            return null;
+        }
+        nh.setMaDN(taoMaDN());
+        try {
+            if (nh.getMaNCC().isEmpty()) {
+                return null;
+            }
+            nhDAO.insert(nh);
+            	return "Thêm thành công!";
+        } catch (Exception e) {
+        	return "Thêm thất bại!";
         }
     }
 

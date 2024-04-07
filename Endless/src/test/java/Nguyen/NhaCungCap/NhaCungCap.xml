@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="NhaCungCap" parallel="false">
+	<test name="NhaCungCap">
+		<classes>
+			<class name="Nguyen.NhaCungCap.taoMaNCCTest" />
+			<class name="Nguyen.NhaCungCap.themTest" />
+			<class name="Nguyen.NhaCungCap.capNhatTest" />
+		</classes>
+	</test>
+</suite>

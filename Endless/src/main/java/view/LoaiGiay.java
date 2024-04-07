@@ -244,6 +244,27 @@ public class LoaiGiay extends javax.swing.JFrame {
         }
         return newID;
     }
+    
+    
+    //Kiểm tra hàm tạo mã loại giày
+    public String taoMaLG_Test(List<model.LoaiGiay> list) {
+        if (list == null || list.isEmpty()) {
+           return ("LG001");
+        }
+        model.LoaiGiay lg = list.get(list.size() - 1);
+        String oldID = lg.getMaLoaiGiay();
+        String number = oldID.substring(2, oldID.length());
+        String newID = "LG";
+        int idNumber = Integer.parseInt(number) + 1;
+        if (idNumber < 10) {
+            newID += "00" + idNumber;
+        } else if (idNumber < 100) {
+            newID += "0" + idNumber;
+        } else {
+            newID += idNumber;
+        }
+        return newID;
+    }
 
     void ThemLoaiGiay() {
         if (KiemLoiLoaiGiay() == true) {
@@ -259,6 +280,21 @@ public class LoaiGiay extends javax.swing.JFrame {
             }
         }
     }
+    
+    
+    //Kiểm tra hàm thêm loại giày
+    public String ThemLoaiGiay_Test(model.LoaiGiay lg) {
+    	lg.setMaLoaiGiay(taoMaLG());
+        if (KiemLoi_Test(lg).equals("")) {
+            try {
+                lgDAO.insert(lg);
+                return "Thêm loại giày thành công!";
+            } catch (Exception e) {
+                return e+"";
+            }
+        }
+		return KiemLoi_Test(lg);
+    }
 
     public boolean KiemLoiLoaiGiay() {
         String err = "";
@@ -273,6 +309,16 @@ public class LoaiGiay extends javax.swing.JFrame {
         return true;
     }
 
+    //Kiểm tra hàm kiểm lỗi loại gìay
+    public String KiemLoi_Test(model.LoaiGiay lg) {
+        String err = "";
+        if (lg.getTenLoaiGiay() == null ||lg.getTenLoaiGiay().isEmpty()) {
+            err += "Lỗi bỏ trống tên loại giày";
+        }
+        return err;
+    }
+
+    
     void LamMoiLoaiGiay() {
         txtTenLoaiGiay.setText("");
         txtMoTaLg.setText("");

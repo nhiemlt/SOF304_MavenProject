@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="NhanVien" parallel="false">
+	<test name="NhanVien">
+		<classes>
+			<class name="Nguyen.NhanVien.taoMaNVTest" />
+			<class name="Nguyen.NhanVien.addTest" />
+			<class name="Nguyen.NhanVien.uplateTest" />
+		</classes>
+	</test>
+</suite>

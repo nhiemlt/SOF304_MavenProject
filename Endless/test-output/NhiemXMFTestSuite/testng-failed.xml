@@ -3,17 +3,17 @@
 <suite name="Failed suite [NhiemXMFTestSuite]">
   <test thread-count="5" name="SanPhamTest(failed)">
     <classes>
-      <class name="Nhiem.SanPham.themTest">
-        <methods>
-          <include name="TC_THEMSP_01"/>
-        </methods>
-      </class> <!-- Nhiem.SanPham.themTest -->
       <class name="Nhiem.SanPham.capNhapCTSPTest">
         <methods>
           <include name="TC_CAPNHATCTSP_10"/>
           <include name="TC_CAPNHATCTSP_11"/>
         </methods>
       </class> <!-- Nhiem.SanPham.capNhapCTSPTest -->
+      <class name="Nhiem.SanPham.themTest">
+        <methods>
+          <include name="TC_THEMSP_01"/>
+        </methods>
+      </class> <!-- Nhiem.SanPham.themTest -->
       <class name="Nhiem.SanPham.CapNhapTest">
         <methods>
           <include name="TC_CAPNHAT_05"/>
@@ -24,6 +24,11 @@
   </test> <!-- SanPhamTest(failed) -->
   <test thread-count="5" name="ThuocTinhTest(failed)">
     <classes>
+      <class name="Nhiem.ThuocTinh.capNhapMauSac">
+        <methods>
+          <include name="TC_CNM_03"/>
+        </methods>
+      </class> <!-- Nhiem.ThuocTinh.capNhapMauSac -->
       <class name="Nhiem.ThuocTinh.themMauSacTest">
         <methods>
           <include name="TC_TMS_03"/>
@@ -35,21 +40,16 @@
           <include name="TC_TKT_03"/>
         </methods>
       </class> <!-- Nhiem.ThuocTinh.themKichThuocTest -->
-      <class name="Nhiem.ThuocTinh.capNhapMauSac">
-        <methods>
-          <include name="TC_CNM_03"/>
-        </methods>
-      </class> <!-- Nhiem.ThuocTinh.capNhapMauSac -->
-      <class name="Nhiem.ThuocTinh.taoMaMSTest">
-        <methods>
-          <include name="TC_TAOMAMS_04"/>
-        </methods>
-      </class> <!-- Nhiem.ThuocTinh.taoMaMSTest -->
       <class name="Nhiem.ThuocTinh.taoMaKTTest">
         <methods>
           <include name="TC_TAO_MAKT_04"/>
         </methods>
       </class> <!-- Nhiem.ThuocTinh.taoMaKTTest -->
+      <class name="Nhiem.ThuocTinh.taoMaMSTest">
+        <methods>
+          <include name="TC_TAOMAMS_04"/>
+        </methods>
+      </class> <!-- Nhiem.ThuocTinh.taoMaMSTest -->
     </classes>
   </test> <!-- ThuocTinhTest(failed) -->
 </suite> <!-- Failed suite [NhiemXMFTestSuite] -->

@@ -105,6 +105,20 @@ public class NhaCungCap extends javax.swing.JPanel {
             }
         }
     }
+    
+    //Kiểm tra hàm thêm nhà cung cấp
+    public String Them_Test(model.NhaCungCap ncc) {
+    	ncc.setMaNCC(taoMaNCC());
+        if (KiemLoi_Test(ncc).equals("")) {
+            try {
+                nccDAO.insert(ncc);
+                return "Thêm thành công!";
+            } catch (Exception e) {
+                return e+"";
+            }
+        }
+        return KiemLoi_Test(ncc);
+    }
 
     void CapNhat() {
         if (KiemLoi() == true) {
@@ -119,6 +133,19 @@ public class NhaCungCap extends javax.swing.JPanel {
                 System.out.println(e);
             }
         }
+    }
+    
+    //Kiểm tra hàm cập nhật
+    public String CapNhat_Test(model.NhaCungCap ncc) {
+        if (KiemLoi_Test(ncc).equals("")) {
+            try {
+                nccDAO.update(ncc);
+                return "Cập nhật thành công";
+            } catch (Exception e) {
+                return e+"";
+            }
+        }
+        return (KiemLoi_Test(ncc));
     }
 
     void Xoa() {
@@ -159,6 +186,26 @@ public class NhaCungCap extends javax.swing.JPanel {
             ncc = new model.NhaCungCap();
             ncc.setMaNCC("NCC000");
         }
+        String oldID = ncc.getMaNCC();
+        String number = oldID.substring(3, oldID.length());
+        String newID = "NCC";
+        int idNumber = Integer.parseInt(number) + 1;
+        if (idNumber < 10) {
+            newID += "00" + idNumber;
+        } else if (idNumber < 100) {
+            newID += "0" + idNumber;
+        } else {
+            newID += idNumber;
+        }
+        return newID;
+    }
+    
+    //Kiểm tra hàm nhà cung cấp
+    public String taoMaNCC_Test(List<model.NhaCungCap> list) {
+        if (list == null || list.isEmpty()) {
+            return "NCC001";
+        }
+        model.NhaCungCap ncc = list.get(list.size() - 1);
         String oldID = ncc.getMaNCC();
         String number = oldID.substring(3, oldID.length());
         String newID = "NCC";
@@ -229,6 +276,31 @@ public class NhaCungCap extends javax.swing.JPanel {
         }
         JOptionPane.showMessageDialog(this, err);
         return false;
+    }
+    
+    
+    //Kiểm tra hàm kiểm lỗi
+    public String KiemLoi_Test(model.NhaCungCap ncc) {
+        String err = "";
+        if (ncc.getTenNCC() == null || ncc.getTenNCC().isEmpty()) {
+            err += "Lỗi để trống tên nhà cung cấp";
+        } else if(!ncc.getTenNCC().matches("^[^!-@]+$")) {
+        	err += "Lỗi tên nhà cung cấp chứa kí tự";
+        }
+        if (ncc.getSDT() == null || ncc.getSDT().isEmpty()) {
+        	err += "Lỗi để trống SDT";
+        } else if(ncc.getSDT() != null && !ncc.getSDT().matches("^0[0-9]{9}$")) {
+        	err += "Lỗi sai định dạng SDT";
+        }
+        if (ncc.getDiaChi() == null || ncc.getDiaChi().isEmpty()) {
+            err += "Lỗi để trống địa chỉ";
+        }
+        if (ncc.getEmail() == null || ncc.getEmail().isEmpty()) {
+			err += "Lỗi để trống email";
+		} else if (!ncc.getEmail().matches("^[\\w\\.-]+@[a-zA-Z\\d\\.-]+\\.[a-zA-Z]{2,}$")) {
+			err += "Lỗi sai định dạng email";
+		}
+        return err;
     }
 
     /**

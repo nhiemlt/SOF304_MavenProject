@@ -2,48 +2,48 @@
 <testng-results ignored="0" total="115" passed="104" failed="11" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-06T22:54:16 ICT" name="NhiemXMFTestSuite" finished-at="2024-04-06T22:54:28 ICT" duration-ms="12434">
+  <suite started-at="2024-04-07T13:59:05 ICT" name="NhiemXMFTestSuite" finished-at="2024-04-07T13:59:26 ICT" duration-ms="21391">
     <groups>
     </groups>
-    <test started-at="2024-04-06T22:54:16 ICT" name="EncodeTest" finished-at="2024-04-06T22:54:18 ICT" duration-ms="1909">
+    <test started-at="2024-04-07T13:59:05 ICT" name="EncodeTest" finished-at="2024-04-07T13:59:08 ICT" duration-ms="3474">
       <class name="Nhiem.Encode.EncodeTest">
-        <test-method signature="TC_CHECK_01()[pri:0, instance:Nhiem.Encode.EncodeTest@67a20f67]" started-at="2024-04-06T22:54:16 ICT" name="TC_CHECK_01" description="Kiểm tra khi mật khẩu nhập vào khớp với mật khẩu đã mã hóa" finished-at="2024-04-06T22:54:17 ICT" duration-ms="816" status="PASS">
+        <test-method signature="TC_CHECK_01()[pri:0, instance:Nhiem.Encode.EncodeTest@67a20f67]" started-at="2024-04-07T13:59:05 ICT" name="TC_CHECK_01" description="Kiểm tra khi mật khẩu nhập vào khớp với mật khẩu đã mã hóa" finished-at="2024-04-07T13:59:06 ICT" duration-ms="1407" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_CHECK_01 -->
-        <test-method signature="TC_CHECK_02()[pri:0, instance:Nhiem.Encode.EncodeTest@67a20f67]" started-at="2024-04-06T22:54:17 ICT" name="TC_CHECK_02" description="Kiểm tra khi mật khẩu nhập vào không khớp với mật khẩu đã mã hóa" finished-at="2024-04-06T22:54:18 ICT" duration-ms="699" status="PASS">
+        <test-method signature="TC_CHECK_02()[pri:0, instance:Nhiem.Encode.EncodeTest@67a20f67]" started-at="2024-04-07T13:59:06 ICT" name="TC_CHECK_02" description="Kiểm tra khi mật khẩu nhập vào không khớp với mật khẩu đã mã hóa" finished-at="2024-04-07T13:59:07 ICT" duration-ms="1191" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_CHECK_02 -->
-        <test-method signature="TC_HASH_01()[pri:0, instance:Nhiem.Encode.EncodeTest@67a20f67]" started-at="2024-04-06T22:54:18 ICT" name="TC_HASH_01" description="Kiểm tra khi tạo mật khẩu mới với đầu vào hợp lệ" finished-at="2024-04-06T22:54:18 ICT" duration-ms="346" status="PASS">
+        <test-method signature="TC_HASH_01()[pri:0, instance:Nhiem.Encode.EncodeTest@67a20f67]" started-at="2024-04-07T13:59:07 ICT" name="TC_HASH_01" description="Kiểm tra khi tạo mật khẩu mới với đầu vào hợp lệ" finished-at="2024-04-07T13:59:08 ICT" duration-ms="752" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_HASH_01 -->
-        <test-method signature="TC_HASH_02()[pri:0, instance:Nhiem.Encode.EncodeTest@67a20f67]" started-at="2024-04-06T22:54:18 ICT" name="TC_HASH_02" description="Kiểm tra khi có lỗi xảy ra khi tạo mật khẩu mới" finished-at="2024-04-06T22:54:18 ICT" duration-ms="2" status="PASS">
+        <test-method signature="TC_HASH_02()[pri:0, instance:Nhiem.Encode.EncodeTest@67a20f67]" started-at="2024-04-07T13:59:08 ICT" name="TC_HASH_02" description="Kiểm tra khi có lỗi xảy ra khi tạo mật khẩu mới" finished-at="2024-04-07T13:59:08 ICT" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_HASH_02 -->
       </class> <!-- Nhiem.Encode.EncodeTest -->
     </test> <!-- EncodeTest -->
-    <test started-at="2024-04-06T22:54:18 ICT" name="SanPhamTest" finished-at="2024-04-06T22:54:21 ICT" duration-ms="3211">
+    <test started-at="2024-04-07T13:59:08 ICT" name="SanPhamTest" finished-at="2024-04-07T13:59:16 ICT" duration-ms="7784">
       <class name="Nhiem.SanPham.CapNhapTest">
-        <test-method signature="TC_CAPNHAT_01()[pri:0, instance:Nhiem.SanPham.CapNhapTest@1991f767]" started-at="2024-04-06T22:54:19 ICT" name="TC_CAPNHAT_01" description="Cập nhật thông tin sản phẩm thành công" finished-at="2024-04-06T22:54:19 ICT" duration-ms="73" status="PASS">
+        <test-method signature="TC_CAPNHAT_01()[pri:0, instance:Nhiem.SanPham.CapNhapTest@5be067de]" started-at="2024-04-07T13:59:11 ICT" name="TC_CAPNHAT_01" description="Cập nhật thông tin sản phẩm thành công" finished-at="2024-04-07T13:59:11 ICT" duration-ms="161" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_CAPNHAT_01 -->
-        <test-method signature="TC_CAPNHAT_02()[pri:0, instance:Nhiem.SanPham.CapNhapTest@1991f767]" started-at="2024-04-06T22:54:19 ICT" name="TC_CAPNHAT_02" description="Cập nhật với giá nhập &lt;= 0" finished-at="2024-04-06T22:54:19 ICT" duration-ms="44" status="PASS">
+        <test-method signature="TC_CAPNHAT_02()[pri:0, instance:Nhiem.SanPham.CapNhapTest@5be067de]" started-at="2024-04-07T13:59:11 ICT" name="TC_CAPNHAT_02" description="Cập nhật với giá nhập &lt;= 0" finished-at="2024-04-07T13:59:11 ICT" duration-ms="182" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_CAPNHAT_02 -->
-        <test-method signature="TC_CAPNHAT_03()[pri:0, instance:Nhiem.SanPham.CapNhapTest@1991f767]" started-at="2024-04-06T22:54:19 ICT" name="TC_CAPNHAT_03" description="Cập nhật với giá bán &lt;= 0" finished-at="2024-04-06T22:54:19 ICT" duration-ms="80" status="PASS">
+        <test-method signature="TC_CAPNHAT_03()[pri:0, instance:Nhiem.SanPham.CapNhapTest@5be067de]" started-at="2024-04-07T13:59:11 ICT" name="TC_CAPNHAT_03" description="Cập nhật với giá bán &lt;= 0" finished-at="2024-04-07T13:59:11 ICT" duration-ms="206" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_CAPNHAT_03 -->
-        <test-method signature="TC_CAPNHAT_04()[pri:0, instance:Nhiem.SanPham.CapNhapTest@1991f767]" started-at="2024-04-06T22:54:19 ICT" name="TC_CAPNHAT_04" description="Cập nhật với giá bán nhỏ hơn giá nhập" finished-at="2024-04-06T22:54:19 ICT" duration-ms="61" status="PASS">
+        <test-method signature="TC_CAPNHAT_04()[pri:0, instance:Nhiem.SanPham.CapNhapTest@5be067de]" started-at="2024-04-07T13:59:11 ICT" name="TC_CAPNHAT_04" description="Cập nhật với giá bán nhỏ hơn giá nhập" finished-at="2024-04-07T13:59:11 ICT" duration-ms="123" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_CAPNHAT_04 -->
-        <test-method signature="TC_CAPNHAT_05()[pri:0, instance:Nhiem.SanPham.CapNhapTest@1991f767]" started-at="2024-04-06T22:54:19 ICT" name="TC_CAPNHAT_05" description="Cập nhật với tên sản phẩm chứa số" finished-at="2024-04-06T22:54:19 ICT" duration-ms="112" status="FAIL">
+        <test-method signature="TC_CAPNHAT_05()[pri:0, instance:Nhiem.SanPham.CapNhapTest@5be067de]" started-at="2024-04-07T13:59:11 ICT" name="TC_CAPNHAT_05" description="Cập nhật với tên sản phẩm chứa số" finished-at="2024-04-07T13:59:11 ICT" duration-ms="170" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Tên sản phẩm không được chứa số] but found [Cập nhật thành công]]]>
@@ -89,11 +89,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_CAPNHAT_05 -->
-        <test-method signature="TC_CAPNHAT_06()[pri:0, instance:Nhiem.SanPham.CapNhapTest@1991f767]" started-at="2024-04-06T22:54:19 ICT" name="TC_CAPNHAT_06" description="Cập nhật với mã vạch chứa ký tự đặc biệt và chữ cái" finished-at="2024-04-06T22:54:19 ICT" duration-ms="76" status="PASS">
+        <test-method signature="TC_CAPNHAT_06()[pri:0, instance:Nhiem.SanPham.CapNhapTest@5be067de]" started-at="2024-04-07T13:59:11 ICT" name="TC_CAPNHAT_06" description="Cập nhật với mã vạch chứa ký tự đặc biệt và chữ cái" finished-at="2024-04-07T13:59:12 ICT" duration-ms="134" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_CAPNHAT_06 -->
-        <test-method signature="TC_CAPNHAT_07()[pri:0, instance:Nhiem.SanPham.CapNhapTest@1991f767]" started-at="2024-04-06T22:54:19 ICT" name="TC_CAPNHAT_07" description="Cập nhật sản phẩm không tồn tại" finished-at="2024-04-06T22:54:19 ICT" duration-ms="30" status="FAIL">
+        <test-method signature="TC_CAPNHAT_07()[pri:0, instance:Nhiem.SanPham.CapNhapTest@5be067de]" started-at="2024-04-07T13:59:12 ICT" name="TC_CAPNHAT_07" description="Cập nhật sản phẩm không tồn tại" finished-at="2024-04-07T13:59:12 ICT" duration-ms="176" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "model.SanPham.setTenSP(String)" because "sp" is null]]>
@@ -133,45 +133,45 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_CAPNHAT_07 -->
-        <test-method signature="TC_CAPNHAT_08()[pri:0, instance:Nhiem.SanPham.CapNhapTest@1991f767]" started-at="2024-04-06T22:54:19 ICT" name="TC_CAPNHAT_08" description="Cập nhật với mã khuyến mãi không tồn tại" finished-at="2024-04-06T22:54:20 ICT" duration-ms="204" status="PASS">
+        <test-method signature="TC_CAPNHAT_08()[pri:0, instance:Nhiem.SanPham.CapNhapTest@5be067de]" started-at="2024-04-07T13:59:12 ICT" name="TC_CAPNHAT_08" description="Cập nhật với mã khuyến mãi không tồn tại" finished-at="2024-04-07T13:59:12 ICT" duration-ms="204" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_CAPNHAT_08 -->
-        <test-method signature="TC_CAPNHAT_09()[pri:0, instance:Nhiem.SanPham.CapNhapTest@1991f767]" started-at="2024-04-06T22:54:20 ICT" name="TC_CAPNHAT_09" description="Cập nhật với mã loại giày không tồn tại" finished-at="2024-04-06T22:54:20 ICT" duration-ms="43" status="PASS">
+        <test-method signature="TC_CAPNHAT_09()[pri:0, instance:Nhiem.SanPham.CapNhapTest@5be067de]" started-at="2024-04-07T13:59:12 ICT" name="TC_CAPNHAT_09" description="Cập nhật với mã loại giày không tồn tại" finished-at="2024-04-07T13:59:12 ICT" duration-ms="84" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_CAPNHAT_09 -->
-        <test-method signature="TC_CAPNHAT_10()[pri:0, instance:Nhiem.SanPham.CapNhapTest@1991f767]" started-at="2024-04-06T22:54:20 ICT" name="TC_CAPNHAT_10" description="Cập nhật với thiếu dữ liệu" finished-at="2024-04-06T22:54:20 ICT" duration-ms="55" status="PASS">
+        <test-method signature="TC_CAPNHAT_10()[pri:0, instance:Nhiem.SanPham.CapNhapTest@5be067de]" started-at="2024-04-07T13:59:12 ICT" name="TC_CAPNHAT_10" description="Cập nhật với thiếu dữ liệu" finished-at="2024-04-07T13:59:12 ICT" duration-ms="126" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_CAPNHAT_10 -->
       </class> <!-- Nhiem.SanPham.CapNhapTest -->
       <class name="Nhiem.SanPham.capNhapCTSPTest">
-        <test-method signature="TC_CAPNHATCTSP_01()[pri:0, instance:Nhiem.SanPham.capNhapCTSPTest@6e1d8f9e]" started-at="2024-04-06T22:54:18 ICT" name="TC_CAPNHATCTSP_01" description="Cập nhật thành công" finished-at="2024-04-06T22:54:18 ICT" duration-ms="100" status="PASS">
+        <test-method signature="TC_CAPNHATCTSP_01()[pri:0, instance:Nhiem.SanPham.capNhapCTSPTest@62435e70]" started-at="2024-04-07T13:59:08 ICT" name="TC_CAPNHATCTSP_01" description="Cập nhật thành công" finished-at="2024-04-07T13:59:09 ICT" duration-ms="259" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_CAPNHATCTSP_01 -->
-        <test-method signature="TC_CAPNHATCTSP_02()[pri:0, instance:Nhiem.SanPham.capNhapCTSPTest@6e1d8f9e]" started-at="2024-04-06T22:54:18 ICT" name="TC_CAPNHATCTSP_02" description="Cập nhật với dữ liệu trống" finished-at="2024-04-06T22:54:18 ICT" duration-ms="1" status="PASS">
+        <test-method signature="TC_CAPNHATCTSP_02()[pri:0, instance:Nhiem.SanPham.capNhapCTSPTest@62435e70]" started-at="2024-04-07T13:59:09 ICT" name="TC_CAPNHATCTSP_02" description="Cập nhật với dữ liệu trống" finished-at="2024-04-07T13:59:09 ICT" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_CAPNHATCTSP_02 -->
-        <test-method signature="TC_CAPNHATCTSP_03()[pri:0, instance:Nhiem.SanPham.capNhapCTSPTest@6e1d8f9e]" started-at="2024-04-06T22:54:18 ICT" name="TC_CAPNHATCTSP_03" description="Cập nhật khi sản phẩm không tồn tại" finished-at="2024-04-06T22:54:18 ICT" duration-ms="38" status="PASS">
+        <test-method signature="TC_CAPNHATCTSP_03()[pri:0, instance:Nhiem.SanPham.capNhapCTSPTest@62435e70]" started-at="2024-04-07T13:59:09 ICT" name="TC_CAPNHATCTSP_03" description="Cập nhật khi sản phẩm không tồn tại" finished-at="2024-04-07T13:59:09 ICT" duration-ms="56" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_CAPNHATCTSP_03 -->
-        <test-method signature="TC_CAPNHATCTSP_04()[pri:0, instance:Nhiem.SanPham.capNhapCTSPTest@6e1d8f9e]" started-at="2024-04-06T22:54:18 ICT" name="TC_CAPNHATCTSP_04" description="Cập nhật với dữ liệu chứa ký tự đặc biệt" finished-at="2024-04-06T22:54:18 ICT" duration-ms="147" status="PASS">
+        <test-method signature="TC_CAPNHATCTSP_04()[pri:0, instance:Nhiem.SanPham.capNhapCTSPTest@62435e70]" started-at="2024-04-07T13:59:09 ICT" name="TC_CAPNHATCTSP_04" description="Cập nhật với dữ liệu chứa ký tự đặc biệt" finished-at="2024-04-07T13:59:09 ICT" duration-ms="249" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_CAPNHATCTSP_04 -->
-        <test-method signature="TC_CAPNHATCTSP_05()[pri:0, instance:Nhiem.SanPham.capNhapCTSPTest@6e1d8f9e]" started-at="2024-04-06T22:54:18 ICT" name="TC_CAPNHATCTSP_05" description="Cập nhật với số lượng bằng 0" finished-at="2024-04-06T22:54:18 ICT" duration-ms="115" status="PASS">
+        <test-method signature="TC_CAPNHATCTSP_05()[pri:0, instance:Nhiem.SanPham.capNhapCTSPTest@62435e70]" started-at="2024-04-07T13:59:09 ICT" name="TC_CAPNHATCTSP_05" description="Cập nhật với số lượng bằng 0" finished-at="2024-04-07T13:59:09 ICT" duration-ms="457" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_CAPNHATCTSP_05 -->
-        <test-method signature="TC_CAPNHATCTSP_06()[pri:0, instance:Nhiem.SanPham.capNhapCTSPTest@6e1d8f9e]" started-at="2024-04-06T22:54:18 ICT" name="TC_CAPNHATCTSP_06" description="Cập nhật với số lượng lớn hơn 0" finished-at="2024-04-06T22:54:18 ICT" duration-ms="135" status="PASS">
+        <test-method signature="TC_CAPNHATCTSP_06()[pri:0, instance:Nhiem.SanPham.capNhapCTSPTest@62435e70]" started-at="2024-04-07T13:59:09 ICT" name="TC_CAPNHATCTSP_06" description="Cập nhật với số lượng lớn hơn 0" finished-at="2024-04-07T13:59:09 ICT" duration-ms="155" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_CAPNHATCTSP_06 -->
-        <test-method signature="TC_CAPNHATCTSP_10()[pri:0, instance:Nhiem.SanPham.capNhapCTSPTest@6e1d8f9e]" started-at="2024-04-06T22:54:18 ICT" name="TC_CAPNHATCTSP_10" description="Cập nhật với mã kích thước rỗng" finished-at="2024-04-06T22:54:19 ICT" duration-ms="81" status="FAIL">
+        <test-method signature="TC_CAPNHATCTSP_10()[pri:0, instance:Nhiem.SanPham.capNhapCTSPTest@62435e70]" started-at="2024-04-07T13:59:09 ICT" name="TC_CAPNHATCTSP_10" description="Cập nhật với mã kích thước rỗng" finished-at="2024-04-07T13:59:10 ICT" duration-ms="116" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Lỗi bỏ trống mã kích thước] but found [Lỗi bỏ trống mã màuLỗi bỏ trống mã kích thước]]]>
@@ -217,7 +217,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_CAPNHATCTSP_10 -->
-        <test-method signature="TC_CAPNHATCTSP_11()[pri:0, instance:Nhiem.SanPham.capNhapCTSPTest@6e1d8f9e]" started-at="2024-04-06T22:54:19 ICT" name="TC_CAPNHATCTSP_11" description="Cập nhật với mô tả null" finished-at="2024-04-06T22:54:19 ICT" duration-ms="80" status="FAIL">
+        <test-method signature="TC_CAPNHATCTSP_11()[pri:0, instance:Nhiem.SanPham.capNhapCTSPTest@62435e70]" started-at="2024-04-07T13:59:10 ICT" name="TC_CAPNHATCTSP_11" description="Cập nhật với mô tả null" finished-at="2024-04-07T13:59:10 ICT" duration-ms="170" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Cập nhật thành công] but found [Lỗi bỏ trống mã màu]]]>
@@ -263,59 +263,93 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_CAPNHATCTSP_11 -->
-        <test-method signature="TC_CAPNHATCTSP_7()[pri:0, instance:Nhiem.SanPham.capNhapCTSPTest@6e1d8f9e]" started-at="2024-04-06T22:54:19 ICT" name="TC_CAPNHATCTSP_7" description="Cập nhật với mã sản phẩm rỗng" finished-at="2024-04-06T22:54:19 ICT" duration-ms="72" status="PASS">
+        <test-method signature="TC_CAPNHATCTSP_7()[pri:0, instance:Nhiem.SanPham.capNhapCTSPTest@62435e70]" started-at="2024-04-07T13:59:10 ICT" name="TC_CAPNHATCTSP_7" description="Cập nhật với mã sản phẩm rỗng" finished-at="2024-04-07T13:59:10 ICT" duration-ms="153" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_CAPNHATCTSP_7 -->
-        <test-method signature="TC_CAPNHATCTSP_8()[pri:0, instance:Nhiem.SanPham.capNhapCTSPTest@6e1d8f9e]" started-at="2024-04-06T22:54:19 ICT" name="TC_CAPNHATCTSP_8" description="Cập nhật với số lượng âm" finished-at="2024-04-06T22:54:19 ICT" duration-ms="97" status="PASS">
+        <test-method signature="TC_CAPNHATCTSP_8()[pri:0, instance:Nhiem.SanPham.capNhapCTSPTest@62435e70]" started-at="2024-04-07T13:59:10 ICT" name="TC_CAPNHATCTSP_8" description="Cập nhật với số lượng âm" finished-at="2024-04-07T13:59:10 ICT" duration-ms="268" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_CAPNHATCTSP_8 -->
-        <test-method signature="TC_CAPNHATCTSP_9()[pri:0, instance:Nhiem.SanPham.capNhapCTSPTest@6e1d8f9e]" started-at="2024-04-06T22:54:19 ICT" name="TC_CAPNHATCTSP_9" description="Cập nhật với mã màu rỗng" finished-at="2024-04-06T22:54:19 ICT" duration-ms="83" status="PASS">
+        <test-method signature="TC_CAPNHATCTSP_9()[pri:0, instance:Nhiem.SanPham.capNhapCTSPTest@62435e70]" started-at="2024-04-07T13:59:10 ICT" name="TC_CAPNHATCTSP_9" description="Cập nhật với mã màu rỗng" finished-at="2024-04-07T13:59:11 ICT" duration-ms="369" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_CAPNHATCTSP_9 -->
       </class> <!-- Nhiem.SanPham.capNhapCTSPTest -->
       <class name="Nhiem.SanPham.taoMaCTSPTest">
-        <test-method signature="TC_TAOMACTSP_01()[pri:0, instance:Nhiem.SanPham.taoMaCTSPTest@2a65bb85]" started-at="2024-04-06T22:54:20 ICT" name="TC_TAOMACTSP_01" description="Kiểm tra khi danh sách là null" finished-at="2024-04-06T22:54:20 ICT" duration-ms="1" status="PASS">
+        <test-method signature="TC_TAOMACTSP_01()[pri:0, instance:Nhiem.SanPham.taoMaCTSPTest@172ca72b]" started-at="2024-04-07T13:59:12 ICT" name="TC_TAOMACTSP_01" description="Kiểm tra khi danh sách là null" finished-at="2024-04-07T13:59:12 ICT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_TAOMACTSP_01 -->
-        <test-method signature="TC_TAOMACTSP_02()[pri:0, instance:Nhiem.SanPham.taoMaCTSPTest@2a65bb85]" started-at="2024-04-06T22:54:20 ICT" name="TC_TAOMACTSP_02" description="Kiểm tra khi danh sách là rỗng" finished-at="2024-04-06T22:54:20 ICT" duration-ms="1" status="PASS">
+        <test-method signature="TC_TAOMACTSP_02()[pri:0, instance:Nhiem.SanPham.taoMaCTSPTest@172ca72b]" started-at="2024-04-07T13:59:12 ICT" name="TC_TAOMACTSP_02" description="Kiểm tra khi danh sách là rỗng" finished-at="2024-04-07T13:59:12 ICT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_TAOMACTSP_02 -->
-        <test-method signature="TC_TAOMACTSP_03()[pri:0, instance:Nhiem.SanPham.taoMaCTSPTest@2a65bb85]" started-at="2024-04-06T22:54:20 ICT" name="TC_TAOMACTSP_03" description="Kiểm tra khi danh sách không rỗng" finished-at="2024-04-06T22:54:20 ICT" duration-ms="19" status="PASS">
+        <test-method signature="TC_TAOMACTSP_03()[pri:0, instance:Nhiem.SanPham.taoMaCTSPTest@172ca72b]" started-at="2024-04-07T13:59:12 ICT" name="TC_TAOMACTSP_03" description="Kiểm tra khi danh sách không rỗng" finished-at="2024-04-07T13:59:12 ICT" duration-ms="33" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_TAOMACTSP_03 -->
-        <test-method signature="TC_TAOMACTSP_04()[pri:0, instance:Nhiem.SanPham.taoMaCTSPTest@2a65bb85]" started-at="2024-04-06T22:54:20 ICT" name="TC_TAOMACTSP_04" description="Kiểm tra khi tham số MaSP là null" finished-at="2024-04-06T22:54:20 ICT" duration-ms="0" status="PASS">
+        <test-method signature="TC_TAOMACTSP_04()[pri:0, instance:Nhiem.SanPham.taoMaCTSPTest@172ca72b]" started-at="2024-04-07T13:59:12 ICT" name="TC_TAOMACTSP_04" description="Kiểm tra khi tham số MaSP là null" finished-at="2024-04-07T13:59:12 ICT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_TAOMACTSP_04 -->
-        <test-method signature="TC_TAOMACTSP_05()[pri:0, instance:Nhiem.SanPham.taoMaCTSPTest@2a65bb85]" started-at="2024-04-06T22:54:20 ICT" name="TC_TAOMACTSP_05" description="Kiểm tra khi danh sách có một phần tử" finished-at="2024-04-06T22:54:20 ICT" duration-ms="15" status="PASS">
+        <test-method signature="TC_TAOMACTSP_05()[pri:0, instance:Nhiem.SanPham.taoMaCTSPTest@172ca72b]" started-at="2024-04-07T13:59:12 ICT" name="TC_TAOMACTSP_05" description="Kiểm tra khi danh sách có một phần tử" finished-at="2024-04-07T13:59:12 ICT" duration-ms="30" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_TAOMACTSP_05 -->
-        <test-method signature="TC_TAOMACTSP_06()[pri:0, instance:Nhiem.SanPham.taoMaCTSPTest@2a65bb85]" started-at="2024-04-06T22:54:20 ICT" name="TC_TAOMACTSP_06" description="Kiểm tra khi danh sách có nhiều hơn một phần tử" finished-at="2024-04-06T22:54:20 ICT" duration-ms="14" status="PASS">
+        <test-method signature="TC_TAOMACTSP_06()[pri:0, instance:Nhiem.SanPham.taoMaCTSPTest@172ca72b]" started-at="2024-04-07T13:59:12 ICT" name="TC_TAOMACTSP_06" description="Kiểm tra khi danh sách có nhiều hơn một phần tử" finished-at="2024-04-07T13:59:12 ICT" duration-ms="29" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_TAOMACTSP_06 -->
-        <test-method signature="TC_TAOMACTSP_07()[pri:0, instance:Nhiem.SanPham.taoMaCTSPTest@2a65bb85]" started-at="2024-04-06T22:54:20 ICT" name="TC_TAOMACTSP_07" description="Kiểm tra khi danh sách có một phần tử" finished-at="2024-04-06T22:54:20 ICT" duration-ms="15" status="PASS">
+        <test-method signature="TC_TAOMACTSP_07()[pri:0, instance:Nhiem.SanPham.taoMaCTSPTest@172ca72b]" started-at="2024-04-07T13:59:12 ICT" name="TC_TAOMACTSP_07" description="Kiểm tra khi danh sách có một phần tử" finished-at="2024-04-07T13:59:12 ICT" duration-ms="26" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_TAOMACTSP_07 -->
-        <test-method signature="TC_TAOMACTSP_08()[pri:0, instance:Nhiem.SanPham.taoMaCTSPTest@2a65bb85]" started-at="2024-04-06T22:54:20 ICT" name="TC_TAOMACTSP_08" description="Kiểm tra khi danh sách rỗng" finished-at="2024-04-06T22:54:20 ICT" duration-ms="16" status="PASS">
+        <test-method signature="TC_TAOMACTSP_08()[pri:0, instance:Nhiem.SanPham.taoMaCTSPTest@172ca72b]" started-at="2024-04-07T13:59:12 ICT" name="TC_TAOMACTSP_08" description="Kiểm tra khi danh sách rỗng" finished-at="2024-04-07T13:59:12 ICT" duration-ms="53" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_TAOMACTSP_08 -->
-        <test-method signature="TC_TAOMACTSP_09()[pri:0, instance:Nhiem.SanPham.taoMaCTSPTest@2a65bb85]" started-at="2024-04-06T22:54:20 ICT" name="TC_TAOMACTSP_09" description="Kiểm tra khi danh sách rỗng" finished-at="2024-04-06T22:54:20 ICT" duration-ms="14" status="PASS">
+        <test-method signature="TC_TAOMACTSP_09()[pri:0, instance:Nhiem.SanPham.taoMaCTSPTest@172ca72b]" started-at="2024-04-07T13:59:12 ICT" name="TC_TAOMACTSP_09" description="Kiểm tra khi danh sách rỗng" finished-at="2024-04-07T13:59:12 ICT" duration-ms="93" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_TAOMACTSP_09 -->
       </class> <!-- Nhiem.SanPham.taoMaCTSPTest -->
+      <class name="Nhiem.SanPham.themCTSPTest">
+        <test-method signature="TC_THEMCTSP_01()[pri:0, instance:Nhiem.SanPham.themCTSPTest@2e5c7f0b]" started-at="2024-04-07T13:59:12 ICT" name="TC_THEMCTSP_01" description="Chèn ChiTietSanPham hợp lệ" finished-at="2024-04-07T13:59:13 ICT" duration-ms="445" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_THEMCTSP_01 -->
+        <test-method signature="TC_THEMCTSP_02()[pri:0, instance:Nhiem.SanPham.themCTSPTest@2e5c7f0b]" started-at="2024-04-07T13:59:13 ICT" name="TC_THEMCTSP_02" description="Thiếu MaSP" finished-at="2024-04-07T13:59:13 ICT" duration-ms="235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_THEMCTSP_02 -->
+        <test-method signature="TC_THEMCTSP_03()[pri:0, instance:Nhiem.SanPham.themCTSPTest@2e5c7f0b]" started-at="2024-04-07T13:59:13 ICT" name="TC_THEMCTSP_03" description="Sản phẩm không tồn tại" finished-at="2024-04-07T13:59:13 ICT" duration-ms="104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_THEMCTSP_03 -->
+        <test-method signature="TC_THEMCTSP_04()[pri:0, instance:Nhiem.SanPham.themCTSPTest@2e5c7f0b]" started-at="2024-04-07T13:59:13 ICT" name="TC_THEMCTSP_04" description="Thiếu Mã Màu Sắc" finished-at="2024-04-07T13:59:13 ICT" duration-ms="136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_THEMCTSP_04 -->
+        <test-method signature="TC_THEMCTSP_05()[pri:0, instance:Nhiem.SanPham.themCTSPTest@2e5c7f0b]" started-at="2024-04-07T13:59:13 ICT" name="TC_THEMCTSP_05" description="Màu sắc không tồn tại" finished-at="2024-04-07T13:59:14 ICT" duration-ms="328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_THEMCTSP_05 -->
+        <test-method signature="TC_THEMCTSP_06()[pri:0, instance:Nhiem.SanPham.themCTSPTest@2e5c7f0b]" started-at="2024-04-07T13:59:14 ICT" name="TC_THEMCTSP_06" description="Thiếu Mã Kích Thước" finished-at="2024-04-07T13:59:14 ICT" duration-ms="187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_THEMCTSP_06 -->
+        <test-method signature="TC_THEMCTSP_07()[pri:0, instance:Nhiem.SanPham.themCTSPTest@2e5c7f0b]" started-at="2024-04-07T13:59:14 ICT" name="TC_THEMCTSP_07" description="Kích thước không tồn tại" finished-at="2024-04-07T13:59:14 ICT" duration-ms="391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_THEMCTSP_07 -->
+        <test-method signature="TC_THEMCTSP_08()[pri:0, instance:Nhiem.SanPham.themCTSPTest@2e5c7f0b]" started-at="2024-04-07T13:59:14 ICT" name="TC_THEMCTSP_08" description="Số lượng không hợp lệ" finished-at="2024-04-07T13:59:15 ICT" duration-ms="214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_THEMCTSP_08 -->
+      </class> <!-- Nhiem.SanPham.themCTSPTest -->
       <class name="Nhiem.SanPham.themTest">
-        <test-method signature="TC_THEMSP_01()[pri:0, instance:Nhiem.SanPham.themTest@70925b45]" started-at="2024-04-06T22:54:21 ICT" name="TC_THEMSP_01" description="Thêm sản phẩm mới thành công" finished-at="2024-04-06T22:54:21 ICT" duration-ms="100" status="FAIL">
+        <test-method signature="TC_THEMSP_01()[pri:0, instance:Nhiem.SanPham.themTest@56b78e55]" started-at="2024-04-07T13:59:15 ICT" name="TC_THEMSP_01" description="Thêm sản phẩm mới thành công" finished-at="2024-04-07T13:59:15 ICT" duration-ms="103" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [PASS] but found [java.lang.RuntimeException: com.microsoft.sqlserver.jdbc.SQLServerException: Violation of UNIQUE KEY constraint 'UQ__SanPham__8BBF4A1CBD3A9718'. Cannot insert duplicate key in object 'dbo.SanPham'. The duplicate key value is (100001).]]]>
@@ -361,213 +395,179 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_THEMSP_01 -->
-        <test-method signature="TC_THEMSP_02()[pri:0, instance:Nhiem.SanPham.themTest@70925b45]" started-at="2024-04-06T22:54:21 ICT" name="TC_THEMSP_02" description="Thêm sản phẩm với mã sản phẩm trùng" finished-at="2024-04-06T22:54:21 ICT" duration-ms="60" status="PASS">
+        <test-method signature="TC_THEMSP_02()[pri:0, instance:Nhiem.SanPham.themTest@56b78e55]" started-at="2024-04-07T13:59:15 ICT" name="TC_THEMSP_02" description="Thêm sản phẩm với mã sản phẩm trùng" finished-at="2024-04-07T13:59:15 ICT" duration-ms="146" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_THEMSP_02 -->
-        <test-method signature="TC_THEMSP_03()[pri:0, instance:Nhiem.SanPham.themTest@70925b45]" started-at="2024-04-06T22:54:21 ICT" name="TC_THEMSP_03" description="Thêm sản phẩm với dữ liệu thiếu" finished-at="2024-04-06T22:54:21 ICT" duration-ms="65" status="PASS">
+        <test-method signature="TC_THEMSP_03()[pri:0, instance:Nhiem.SanPham.themTest@56b78e55]" started-at="2024-04-07T13:59:15 ICT" name="TC_THEMSP_03" description="Thêm sản phẩm với dữ liệu thiếu" finished-at="2024-04-07T13:59:15 ICT" duration-ms="87" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_THEMSP_03 -->
-        <test-method signature="TC_THEMSP_04()[pri:0, instance:Nhiem.SanPham.themTest@70925b45]" started-at="2024-04-06T22:54:21 ICT" name="TC_THEMSP_04" description="Thêm sản phẩm với giá nhập và giá bán là 0" finished-at="2024-04-06T22:54:21 ICT" duration-ms="42" status="PASS">
+        <test-method signature="TC_THEMSP_04()[pri:0, instance:Nhiem.SanPham.themTest@56b78e55]" started-at="2024-04-07T13:59:15 ICT" name="TC_THEMSP_04" description="Thêm sản phẩm với giá nhập và giá bán là 0" finished-at="2024-04-07T13:59:15 ICT" duration-ms="143" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_THEMSP_04 -->
-        <test-method signature="TC_THEMSP_05()[pri:0, instance:Nhiem.SanPham.themTest@70925b45]" started-at="2024-04-06T22:54:21 ICT" name="TC_THEMSP_05" description="Thêm sản phẩm với giá bán nhỏ hơn giá nhập" finished-at="2024-04-06T22:54:21 ICT" duration-ms="48" status="PASS">
+        <test-method signature="TC_THEMSP_05()[pri:0, instance:Nhiem.SanPham.themTest@56b78e55]" started-at="2024-04-07T13:59:15 ICT" name="TC_THEMSP_05" description="Thêm sản phẩm với giá bán nhỏ hơn giá nhập" finished-at="2024-04-07T13:59:15 ICT" duration-ms="65" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_THEMSP_05 -->
-        <test-method signature="TC_THEMSP_06()[pri:0, instance:Nhiem.SanPham.themTest@70925b45]" started-at="2024-04-06T22:54:21 ICT" name="TC_THEMSP_06" description="Thêm sản phẩm với tên sản phẩm chứa số" finished-at="2024-04-06T22:54:21 ICT" duration-ms="55" status="PASS">
+        <test-method signature="TC_THEMSP_06()[pri:0, instance:Nhiem.SanPham.themTest@56b78e55]" started-at="2024-04-07T13:59:15 ICT" name="TC_THEMSP_06" description="Thêm sản phẩm với tên sản phẩm chứa số" finished-at="2024-04-07T13:59:15 ICT" duration-ms="144" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_THEMSP_06 -->
-        <test-method signature="TC_THEMSP_07()[pri:0, instance:Nhiem.SanPham.themTest@70925b45]" started-at="2024-04-06T22:54:21 ICT" name="TC_THEMSP_07" description="Thêm sản phẩm với mã vạch chứa ký tự đặc biệt" finished-at="2024-04-06T22:54:21 ICT" duration-ms="56" status="PASS">
+        <test-method signature="TC_THEMSP_07()[pri:0, instance:Nhiem.SanPham.themTest@56b78e55]" started-at="2024-04-07T13:59:15 ICT" name="TC_THEMSP_07" description="Thêm sản phẩm với mã vạch chứa ký tự đặc biệt" finished-at="2024-04-07T13:59:16 ICT" duration-ms="315" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_THEMSP_07 -->
-        <test-method signature="TC_THEMSP_08()[pri:0, instance:Nhiem.SanPham.themTest@70925b45]" started-at="2024-04-06T22:54:21 ICT" name="TC_THEMSP_08" description="Thêm sản phẩm với mã khuyến mãi không tồn tại" finished-at="2024-04-06T22:54:21 ICT" duration-ms="120" status="PASS">
+        <test-method signature="TC_THEMSP_08()[pri:0, instance:Nhiem.SanPham.themTest@56b78e55]" started-at="2024-04-07T13:59:16 ICT" name="TC_THEMSP_08" description="Thêm sản phẩm với mã khuyến mãi không tồn tại" finished-at="2024-04-07T13:59:16 ICT" duration-ms="252" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_THEMSP_08 -->
-        <test-method signature="TC_THEMSP_09()[pri:0, instance:Nhiem.SanPham.themTest@70925b45]" started-at="2024-04-06T22:54:21 ICT" name="TC_THEMSP_09" description="Thêm sản phẩm với mã loại giày không tồn tại" finished-at="2024-04-06T22:54:21 ICT" duration-ms="76" status="PASS">
+        <test-method signature="TC_THEMSP_09()[pri:0, instance:Nhiem.SanPham.themTest@56b78e55]" started-at="2024-04-07T13:59:16 ICT" name="TC_THEMSP_09" description="Thêm sản phẩm với mã loại giày không tồn tại" finished-at="2024-04-07T13:59:16 ICT" duration-ms="266" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_THEMSP_09 -->
       </class> <!-- Nhiem.SanPham.themTest -->
-      <class name="Nhiem.SanPham.themCTSPTest">
-        <test-method signature="TC_THEMCTSP_01()[pri:0, instance:Nhiem.SanPham.themCTSPTest@552518c3]" started-at="2024-04-06T22:54:20 ICT" name="TC_THEMCTSP_01" description="Chèn ChiTietSanPham hợp lệ" finished-at="2024-04-06T22:54:20 ICT" duration-ms="105" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_THEMCTSP_01 -->
-        <test-method signature="TC_THEMCTSP_02()[pri:0, instance:Nhiem.SanPham.themCTSPTest@552518c3]" started-at="2024-04-06T22:54:20 ICT" name="TC_THEMCTSP_02" description="Thiếu MaSP" finished-at="2024-04-06T22:54:20 ICT" duration-ms="80" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_THEMCTSP_02 -->
-        <test-method signature="TC_THEMCTSP_03()[pri:0, instance:Nhiem.SanPham.themCTSPTest@552518c3]" started-at="2024-04-06T22:54:20 ICT" name="TC_THEMCTSP_03" description="Sản phẩm không tồn tại" finished-at="2024-04-06T22:54:20 ICT" duration-ms="43" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_THEMCTSP_03 -->
-        <test-method signature="TC_THEMCTSP_04()[pri:0, instance:Nhiem.SanPham.themCTSPTest@552518c3]" started-at="2024-04-06T22:54:20 ICT" name="TC_THEMCTSP_04" description="Thiếu Mã Màu Sắc" finished-at="2024-04-06T22:54:20 ICT" duration-ms="76" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_THEMCTSP_04 -->
-        <test-method signature="TC_THEMCTSP_05()[pri:0, instance:Nhiem.SanPham.themCTSPTest@552518c3]" started-at="2024-04-06T22:54:20 ICT" name="TC_THEMCTSP_05" description="Màu sắc không tồn tại" finished-at="2024-04-06T22:54:20 ICT" duration-ms="73" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_THEMCTSP_05 -->
-        <test-method signature="TC_THEMCTSP_06()[pri:0, instance:Nhiem.SanPham.themCTSPTest@552518c3]" started-at="2024-04-06T22:54:20 ICT" name="TC_THEMCTSP_06" description="Thiếu Mã Kích Thước" finished-at="2024-04-06T22:54:20 ICT" duration-ms="80" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_THEMCTSP_06 -->
-        <test-method signature="TC_THEMCTSP_07()[pri:0, instance:Nhiem.SanPham.themCTSPTest@552518c3]" started-at="2024-04-06T22:54:20 ICT" name="TC_THEMCTSP_07" description="Kích thước không tồn tại" finished-at="2024-04-06T22:54:20 ICT" duration-ms="106" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_THEMCTSP_07 -->
-        <test-method signature="TC_THEMCTSP_08()[pri:0, instance:Nhiem.SanPham.themCTSPTest@552518c3]" started-at="2024-04-06T22:54:20 ICT" name="TC_THEMCTSP_08" description="Số lượng không hợp lệ" finished-at="2024-04-06T22:54:21 ICT" duration-ms="104" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_THEMCTSP_08 -->
-      </class> <!-- Nhiem.SanPham.themCTSPTest -->
       <class name="Nhiem.SanPham.taoMaSPTest">
-        <test-method signature="TC_TAOMASP_01()[pri:0, instance:Nhiem.SanPham.taoMaSPTest@72f46e16]" started-at="2024-04-06T22:54:20 ICT" name="TC_TAOMASP_01" description="Kiểm tra khi danh sách là null" finished-at="2024-04-06T22:54:20 ICT" duration-ms="1" status="PASS">
+        <test-method signature="TC_TAOMASP_01()[pri:0, instance:Nhiem.SanPham.taoMaSPTest@6b5176f2]" started-at="2024-04-07T13:59:12 ICT" name="TC_TAOMASP_01" description="Kiểm tra khi danh sách là null" finished-at="2024-04-07T13:59:12 ICT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_TAOMASP_01 -->
-        <test-method signature="TC_TAOMASP_02()[pri:0, instance:Nhiem.SanPham.taoMaSPTest@72f46e16]" started-at="2024-04-06T22:54:20 ICT" name="TC_TAOMASP_02" description="Kiểm tra khi danh sách là rỗng" finished-at="2024-04-06T22:54:20 ICT" duration-ms="1" status="PASS">
+        <test-method signature="TC_TAOMASP_02()[pri:0, instance:Nhiem.SanPham.taoMaSPTest@6b5176f2]" started-at="2024-04-07T13:59:12 ICT" name="TC_TAOMASP_02" description="Kiểm tra khi danh sách là rỗng" finished-at="2024-04-07T13:59:12 ICT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_TAOMASP_02 -->
-        <test-method signature="TC_TAOMASP_03()[pri:0, instance:Nhiem.SanPham.taoMaSPTest@72f46e16]" started-at="2024-04-06T22:54:20 ICT" name="TC_TAOMASP_03" description="Kiểm tra khi danh sách không rỗng" finished-at="2024-04-06T22:54:20 ICT" duration-ms="1" status="PASS">
+        <test-method signature="TC_TAOMASP_03()[pri:0, instance:Nhiem.SanPham.taoMaSPTest@6b5176f2]" started-at="2024-04-07T13:59:12 ICT" name="TC_TAOMASP_03" description="Kiểm tra khi danh sách không rỗng" finished-at="2024-04-07T13:59:12 ICT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_TAOMASP_03 -->
-        <test-method signature="TC_TAOMASP_04()[pri:0, instance:Nhiem.SanPham.taoMaSPTest@72f46e16]" started-at="2024-04-06T22:54:20 ICT" name="TC_TAOMASP_04" description="Kiểm tra khi MaSP ngắn hơn 3 ký tự" finished-at="2024-04-06T22:54:20 ICT" duration-ms="1" status="PASS">
+        <test-method signature="TC_TAOMASP_04()[pri:0, instance:Nhiem.SanPham.taoMaSPTest@6b5176f2]" started-at="2024-04-07T13:59:12 ICT" name="TC_TAOMASP_04" description="Kiểm tra khi MaSP ngắn hơn 3 ký tự" finished-at="2024-04-07T13:59:12 ICT" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_TAOMASP_04 -->
-        <test-method signature="TC_TAOMASP_05()[pri:0, instance:Nhiem.SanPham.taoMaSPTest@72f46e16]" started-at="2024-04-06T22:54:20 ICT" name="TC_TAOMASP_05" description="Kiểm tra khi MaSP dài hơn 5 ký tự" finished-at="2024-04-06T22:54:20 ICT" duration-ms="1" status="PASS">
+        <test-method signature="TC_TAOMASP_05()[pri:0, instance:Nhiem.SanPham.taoMaSPTest@6b5176f2]" started-at="2024-04-07T13:59:12 ICT" name="TC_TAOMASP_05" description="Kiểm tra khi MaSP dài hơn 5 ký tự" finished-at="2024-04-07T13:59:12 ICT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_TAOMASP_05 -->
-        <test-method signature="TC_TAOMASP_06()[pri:0, instance:Nhiem.SanPham.taoMaSPTest@72f46e16]" started-at="2024-04-06T22:54:20 ICT" name="TC_TAOMASP_06" description="Kiểm tra khi sử dụng số lớn nhất cho ID" finished-at="2024-04-06T22:54:20 ICT" duration-ms="1" status="PASS">
+        <test-method signature="TC_TAOMASP_06()[pri:0, instance:Nhiem.SanPham.taoMaSPTest@6b5176f2]" started-at="2024-04-07T13:59:12 ICT" name="TC_TAOMASP_06" description="Kiểm tra khi sử dụng số lớn nhất cho ID" finished-at="2024-04-07T13:59:12 ICT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_TAOMASP_06 -->
-        <test-method signature="TC_TAOMASP_07()[pri:0, instance:Nhiem.SanPham.taoMaSPTest@72f46e16]" started-at="2024-04-06T22:54:20 ICT" name="TC_TAOMASP_07" description="Kiểm tra khi sử dụng số vượt quá giới hạn" finished-at="2024-04-06T22:54:20 ICT" duration-ms="2" status="PASS">
+        <test-method signature="TC_TAOMASP_07()[pri:0, instance:Nhiem.SanPham.taoMaSPTest@6b5176f2]" started-at="2024-04-07T13:59:12 ICT" name="TC_TAOMASP_07" description="Kiểm tra khi sử dụng số vượt quá giới hạn" finished-at="2024-04-07T13:59:12 ICT" duration-ms="11" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_TAOMASP_07 -->
-        <test-method signature="TC_TAOMASP_08()[pri:0, instance:Nhiem.SanPham.taoMaSPTest@72f46e16]" started-at="2024-04-06T22:54:20 ICT" name="TC_TAOMASP_08" description="Kiểm tra khi sử dụng ký tự đặc biệt trong MaSP" finished-at="2024-04-06T22:54:20 ICT" duration-ms="2" status="PASS">
+        <test-method signature="TC_TAOMASP_08()[pri:0, instance:Nhiem.SanPham.taoMaSPTest@6b5176f2]" started-at="2024-04-07T13:59:12 ICT" name="TC_TAOMASP_08" description="Kiểm tra khi sử dụng ký tự đặc biệt trong MaSP" finished-at="2024-04-07T13:59:12 ICT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_TAOMASP_08 -->
-        <test-method signature="TC_TAOMASP_09()[pri:0, instance:Nhiem.SanPham.taoMaSPTest@72f46e16]" started-at="2024-04-06T22:54:20 ICT" name="TC_TAOMASP_09" description="Kiểm tra khi sử dụng số 0 dẫn đầu cho ID" finished-at="2024-04-06T22:54:20 ICT" duration-ms="2" status="PASS">
+        <test-method signature="TC_TAOMASP_09()[pri:0, instance:Nhiem.SanPham.taoMaSPTest@6b5176f2]" started-at="2024-04-07T13:59:12 ICT" name="TC_TAOMASP_09" description="Kiểm tra khi sử dụng số 0 dẫn đầu cho ID" finished-at="2024-04-07T13:59:12 ICT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_TAOMASP_09 -->
-        <test-method signature="TC_TAOMASP_10()[pri:0, instance:Nhiem.SanPham.taoMaSPTest@72f46e16]" started-at="2024-04-06T22:54:20 ICT" name="TC_TAOMASP_10" description="Kiểm tra khi sử dụng số âm làm ID" finished-at="2024-04-06T22:54:20 ICT" duration-ms="1" status="PASS">
+        <test-method signature="TC_TAOMASP_10()[pri:0, instance:Nhiem.SanPham.taoMaSPTest@6b5176f2]" started-at="2024-04-07T13:59:12 ICT" name="TC_TAOMASP_10" description="Kiểm tra khi sử dụng số âm làm ID" finished-at="2024-04-07T13:59:12 ICT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_TAOMASP_10 -->
-        <test-method signature="TC_TAOMASP_11()[pri:0, instance:Nhiem.SanPham.taoMaSPTest@72f46e16]" started-at="2024-04-06T22:54:20 ICT" name="TC_TAOMASP_11" description="Kiểm tra khi sử dụng danh sách lớn" finished-at="2024-04-06T22:54:20 ICT" duration-ms="2" status="PASS">
+        <test-method signature="TC_TAOMASP_11()[pri:0, instance:Nhiem.SanPham.taoMaSPTest@6b5176f2]" started-at="2024-04-07T13:59:12 ICT" name="TC_TAOMASP_11" description="Kiểm tra khi sử dụng danh sách lớn" finished-at="2024-04-07T13:59:12 ICT" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_TAOMASP_11 -->
       </class> <!-- Nhiem.SanPham.taoMaSPTest -->
     </test> <!-- SanPhamTest -->
-    <test started-at="2024-04-06T22:54:21 ICT" name="ThongKeTest" finished-at="2024-04-06T22:54:27 ICT" duration-ms="5395">
+    <test started-at="2024-04-07T13:59:16 ICT" name="ThongKeTest" finished-at="2024-04-07T13:59:23 ICT" duration-ms="6463">
       <class name="Nhiem.ThongKe.xuatDanhSachTest">
-        <test-method signature="testXuLyKhiFileLaNull()[pri:0, instance:Nhiem.ThongKe.xuatDanhSachTest@77b21474]" started-at="2024-04-06T22:54:21 ICT" name="testXuLyKhiFileLaNull" description="Kiểm tra xử lý khi đầu vào file là null" finished-at="2024-04-06T22:54:22 ICT" duration-ms="1023" status="PASS">
+        <test-method signature="testXuLyKhiFileLaNull()[pri:0, instance:Nhiem.ThongKe.xuatDanhSachTest@7048f722]" started-at="2024-04-07T13:59:16 ICT" name="testXuLyKhiFileLaNull" description="Kiểm tra xử lý khi đầu vào file là null" finished-at="2024-04-07T13:59:18 ICT" duration-ms="1681" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testXuLyKhiFileLaNull -->
-        <test-method signature="testXuatDanhSachWithData()[pri:0, instance:Nhiem.ThongKe.xuatDanhSachTest@77b21474]" started-at="2024-04-06T22:54:22 ICT" name="testXuatDanhSachWithData" description="Kiểm tra việc xuất dữ liệu từ bảng có dữ liệu" finished-at="2024-04-06T22:54:25 ICT" duration-ms="3044" status="PASS">
+        <test-method signature="testXuatDanhSachWithData()[pri:0, instance:Nhiem.ThongKe.xuatDanhSachTest@7048f722]" started-at="2024-04-07T13:59:18 ICT" name="testXuatDanhSachWithData" description="Kiểm tra việc xuất dữ liệu từ bảng có dữ liệu" finished-at="2024-04-07T13:59:21 ICT" duration-ms="3110" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testXuatDanhSachWithData -->
-        <test-method signature="testXuatDanhSachWithEmptyData()[pri:0, instance:Nhiem.ThongKe.xuatDanhSachTest@77b21474]" started-at="2024-04-06T22:54:25 ICT" name="testXuatDanhSachWithEmptyData" description="Kiểm tra việc xuất dữ liệu từ bảng rỗng" finished-at="2024-04-06T22:54:27 ICT" duration-ms="1313" status="PASS">
+        <test-method signature="testXuatDanhSachWithEmptyData()[pri:0, instance:Nhiem.ThongKe.xuatDanhSachTest@7048f722]" started-at="2024-04-07T13:59:21 ICT" name="testXuatDanhSachWithEmptyData" description="Kiểm tra việc xuất dữ liệu từ bảng rỗng" finished-at="2024-04-07T13:59:23 ICT" duration-ms="1653" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testXuatDanhSachWithEmptyData -->
       </class> <!-- Nhiem.ThongKe.xuatDanhSachTest -->
     </test> <!-- ThongKeTest -->
-    <test started-at="2024-04-06T22:54:27 ICT" name="ThuocTinhTest" finished-at="2024-04-06T22:54:28 ICT" duration-ms="1842">
+    <test started-at="2024-04-07T13:59:23 ICT" name="ThuocTinhTest" finished-at="2024-04-07T13:59:26 ICT" duration-ms="3593">
       <class name="Nhiem.ThuocTinh.xoaKichThuocTest">
-        <test-method signature="TC_XKT_01()[pri:0, instance:Nhiem.ThuocTinh.xoaKichThuocTest@5a772895]" started-at="2024-04-06T22:54:28 ICT" name="TC_XKT_01" description="Xóa kích thước thành công với quyền của người quản lý" finished-at="2024-04-06T22:54:28 ICT" duration-ms="52" status="PASS">
+        <test-method signature="TC_XKT_01()[pri:0, instance:Nhiem.ThuocTinh.xoaKichThuocTest@17f9344b]" started-at="2024-04-07T13:59:26 ICT" name="TC_XKT_01" description="Xóa kích thước thành công với quyền của người quản lý" finished-at="2024-04-07T13:59:26 ICT" duration-ms="308" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_XKT_01 -->
-        <test-method signature="TC_XKT_02()[pri:0, instance:Nhiem.ThuocTinh.xoaKichThuocTest@5a772895]" started-at="2024-04-06T22:54:28 ICT" name="TC_XKT_02" description="Xóa kích thước thất bại do người dùng không có quyền" finished-at="2024-04-06T22:54:28 ICT" duration-ms="2" status="PASS">
+        <test-method signature="TC_XKT_02()[pri:0, instance:Nhiem.ThuocTinh.xoaKichThuocTest@17f9344b]" started-at="2024-04-07T13:59:26 ICT" name="TC_XKT_02" description="Xóa kích thước thất bại do người dùng không có quyền" finished-at="2024-04-07T13:59:26 ICT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_XKT_02 -->
-        <test-method signature="TC_XKT_03()[pri:0, instance:Nhiem.ThuocTinh.xoaKichThuocTest@5a772895]" started-at="2024-04-06T22:54:28 ICT" name="TC_XKT_03" description="Xóa kích thước thất bại do mã kích thước rỗng" finished-at="2024-04-06T22:54:28 ICT" duration-ms="1" status="PASS">
+        <test-method signature="TC_XKT_03()[pri:0, instance:Nhiem.ThuocTinh.xoaKichThuocTest@17f9344b]" started-at="2024-04-07T13:59:26 ICT" name="TC_XKT_03" description="Xóa kích thước thất bại do mã kích thước rỗng" finished-at="2024-04-07T13:59:26 ICT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_XKT_03 -->
-        <test-method signature="TC_XKT_04()[pri:0, instance:Nhiem.ThuocTinh.xoaKichThuocTest@5a772895]" started-at="2024-04-06T22:54:28 ICT" name="TC_XKT_04" description="Xóa kích thước thất bại do mã kích thước không tồn tại" finished-at="2024-04-06T22:54:28 ICT" duration-ms="31" status="PASS">
+        <test-method signature="TC_XKT_04()[pri:0, instance:Nhiem.ThuocTinh.xoaKichThuocTest@17f9344b]" started-at="2024-04-07T13:59:26 ICT" name="TC_XKT_04" description="Xóa kích thước thất bại do mã kích thước không tồn tại" finished-at="2024-04-07T13:59:26 ICT" duration-ms="76" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_XKT_04 -->
       </class> <!-- Nhiem.ThuocTinh.xoaKichThuocTest -->
       <class name="Nhiem.ThuocTinh.xoaMauSacTest">
-        <test-method signature="TC_XMS_01()[pri:0, instance:Nhiem.ThuocTinh.xoaMauSacTest@75201592]" started-at="2024-04-06T22:54:28 ICT" name="TC_XMS_01" description="Xóa màu sắc thành công với quyền của người quản lý" finished-at="2024-04-06T22:54:28 ICT" duration-ms="72" status="PASS">
+        <test-method signature="TC_XMS_01()[pri:0, instance:Nhiem.ThuocTinh.xoaMauSacTest@64d7b720]" started-at="2024-04-07T13:59:26 ICT" name="TC_XMS_01" description="Xóa màu sắc thành công với quyền của người quản lý" finished-at="2024-04-07T13:59:26 ICT" duration-ms="76" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_XMS_01 -->
-        <test-method signature="TC_XMS_02()[pri:0, instance:Nhiem.ThuocTinh.xoaMauSacTest@75201592]" started-at="2024-04-06T22:54:28 ICT" name="TC_XMS_02" description="Xóa màu sắc thất bại do người dùng không có quyền" finished-at="2024-04-06T22:54:28 ICT" duration-ms="1" status="PASS">
+        <test-method signature="TC_XMS_02()[pri:0, instance:Nhiem.ThuocTinh.xoaMauSacTest@64d7b720]" started-at="2024-04-07T13:59:26 ICT" name="TC_XMS_02" description="Xóa màu sắc thất bại do người dùng không có quyền" finished-at="2024-04-07T13:59:26 ICT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_XMS_02 -->
-        <test-method signature="TC_XMS_03()[pri:0, instance:Nhiem.ThuocTinh.xoaMauSacTest@75201592]" started-at="2024-04-06T22:54:28 ICT" name="TC_XMS_03" description="Xóa màu sắc thất bại do mã màu sắc rỗng" finished-at="2024-04-06T22:54:28 ICT" duration-ms="0" status="PASS">
+        <test-method signature="TC_XMS_03()[pri:0, instance:Nhiem.ThuocTinh.xoaMauSacTest@64d7b720]" started-at="2024-04-07T13:59:26 ICT" name="TC_XMS_03" description="Xóa màu sắc thất bại do mã màu sắc rỗng" finished-at="2024-04-07T13:59:26 ICT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_XMS_03 -->
-        <test-method signature="TC_XMS_04()[pri:0, instance:Nhiem.ThuocTinh.xoaMauSacTest@75201592]" started-at="2024-04-06T22:54:28 ICT" name="TC_XMS_04" description="Xóa màu sắc thất bại do mã màu sắc không tồn tại" finished-at="2024-04-06T22:54:28 ICT" duration-ms="38" status="PASS">
+        <test-method signature="TC_XMS_04()[pri:0, instance:Nhiem.ThuocTinh.xoaMauSacTest@64d7b720]" started-at="2024-04-07T13:59:26 ICT" name="TC_XMS_04" description="Xóa màu sắc thất bại do mã màu sắc không tồn tại" finished-at="2024-04-07T13:59:26 ICT" duration-ms="18" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_XMS_04 -->
       </class> <!-- Nhiem.ThuocTinh.xoaMauSacTest -->
       <class name="Nhiem.ThuocTinh.capNhapKichThuocTest">
-        <test-method signature="TC_CNKT_01()[pri:0, instance:Nhiem.ThuocTinh.capNhapKichThuocTest@610db97e]" started-at="2024-04-06T22:54:27 ICT" name="TC_CNKT_01" description="Cập nhật kích thước thành công" finished-at="2024-04-06T22:54:27 ICT" duration-ms="248" status="PASS">
+        <test-method signature="TC_CNKT_01()[pri:0, instance:Nhiem.ThuocTinh.capNhapKichThuocTest@3a45c42a]" started-at="2024-04-07T13:59:23 ICT" name="TC_CNKT_01" description="Cập nhật kích thước thành công" finished-at="2024-04-07T13:59:23 ICT" duration-ms="231" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_CNKT_01 -->
-        <test-method signature="TC_CNKT_02()[pri:0, instance:Nhiem.ThuocTinh.capNhapKichThuocTest@610db97e]" started-at="2024-04-06T22:54:27 ICT" name="TC_CNKT_02" description="Cập nhật kích thước thất bại do kích thước không tồn tại" finished-at="2024-04-06T22:54:27 ICT" duration-ms="29" status="PASS">
+        <test-method signature="TC_CNKT_02()[pri:0, instance:Nhiem.ThuocTinh.capNhapKichThuocTest@3a45c42a]" started-at="2024-04-07T13:59:23 ICT" name="TC_CNKT_02" description="Cập nhật kích thước thất bại do kích thước không tồn tại" finished-at="2024-04-07T13:59:23 ICT" duration-ms="123" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_CNKT_02 -->
-        <test-method signature="TC_CNKT_03()[pri:0, instance:Nhiem.ThuocTinh.capNhapKichThuocTest@610db97e]" started-at="2024-04-06T22:54:27 ICT" name="TC_CNKT_03" description="Cập nhật kích thước thành công với mô tả kích thước trống" finished-at="2024-04-06T22:54:27 ICT" duration-ms="64" status="PASS">
+        <test-method signature="TC_CNKT_03()[pri:0, instance:Nhiem.ThuocTinh.capNhapKichThuocTest@3a45c42a]" started-at="2024-04-07T13:59:23 ICT" name="TC_CNKT_03" description="Cập nhật kích thước thành công với mô tả kích thước trống" finished-at="2024-04-07T13:59:23 ICT" duration-ms="66" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_CNKT_03 -->
-        <test-method signature="TC_CNKT_04()[pri:0, instance:Nhiem.ThuocTinh.capNhapKichThuocTest@610db97e]" started-at="2024-04-06T22:54:27 ICT" name="TC_CNKT_04" description="Cập nhật kích thước thất bại do tên kích thước rỗng" finished-at="2024-04-06T22:54:27 ICT" duration-ms="71" status="PASS">
+        <test-method signature="TC_CNKT_04()[pri:0, instance:Nhiem.ThuocTinh.capNhapKichThuocTest@3a45c42a]" started-at="2024-04-07T13:59:23 ICT" name="TC_CNKT_04" description="Cập nhật kích thước thất bại do tên kích thước rỗng" finished-at="2024-04-07T13:59:23 ICT" duration-ms="201" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_CNKT_04 -->
-        <test-method signature="TC_CNKT_05()[pri:0, instance:Nhiem.ThuocTinh.capNhapKichThuocTest@610db97e]" started-at="2024-04-06T22:54:27 ICT" name="TC_CNKT_05" description="Cập nhật kích thước thành công với tên kích thước mới" finished-at="2024-04-06T22:54:27 ICT" duration-ms="46" status="PASS">
+        <test-method signature="TC_CNKT_05()[pri:0, instance:Nhiem.ThuocTinh.capNhapKichThuocTest@3a45c42a]" started-at="2024-04-07T13:59:23 ICT" name="TC_CNKT_05" description="Cập nhật kích thước thành công với tên kích thước mới" finished-at="2024-04-07T13:59:23 ICT" duration-ms="130" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_CNKT_05 -->
-        <test-method signature="TC_CNKT_06()[pri:0, instance:Nhiem.ThuocTinh.capNhapKichThuocTest@610db97e]" started-at="2024-04-06T22:54:27 ICT" name="TC_CNKT_06" description="Cập nhật kích thước thất bại do mô tả kích thước null" finished-at="2024-04-06T22:54:27 ICT" duration-ms="52" status="PASS">
+        <test-method signature="TC_CNKT_06()[pri:0, instance:Nhiem.ThuocTinh.capNhapKichThuocTest@3a45c42a]" started-at="2024-04-07T13:59:23 ICT" name="TC_CNKT_06" description="Cập nhật kích thước thất bại do mô tả kích thước null" finished-at="2024-04-07T13:59:23 ICT" duration-ms="154" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_CNKT_06 -->
       </class> <!-- Nhiem.ThuocTinh.capNhapKichThuocTest -->
       <class name="Nhiem.ThuocTinh.taoMaKTTest">
-        <test-method signature="TC_TAO_MAKT_01()[pri:0, instance:Nhiem.ThuocTinh.taoMaKTTest@70f43b45]" started-at="2024-04-06T22:54:27 ICT" name="TC_TAO_MAKT_01" description="Kiểm tra khi danh sách là null" finished-at="2024-04-06T22:54:27 ICT" duration-ms="1" status="PASS">
+        <test-method signature="TC_TAO_MAKT_01()[pri:0, instance:Nhiem.ThuocTinh.taoMaKTTest@51abf713]" started-at="2024-04-07T13:59:24 ICT" name="TC_TAO_MAKT_01" description="Kiểm tra khi danh sách là null" finished-at="2024-04-07T13:59:24 ICT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_TAO_MAKT_01 -->
-        <test-method signature="TC_TAO_MAKT_02()[pri:0, instance:Nhiem.ThuocTinh.taoMaKTTest@70f43b45]" started-at="2024-04-06T22:54:27 ICT" name="TC_TAO_MAKT_02" description="Kiểm tra khi danh sách là rỗng" finished-at="2024-04-06T22:54:27 ICT" duration-ms="1" status="PASS">
+        <test-method signature="TC_TAO_MAKT_02()[pri:0, instance:Nhiem.ThuocTinh.taoMaKTTest@51abf713]" started-at="2024-04-07T13:59:24 ICT" name="TC_TAO_MAKT_02" description="Kiểm tra khi danh sách là rỗng" finished-at="2024-04-07T13:59:24 ICT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_TAO_MAKT_02 -->
-        <test-method signature="TC_TAO_MAKT_03()[pri:0, instance:Nhiem.ThuocTinh.taoMaKTTest@70f43b45]" started-at="2024-04-06T22:54:27 ICT" name="TC_TAO_MAKT_03" description="Kiểm tra khi danh sách không rỗng" finished-at="2024-04-06T22:54:27 ICT" duration-ms="0" status="PASS">
+        <test-method signature="TC_TAO_MAKT_03()[pri:0, instance:Nhiem.ThuocTinh.taoMaKTTest@51abf713]" started-at="2024-04-07T13:59:24 ICT" name="TC_TAO_MAKT_03" description="Kiểm tra khi danh sách không rỗng" finished-at="2024-04-07T13:59:24 ICT" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_TAO_MAKT_03 -->
-        <test-method signature="TC_TAO_MAKT_04()[pri:0, instance:Nhiem.ThuocTinh.taoMaKTTest@70f43b45]" started-at="2024-04-06T22:54:27 ICT" name="TC_TAO_MAKT_04" description="Kiểm tra khi MaKT ngắn hơn 3 ký tự" finished-at="2024-04-06T22:54:27 ICT" duration-ms="0" status="FAIL">
+        <test-method signature="TC_TAO_MAKT_04()[pri:0, instance:Nhiem.ThuocTinh.taoMaKTTest@51abf713]" started-at="2024-04-07T13:59:24 ICT" name="TC_TAO_MAKT_04" description="Kiểm tra khi MaKT ngắn hơn 3 ký tự" finished-at="2024-04-07T13:59:24 ICT" duration-ms="2" status="FAIL">
           <exception class="java.lang.NumberFormatException">
             <message>
               <![CDATA[For input string: ""]]>
@@ -611,49 +611,49 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_TAO_MAKT_04 -->
-        <test-method signature="TC_TAO_MAKT_05()[pri:0, instance:Nhiem.ThuocTinh.taoMaKTTest@70f43b45]" started-at="2024-04-06T22:54:27 ICT" name="TC_TAO_MAKT_05" description="Kiểm tra khi MaKT dài hơn 5 ký tự" finished-at="2024-04-06T22:54:27 ICT" duration-ms="1" status="PASS">
+        <test-method signature="TC_TAO_MAKT_05()[pri:0, instance:Nhiem.ThuocTinh.taoMaKTTest@51abf713]" started-at="2024-04-07T13:59:24 ICT" name="TC_TAO_MAKT_05" description="Kiểm tra khi MaKT dài hơn 5 ký tự" finished-at="2024-04-07T13:59:24 ICT" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_TAO_MAKT_05 -->
-        <test-method signature="TC_TAO_MAKT_06()[pri:0, instance:Nhiem.ThuocTinh.taoMaKTTest@70f43b45]" started-at="2024-04-06T22:54:27 ICT" name="TC_TAO_MAKT_06" description="Kiểm tra khi sử dụng số lớn nhất cho ID" finished-at="2024-04-06T22:54:27 ICT" duration-ms="1" status="PASS">
+        <test-method signature="TC_TAO_MAKT_06()[pri:0, instance:Nhiem.ThuocTinh.taoMaKTTest@51abf713]" started-at="2024-04-07T13:59:24 ICT" name="TC_TAO_MAKT_06" description="Kiểm tra khi sử dụng số lớn nhất cho ID" finished-at="2024-04-07T13:59:24 ICT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_TAO_MAKT_06 -->
-        <test-method signature="TC_TAO_MAKT_07()[pri:0, instance:Nhiem.ThuocTinh.taoMaKTTest@70f43b45]" started-at="2024-04-06T22:54:27 ICT" name="TC_TAO_MAKT_07" description="Kiểm tra khi sử dụng số vượt quá giới hạn" finished-at="2024-04-06T22:54:27 ICT" duration-ms="1" status="PASS">
+        <test-method signature="TC_TAO_MAKT_07()[pri:0, instance:Nhiem.ThuocTinh.taoMaKTTest@51abf713]" started-at="2024-04-07T13:59:24 ICT" name="TC_TAO_MAKT_07" description="Kiểm tra khi sử dụng số vượt quá giới hạn" finished-at="2024-04-07T13:59:24 ICT" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_TAO_MAKT_07 -->
-        <test-method signature="TC_TAO_MAKT_08()[pri:0, instance:Nhiem.ThuocTinh.taoMaKTTest@70f43b45]" started-at="2024-04-06T22:54:27 ICT" name="TC_TAO_MAKT_08" description="Kiểm tra khi sử dụng ký tự đặc biệt trong MaKT" finished-at="2024-04-06T22:54:27 ICT" duration-ms="1" status="PASS">
+        <test-method signature="TC_TAO_MAKT_08()[pri:0, instance:Nhiem.ThuocTinh.taoMaKTTest@51abf713]" started-at="2024-04-07T13:59:24 ICT" name="TC_TAO_MAKT_08" description="Kiểm tra khi sử dụng ký tự đặc biệt trong MaKT" finished-at="2024-04-07T13:59:24 ICT" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_TAO_MAKT_08 -->
-        <test-method signature="TC_TAO_MAKT_09()[pri:0, instance:Nhiem.ThuocTinh.taoMaKTTest@70f43b45]" started-at="2024-04-06T22:54:27 ICT" name="TC_TAO_MAKT_09" description="Kiểm tra khi sử dụng số 0 dẫn đầu cho ID" finished-at="2024-04-06T22:54:27 ICT" duration-ms="1" status="PASS">
+        <test-method signature="TC_TAO_MAKT_09()[pri:0, instance:Nhiem.ThuocTinh.taoMaKTTest@51abf713]" started-at="2024-04-07T13:59:24 ICT" name="TC_TAO_MAKT_09" description="Kiểm tra khi sử dụng số 0 dẫn đầu cho ID" finished-at="2024-04-07T13:59:24 ICT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_TAO_MAKT_09 -->
-        <test-method signature="TC_TAO_MAKT_10()[pri:0, instance:Nhiem.ThuocTinh.taoMaKTTest@70f43b45]" started-at="2024-04-06T22:54:27 ICT" name="TC_TAO_MAKT_10" description="Kiểm tra khi sử dụng số âm làm ID" finished-at="2024-04-06T22:54:27 ICT" duration-ms="1" status="PASS">
+        <test-method signature="TC_TAO_MAKT_10()[pri:0, instance:Nhiem.ThuocTinh.taoMaKTTest@51abf713]" started-at="2024-04-07T13:59:24 ICT" name="TC_TAO_MAKT_10" description="Kiểm tra khi sử dụng số âm làm ID" finished-at="2024-04-07T13:59:24 ICT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_TAO_MAKT_10 -->
-        <test-method signature="TC_TAO_MAKT_11()[pri:0, instance:Nhiem.ThuocTinh.taoMaKTTest@70f43b45]" started-at="2024-04-06T22:54:27 ICT" name="TC_TAO_MAKT_11" description="Kiểm tra khi sử dụng danh sách lớn" finished-at="2024-04-06T22:54:27 ICT" duration-ms="9" status="PASS">
+        <test-method signature="TC_TAO_MAKT_11()[pri:0, instance:Nhiem.ThuocTinh.taoMaKTTest@51abf713]" started-at="2024-04-07T13:59:24 ICT" name="TC_TAO_MAKT_11" description="Kiểm tra khi sử dụng danh sách lớn" finished-at="2024-04-07T13:59:24 ICT" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_TAO_MAKT_11 -->
       </class> <!-- Nhiem.ThuocTinh.taoMaKTTest -->
       <class name="Nhiem.ThuocTinh.taoMaMSTest">
-        <test-method signature="TC_TAOMAMS_01()[pri:0, instance:Nhiem.ThuocTinh.taoMaMSTest@e041f0c]" started-at="2024-04-06T22:54:27 ICT" name="TC_TAOMAMS_01" description="Kiểm tra khi danh sách là null" finished-at="2024-04-06T22:54:27 ICT" duration-ms="2" status="PASS">
+        <test-method signature="TC_TAOMAMS_01()[pri:0, instance:Nhiem.ThuocTinh.taoMaMSTest@5fd9b663]" started-at="2024-04-07T13:59:24 ICT" name="TC_TAOMAMS_01" description="Kiểm tra khi danh sách là null" finished-at="2024-04-07T13:59:24 ICT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_TAOMAMS_01 -->
-        <test-method signature="TC_TAOMAMS_02()[pri:0, instance:Nhiem.ThuocTinh.taoMaMSTest@e041f0c]" started-at="2024-04-06T22:54:27 ICT" name="TC_TAOMAMS_02" description="Kiểm tra khi danh sách là rỗng" finished-at="2024-04-06T22:54:27 ICT" duration-ms="0" status="PASS">
+        <test-method signature="TC_TAOMAMS_02()[pri:0, instance:Nhiem.ThuocTinh.taoMaMSTest@5fd9b663]" started-at="2024-04-07T13:59:24 ICT" name="TC_TAOMAMS_02" description="Kiểm tra khi danh sách là rỗng" finished-at="2024-04-07T13:59:24 ICT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_TAOMAMS_02 -->
-        <test-method signature="TC_TAOMAMS_03()[pri:0, instance:Nhiem.ThuocTinh.taoMaMSTest@e041f0c]" started-at="2024-04-06T22:54:27 ICT" name="TC_TAOMAMS_03" description="Kiểm tra khi danh sách không rỗng" finished-at="2024-04-06T22:54:27 ICT" duration-ms="3" status="PASS">
+        <test-method signature="TC_TAOMAMS_03()[pri:0, instance:Nhiem.ThuocTinh.taoMaMSTest@5fd9b663]" started-at="2024-04-07T13:59:24 ICT" name="TC_TAOMAMS_03" description="Kiểm tra khi danh sách không rỗng" finished-at="2024-04-07T13:59:24 ICT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_TAOMAMS_03 -->
-        <test-method signature="TC_TAOMAMS_04()[pri:0, instance:Nhiem.ThuocTinh.taoMaMSTest@e041f0c]" started-at="2024-04-06T22:54:27 ICT" name="TC_TAOMAMS_04" description="Kiểm tra khi MaMS ngắn hơn 3 ký tự" finished-at="2024-04-06T22:54:27 ICT" duration-ms="2" status="FAIL">
+        <test-method signature="TC_TAOMAMS_04()[pri:0, instance:Nhiem.ThuocTinh.taoMaMSTest@5fd9b663]" started-at="2024-04-07T13:59:24 ICT" name="TC_TAOMAMS_04" description="Kiểm tra khi MaMS ngắn hơn 3 ký tự" finished-at="2024-04-07T13:59:24 ICT" duration-ms="0" status="FAIL">
           <exception class="java.lang.NumberFormatException">
             <message>
               <![CDATA[For input string: ""]]>
@@ -697,45 +697,45 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_TAOMAMS_04 -->
-        <test-method signature="TC_TAOMAMS_05()[pri:0, instance:Nhiem.ThuocTinh.taoMaMSTest@e041f0c]" started-at="2024-04-06T22:54:27 ICT" name="TC_TAOMAMS_05" description="Kiểm tra khi MaMS dài hơn 5 ký tự" finished-at="2024-04-06T22:54:27 ICT" duration-ms="2" status="PASS">
+        <test-method signature="TC_TAOMAMS_05()[pri:0, instance:Nhiem.ThuocTinh.taoMaMSTest@5fd9b663]" started-at="2024-04-07T13:59:24 ICT" name="TC_TAOMAMS_05" description="Kiểm tra khi MaMS dài hơn 5 ký tự" finished-at="2024-04-07T13:59:24 ICT" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_TAOMAMS_05 -->
-        <test-method signature="TC_TAOMAMS_06()[pri:0, instance:Nhiem.ThuocTinh.taoMaMSTest@e041f0c]" started-at="2024-04-06T22:54:27 ICT" name="TC_TAOMAMS_06" description="Kiểm tra khi sử dụng số lớn nhất cho ID" finished-at="2024-04-06T22:54:27 ICT" duration-ms="4" status="PASS">
+        <test-method signature="TC_TAOMAMS_06()[pri:0, instance:Nhiem.ThuocTinh.taoMaMSTest@5fd9b663]" started-at="2024-04-07T13:59:24 ICT" name="TC_TAOMAMS_06" description="Kiểm tra khi sử dụng số lớn nhất cho ID" finished-at="2024-04-07T13:59:24 ICT" duration-ms="18" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_TAOMAMS_06 -->
-        <test-method signature="TC_TAOMAMS_07()[pri:0, instance:Nhiem.ThuocTinh.taoMaMSTest@e041f0c]" started-at="2024-04-06T22:54:27 ICT" name="TC_TAOMAMS_07" description="Kiểm tra khi sử dụng số vượt quá giới hạn" finished-at="2024-04-06T22:54:27 ICT" duration-ms="4" status="PASS">
+        <test-method signature="TC_TAOMAMS_07()[pri:0, instance:Nhiem.ThuocTinh.taoMaMSTest@5fd9b663]" started-at="2024-04-07T13:59:24 ICT" name="TC_TAOMAMS_07" description="Kiểm tra khi sử dụng số vượt quá giới hạn" finished-at="2024-04-07T13:59:24 ICT" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_TAOMAMS_07 -->
-        <test-method signature="TC_TAOMAMS_08()[pri:0, instance:Nhiem.ThuocTinh.taoMaMSTest@e041f0c]" started-at="2024-04-06T22:54:27 ICT" name="TC_TAOMAMS_08" description="Kiểm tra khi sử dụng ký tự đặc biệt trong MaMS" finished-at="2024-04-06T22:54:27 ICT" duration-ms="1" status="PASS">
+        <test-method signature="TC_TAOMAMS_08()[pri:0, instance:Nhiem.ThuocTinh.taoMaMSTest@5fd9b663]" started-at="2024-04-07T13:59:24 ICT" name="TC_TAOMAMS_08" description="Kiểm tra khi sử dụng ký tự đặc biệt trong MaMS" finished-at="2024-04-07T13:59:24 ICT" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_TAOMAMS_08 -->
-        <test-method signature="TC_TAOMAMS_09()[pri:0, instance:Nhiem.ThuocTinh.taoMaMSTest@e041f0c]" started-at="2024-04-06T22:54:27 ICT" name="TC_TAOMAMS_09" description="Kiểm tra khi sử dụng số 0 dẫn đầu cho ID" finished-at="2024-04-06T22:54:27 ICT" duration-ms="1" status="PASS">
+        <test-method signature="TC_TAOMAMS_09()[pri:0, instance:Nhiem.ThuocTinh.taoMaMSTest@5fd9b663]" started-at="2024-04-07T13:59:24 ICT" name="TC_TAOMAMS_09" description="Kiểm tra khi sử dụng số 0 dẫn đầu cho ID" finished-at="2024-04-07T13:59:24 ICT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_TAOMAMS_09 -->
-        <test-method signature="TC_TAOMAMS_10()[pri:0, instance:Nhiem.ThuocTinh.taoMaMSTest@e041f0c]" started-at="2024-04-06T22:54:27 ICT" name="TC_TAOMAMS_10" description="Kiểm tra khi sử dụng số âm làm ID" finished-at="2024-04-06T22:54:27 ICT" duration-ms="1" status="PASS">
+        <test-method signature="TC_TAOMAMS_10()[pri:0, instance:Nhiem.ThuocTinh.taoMaMSTest@5fd9b663]" started-at="2024-04-07T13:59:24 ICT" name="TC_TAOMAMS_10" description="Kiểm tra khi sử dụng số âm làm ID" finished-at="2024-04-07T13:59:24 ICT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_TAOMAMS_10 -->
-        <test-method signature="TC_TAOMAMS_11()[pri:0, instance:Nhiem.ThuocTinh.taoMaMSTest@e041f0c]" started-at="2024-04-06T22:54:27 ICT" name="TC_TAOMAMS_11" description="Kiểm tra khi sử dụng danh sách lớn" finished-at="2024-04-06T22:54:27 ICT" duration-ms="17" status="PASS">
+        <test-method signature="TC_TAOMAMS_11()[pri:0, instance:Nhiem.ThuocTinh.taoMaMSTest@5fd9b663]" started-at="2024-04-07T13:59:24 ICT" name="TC_TAOMAMS_11" description="Kiểm tra khi sử dụng danh sách lớn" finished-at="2024-04-07T13:59:24 ICT" duration-ms="43" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_TAOMAMS_11 -->
       </class> <!-- Nhiem.ThuocTinh.taoMaMSTest -->
       <class name="Nhiem.ThuocTinh.capNhapMauSac">
-        <test-method signature="TC_CNM_01()[pri:0, instance:Nhiem.ThuocTinh.capNhapMauSac@79f227a9]" started-at="2024-04-06T22:54:27 ICT" name="TC_CNM_01" description="Cập nhật màu sắc thành công" finished-at="2024-04-06T22:54:27 ICT" duration-ms="85" status="PASS">
+        <test-method signature="TC_CNM_01()[pri:0, instance:Nhiem.ThuocTinh.capNhapMauSac@c20be82]" started-at="2024-04-07T13:59:23 ICT" name="TC_CNM_01" description="Cập nhật màu sắc thành công" finished-at="2024-04-07T13:59:24 ICT" duration-ms="147" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_CNM_01 -->
-        <test-method signature="TC_CNM_02()[pri:0, instance:Nhiem.ThuocTinh.capNhapMauSac@79f227a9]" started-at="2024-04-06T22:54:27 ICT" name="TC_CNM_02" description="Cập nhật màu sắc thất bại do màu không tồn tại" finished-at="2024-04-06T22:54:27 ICT" duration-ms="41" status="PASS">
+        <test-method signature="TC_CNM_02()[pri:0, instance:Nhiem.ThuocTinh.capNhapMauSac@c20be82]" started-at="2024-04-07T13:59:24 ICT" name="TC_CNM_02" description="Cập nhật màu sắc thất bại do màu không tồn tại" finished-at="2024-04-07T13:59:24 ICT" duration-ms="75" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_CNM_02 -->
-        <test-method signature="TC_CNM_03()[pri:0, instance:Nhiem.ThuocTinh.capNhapMauSac@79f227a9]" started-at="2024-04-06T22:54:27 ICT" name="TC_CNM_03" description="Cập nhật màu sắc thất bại do mã màu rỗng" finished-at="2024-04-06T22:54:27 ICT" duration-ms="31" status="FAIL">
+        <test-method signature="TC_CNM_03()[pri:0, instance:Nhiem.ThuocTinh.capNhapMauSac@c20be82]" started-at="2024-04-07T13:59:24 ICT" name="TC_CNM_03" description="Cập nhật màu sắc thất bại do mã màu rỗng" finished-at="2024-04-07T13:59:24 ICT" duration-ms="35" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Cập nhật màu sắc thất bại!] but found [Mã màu không tồn tại]]]>
@@ -781,25 +781,25 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_CNM_03 -->
-        <test-method signature="TC_CNM_04()[pri:0, instance:Nhiem.ThuocTinh.capNhapMauSac@79f227a9]" started-at="2024-04-06T22:54:27 ICT" name="TC_CNM_04" description="Cập nhật màu sắc thành công với mô tả màu trống" finished-at="2024-04-06T22:54:27 ICT" duration-ms="59" status="PASS">
+        <test-method signature="TC_CNM_04()[pri:0, instance:Nhiem.ThuocTinh.capNhapMauSac@c20be82]" started-at="2024-04-07T13:59:24 ICT" name="TC_CNM_04" description="Cập nhật màu sắc thành công với mô tả màu trống" finished-at="2024-04-07T13:59:24 ICT" duration-ms="246" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_CNM_04 -->
-        <test-method signature="TC_CNM_05()[pri:0, instance:Nhiem.ThuocTinh.capNhapMauSac@79f227a9]" started-at="2024-04-06T22:54:27 ICT" name="TC_CNM_05" description="Cập nhật màu sắc thất bại do mô tả màu không hợp lệ" finished-at="2024-04-06T22:54:27 ICT" duration-ms="52" status="PASS">
+        <test-method signature="TC_CNM_05()[pri:0, instance:Nhiem.ThuocTinh.capNhapMauSac@c20be82]" started-at="2024-04-07T13:59:24 ICT" name="TC_CNM_05" description="Cập nhật màu sắc thất bại do mô tả màu không hợp lệ" finished-at="2024-04-07T13:59:24 ICT" duration-ms="190" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_CNM_05 -->
       </class> <!-- Nhiem.ThuocTinh.capNhapMauSac -->
       <class name="Nhiem.ThuocTinh.themMauSacTest">
-        <test-method signature="TC_TMS_01()[pri:0, instance:Nhiem.ThuocTinh.themMauSacTest@54336c81]" started-at="2024-04-06T22:54:28 ICT" name="TC_TMS_01" description="Kiểm tra khi tên màu rỗng" finished-at="2024-04-06T22:54:28 ICT" duration-ms="95" status="PASS">
+        <test-method signature="TC_TMS_01()[pri:0, instance:Nhiem.ThuocTinh.themMauSacTest@1e34c607]" started-at="2024-04-07T13:59:25 ICT" name="TC_TMS_01" description="Kiểm tra khi tên màu rỗng" finished-at="2024-04-07T13:59:25 ICT" duration-ms="49" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_TMS_01 -->
-        <test-method signature="TC_TMS_02()[pri:0, instance:Nhiem.ThuocTinh.themMauSacTest@54336c81]" started-at="2024-04-06T22:54:28 ICT" name="TC_TMS_02" description="Kiểm tra khi tên màu hợp lệ" finished-at="2024-04-06T22:54:28 ICT" duration-ms="90" status="PASS">
+        <test-method signature="TC_TMS_02()[pri:0, instance:Nhiem.ThuocTinh.themMauSacTest@1e34c607]" started-at="2024-04-07T13:59:25 ICT" name="TC_TMS_02" description="Kiểm tra khi tên màu hợp lệ" finished-at="2024-04-07T13:59:25 ICT" duration-ms="298" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_TMS_02 -->
-        <test-method signature="TC_TMS_03()[pri:0, instance:Nhiem.ThuocTinh.themMauSacTest@54336c81]" started-at="2024-04-06T22:54:28 ICT" name="TC_TMS_03" description="Kiểm tra khi gặp lỗi khi thêm màu vào cơ sở dữ liệu" finished-at="2024-04-06T22:54:28 ICT" duration-ms="48" status="FAIL">
+        <test-method signature="TC_TMS_03()[pri:0, instance:Nhiem.ThuocTinh.themMauSacTest@1e34c607]" started-at="2024-04-07T13:59:25 ICT" name="TC_TMS_03" description="Kiểm tra khi gặp lỗi khi thêm màu vào cơ sở dữ liệu" finished-at="2024-04-07T13:59:25 ICT" duration-ms="83" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Thêm màu sắc thất bại!] but found [Thêm màu sắc thành công!]]]>
@@ -845,21 +845,21 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_TMS_03 -->
-        <test-method signature="TC_TMS_04()[pri:0, instance:Nhiem.ThuocTinh.themMauSacTest@54336c81]" started-at="2024-04-06T22:54:28 ICT" name="TC_TMS_04" description="Kiểm tra khi thêm màu mới thành công vào cơ sở dữ liệu" finished-at="2024-04-06T22:54:28 ICT" duration-ms="66" status="PASS">
+        <test-method signature="TC_TMS_04()[pri:0, instance:Nhiem.ThuocTinh.themMauSacTest@1e34c607]" started-at="2024-04-07T13:59:25 ICT" name="TC_TMS_04" description="Kiểm tra khi thêm màu mới thành công vào cơ sở dữ liệu" finished-at="2024-04-07T13:59:26 ICT" duration-ms="225" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_TMS_04 -->
       </class> <!-- Nhiem.ThuocTinh.themMauSacTest -->
       <class name="Nhiem.ThuocTinh.themKichThuocTest">
-        <test-method signature="TC_TKT_01()[pri:0, instance:Nhiem.ThuocTinh.themKichThuocTest@2e6ee0bc]" started-at="2024-04-06T22:54:28 ICT" name="TC_TKT_01" description="Kiểm tra khi tên kích thước rỗng" finished-at="2024-04-06T22:54:28 ICT" duration-ms="84" status="PASS">
+        <test-method signature="TC_TKT_01()[pri:0, instance:Nhiem.ThuocTinh.themKichThuocTest@3add81c4]" started-at="2024-04-07T13:59:24 ICT" name="TC_TKT_01" description="Kiểm tra khi tên kích thước rỗng" finished-at="2024-04-07T13:59:24 ICT" duration-ms="168" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_TKT_01 -->
-        <test-method signature="TC_TKT_02()[pri:0, instance:Nhiem.ThuocTinh.themKichThuocTest@2e6ee0bc]" started-at="2024-04-06T22:54:28 ICT" name="TC_TKT_02" description="Kiểm tra khi thêm kích thước mới vào cơ sở dữ liệu" finished-at="2024-04-06T22:54:28 ICT" duration-ms="56" status="PASS">
+        <test-method signature="TC_TKT_02()[pri:0, instance:Nhiem.ThuocTinh.themKichThuocTest@3add81c4]" started-at="2024-04-07T13:59:24 ICT" name="TC_TKT_02" description="Kiểm tra khi thêm kích thước mới vào cơ sở dữ liệu" finished-at="2024-04-07T13:59:25 ICT" duration-ms="82" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_TKT_02 -->
-        <test-method signature="TC_TKT_03()[pri:0, instance:Nhiem.ThuocTinh.themKichThuocTest@2e6ee0bc]" started-at="2024-04-06T22:54:28 ICT" name="TC_TKT_03" description="Kiểm tra khi thêm kích thước đã tồn tại trong cơ sở dữ liệu" finished-at="2024-04-06T22:54:28 ICT" duration-ms="43" status="FAIL">
+        <test-method signature="TC_TKT_03()[pri:0, instance:Nhiem.ThuocTinh.themKichThuocTest@3add81c4]" started-at="2024-04-07T13:59:25 ICT" name="TC_TKT_03" description="Kiểm tra khi thêm kích thước đã tồn tại trong cơ sở dữ liệu" finished-at="2024-04-07T13:59:25 ICT" duration-ms="169" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Thêm kích thước thất bại!] but found [Thêm kích thước thành công!]]]>
@@ -905,7 +905,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_TKT_03 -->
-        <test-method signature="TC_TKT_04()[pri:0, instance:Nhiem.ThuocTinh.themKichThuocTest@2e6ee0bc]" started-at="2024-04-06T22:54:28 ICT" name="TC_TKT_04" description="Kiểm tra khi chiều dài kích thước âm" finished-at="2024-04-06T22:54:28 ICT" duration-ms="53" status="FAIL">
+        <test-method signature="TC_TKT_04()[pri:0, instance:Nhiem.ThuocTinh.themKichThuocTest@3add81c4]" started-at="2024-04-07T13:59:25 ICT" name="TC_TKT_04" description="Kiểm tra khi chiều dài kích thước âm" finished-at="2024-04-07T13:59:25 ICT" duration-ms="97" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Thêm kích thước thất bại!] but found [Thêm kích thước thành công!]]]>
@@ -951,7 +951,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_TKT_04 -->
-        <test-method signature="TC_TKT_05()[pri:0, instance:Nhiem.ThuocTinh.themKichThuocTest@2e6ee0bc]" started-at="2024-04-06T22:54:28 ICT" name="TC_TKT_05" description="Kiểm tra khi mô tả kích thước trống" finished-at="2024-04-06T22:54:28 ICT" duration-ms="148" status="PASS">
+        <test-method signature="TC_TKT_05()[pri:0, instance:Nhiem.ThuocTinh.themKichThuocTest@3add81c4]" started-at="2024-04-07T13:59:25 ICT" name="TC_TKT_05" description="Kiểm tra khi mô tả kích thước trống" finished-at="2024-04-07T13:59:25 ICT" duration-ms="128" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_TKT_05 -->

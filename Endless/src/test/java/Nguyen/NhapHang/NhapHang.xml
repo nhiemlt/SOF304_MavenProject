@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="NhapHang" parallel="false">
+	<test name="NhapHang">
+		<classes>
+			<class name="Nguyen.NhapHang.taoMaNHTest" />
+			<class name="Nguyen.NhapHang.taoMaCTNHTest" />
+		</classes>
+	</test>
+</suite>
