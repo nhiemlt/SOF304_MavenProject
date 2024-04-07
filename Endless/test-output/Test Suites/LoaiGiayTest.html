@@ -1,0 +1,134 @@
+<html>
+<head>
+<title>TestNG:  LoaiGiayTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>LoaiGiayTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>11/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Apr 07 17:48:38 ICT 2024</td>
+</tr>
+<tr><td>Total time:</td><td>38 seconds (38383 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Nguyen.LoaiGiay.taoMaLGTest.TC_TAO_MA_LG_03()'><b>TC_TAO_MA_LG_03</b><br>Test class: Nguyen.LoaiGiay.taoMaLGTest<br>Test method: Kiểm tra khi mã của loại giày cuối cùng đủ 3 ký tự</td>
+<td></td>
+<td>0</td>
+<td>Nguyen.LoaiGiay.taoMaLGTest@5f2f577</td></tr>
+<tr>
+<td title='Nguyen.LoaiGiay.taoMaLGTest.TC_TAO_MA_LG_08()'><b>TC_TAO_MA_LG_08</b><br>Test class: Nguyen.LoaiGiay.taoMaLGTest<br>Test method: Kiểm tra khi mã của loại giày cuối cùng đạt đến giới hạn</td>
+<td></td>
+<td>38</td>
+<td>Nguyen.LoaiGiay.taoMaLGTest@5f2f577</td></tr>
+<tr>
+<td title='Nguyen.LoaiGiay.themTest.TC_THEM_LOAI_GIAY_02()'><b>TC_THEM_LOAI_GIAY_02</b><br>Test class: Nguyen.LoaiGiay.themTest<br>Test method: Kiểm tra khi thêm loại giày thành công</td>
+<td></td>
+<td>0</td>
+<td>Nguyen.LoaiGiay.themTest@6c67e137</td></tr>
+<tr>
+<td title='Nguyen.LoaiGiay.taoMaLGTest.TC_TAO_MA_LG_02()'><b>TC_TAO_MA_LG_02</b><br>Test class: Nguyen.LoaiGiay.taoMaLGTest<br>Test method: Kiểm tra khi danh sách không rỗng</td>
+<td></td>
+<td>0</td>
+<td>Nguyen.LoaiGiay.taoMaLGTest@5f2f577</td></tr>
+<tr>
+<td title='Nguyen.LoaiGiay.taoMaLGTest.TC_TAO_MA_LG_09()'><b>TC_TAO_MA_LG_09</b><br>Test class: Nguyen.LoaiGiay.taoMaLGTest<br>Test method: Kiểm tra khi sử dụng số âm làm mã loại giày</td>
+<td></td>
+<td>0</td>
+<td>Nguyen.LoaiGiay.taoMaLGTest@5f2f577</td></tr>
+<tr>
+<td title='Nguyen.LoaiGiay.taoMaLGTest.TC_TAO_MA_LG_01()'><b>TC_TAO_MA_LG_01</b><br>Test class: Nguyen.LoaiGiay.taoMaLGTest<br>Test method: Kiểm tra khi không có loại giày nào trong cơ sở dữ liệu</td>
+<td></td>
+<td>0</td>
+<td>Nguyen.LoaiGiay.taoMaLGTest@5f2f577</td></tr>
+<tr>
+<td title='Nguyen.LoaiGiay.taoMaLGTest.TC_TAO_MA_LG_07()'><b>TC_TAO_MA_LG_07</b><br>Test class: Nguyen.LoaiGiay.taoMaLGTest<br>Test method: Kiểm tra khi mã của loại giày cuối cùng là số thứ tự lớn nhất và bắt đầu bằng 0</td>
+<td></td>
+<td>0</td>
+<td>Nguyen.LoaiGiay.taoMaLGTest@5f2f577</td></tr>
+<tr>
+<td title='Nguyen.LoaiGiay.taoMaLGTest.TC_TAO_MA_LG_05()'><b>TC_TAO_MA_LG_05</b><br>Test class: Nguyen.LoaiGiay.taoMaLGTest<br>Test method: Kiểm tra khi mã của loại giày cuối cùng thiếu 2 ký tự</td>
+<td></td>
+<td>0</td>
+<td>Nguyen.LoaiGiay.taoMaLGTest@5f2f577</td></tr>
+<tr>
+<td title='Nguyen.LoaiGiay.taoMaLGTest.TC_TAO_MA_LG_06()'><b>TC_TAO_MA_LG_06</b><br>Test class: Nguyen.LoaiGiay.taoMaLGTest<br>Test method: Kiểm tra khi mã của loại giày cuối cùng là số thứ tự lớn nhất</td>
+<td></td>
+<td>0</td>
+<td>Nguyen.LoaiGiay.taoMaLGTest@5f2f577</td></tr>
+<tr>
+<td title='Nguyen.LoaiGiay.themTest.TC_THEM_LOAI_GIAY_01()'><b>TC_THEM_LOAI_GIAY_01</b><br>Test class: Nguyen.LoaiGiay.themTest<br>Test method: Kiểm tra khi tên loại giày trống</td>
+<td></td>
+<td>0</td>
+<td>Nguyen.LoaiGiay.themTest@6c67e137</td></tr>
+<tr>
+<td title='Nguyen.LoaiGiay.taoMaLGTest.TC_TAO_MA_LG_04()'><b>TC_TAO_MA_LG_04</b><br>Test class: Nguyen.LoaiGiay.taoMaLGTest<br>Test method: Kiểm tra khi mã của loại giày cuối cùng thiếu 1 ký tự</td>
+<td></td>
+<td>0</td>
+<td>Nguyen.LoaiGiay.taoMaLGTest@5f2f577</td></tr>
+</table><p>
+</body>
+</html>
