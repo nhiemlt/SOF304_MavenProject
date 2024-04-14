@@ -9,6 +9,13 @@
           <include name="TC_CAPNHATCTSP_11"/>
         </methods>
       </class> <!-- Nhiem.SanPham.capNhapCTSPTest -->
+      <class name="Nhiem.SanPham.themTest">
+        <methods>
+          <include name="TC_THEMSP_09"/>
+          <include name="TC_THEMSP_08"/>
+          <include name="TC_THEMSP_01"/>
+        </methods>
+      </class> <!-- Nhiem.SanPham.themTest -->
       <class name="Nhiem.SanPham.CapNhapTest">
         <methods>
           <include name="TC_CAPNHAT_05"/>

@@ -1,90 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Test Suites]">
-  <test thread-count="5" name="DoiMatKhauTest(failed)">
-    <classes>
-      <class name="Nhu.DoiMatKhau.DoiMatKhauTest">
-        <methods>
-          <include name="TC_09"/>
-        </methods>
-      </class> <!-- Nhu.DoiMatKhau.DoiMatKhauTest -->
-    </classes>
-  </test> <!-- DoiMatKhauTest(failed) -->
-  <test thread-count="5" name="KhachHangTest(failed)">
-    <classes>
-      <class name="Nhu.KhachHang.XoaTest">
-        <methods>
-          <include name="TC_XOA_01"/>
-        </methods>
-      </class> <!-- Nhu.KhachHang.XoaTest -->
-      <class name="Nhu.KhachHang.CapNhatTest">
-        <methods>
-          <include name="TC_CAPNHAT_01"/>
-        </methods>
-      </class> <!-- Nhu.KhachHang.CapNhatTest -->
-      <class name="Nhu.KhachHang.ThemTest">
-        <methods>
-          <include name="TC_THEM_01"/>
-        </methods>
-      </class> <!-- Nhu.KhachHang.ThemTest -->
-    </classes>
-  </test> <!-- KhachHangTest(failed) -->
-  <test thread-count="5" name="KhuyenMaiTest(failed)">
-    <classes>
-      <class name="Nhu.KhuyenMai.CapNhatTest">
-        <methods>
-          <include name="TC_CAPNHATKM_02"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- Nhu.KhuyenMai.CapNhatTest -->
-      <class name="Nhu.KhuyenMai.ThemTest">
-        <methods>
-          <include name="TC_THEMKM_02"/>
-          <include name="TC_THEMKM_04"/>
-          <include name="TC_THEMKM_03"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- Nhu.KhuyenMai.ThemTest -->
-    </classes>
-  </test> <!-- KhuyenMaiTest(failed) -->
-  <test thread-count="5" name="NhaCungCapTest(failed)">
-    <classes>
-      <class name="Nguyen.NhaCungCap.themTest">
-        <methods>
-          <include name="TC_THEM_01"/>
-        </methods>
-      </class> <!-- Nguyen.NhaCungCap.themTest -->
-    </classes>
-  </test> <!-- NhaCungCapTest(failed) -->
-  <test thread-count="5" name="NhanVienTest(failed)">
-    <classes>
-      <class name="Nguyen.NhanVien.addTest">
-        <methods>
-          <include name="TC_ADD_NV_01"/>
-        </methods>
-      </class> <!-- Nguyen.NhanVien.addTest -->
-    </classes>
-  </test> <!-- NhanVienTest(failed) -->
-  <test thread-count="5" name="QuenMatKhauTest(failed)">
-    <classes>
-      <class name="Nguyen.QuenMatKhau.sendOTPTest">
-        <methods>
-          <include name="TC_SEND_OTP_05"/>
-          <include name="setUp"/>
-          <include name="TC_SEND_OTP_04"/>
-          <include name="TC_SEND_OTP_03"/>
-        </methods>
-      </class> <!-- Nguyen.QuenMatKhau.sendOTPTest -->
-    </classes>
-  </test> <!-- QuenMatKhauTest(failed) -->
+<suite name="Failed suite [SanPham]">
   <test thread-count="5" name="SanPhamTest(failed)">
     <classes>
-      <class name="Nhiem.SanPham.CapNhapTest">
+      <class name="Nhiem.SanPham.capNhapCTSPTest">
         <methods>
-          <include name="TC_CAPNHAT_05"/>
-          <include name="TC_CAPNHAT_07"/>
+          <include name="TC_CAPNHATCTSP_10"/>
+          <include name="TC_CAPNHATCTSP_11"/>
         </methods>
-      </class> <!-- Nhiem.SanPham.CapNhapTest -->
+      </class> <!-- Nhiem.SanPham.capNhapCTSPTest -->
       <class name="Nhiem.SanPham.themTest">
         <methods>
           <include name="TC_THEMSP_09"/>
@@ -92,42 +16,12 @@
           <include name="TC_THEMSP_01"/>
         </methods>
       </class> <!-- Nhiem.SanPham.themTest -->
-      <class name="Nhiem.SanPham.capNhapCTSPTest">
+      <class name="Nhiem.SanPham.CapNhapTest">
         <methods>
-          <include name="TC_CAPNHATCTSP_10"/>
-          <include name="TC_CAPNHATCTSP_11"/>
+          <include name="TC_CAPNHAT_05"/>
+          <include name="TC_CAPNHAT_07"/>
         </methods>
-      </class> <!-- Nhiem.SanPham.capNhapCTSPTest -->
+      </class> <!-- Nhiem.SanPham.CapNhapTest -->
     </classes>
   </test> <!-- SanPhamTest(failed) -->
-  <test thread-count="5" name="ThuocTinhTest(failed)">
-    <classes>
-      <class name="Nhiem.ThuocTinh.themKichThuocTest">
-        <methods>
-          <include name="TC_TKT_04"/>
-          <include name="TC_TKT_03"/>
-        </methods>
-      </class> <!-- Nhiem.ThuocTinh.themKichThuocTest -->
-      <class name="Nhiem.ThuocTinh.taoMaMSTest">
-        <methods>
-          <include name="TC_TAOMAMS_04"/>
-        </methods>
-      </class> <!-- Nhiem.ThuocTinh.taoMaMSTest -->
-      <class name="Nhiem.ThuocTinh.capNhapMauSac">
-        <methods>
-          <include name="TC_CNM_03"/>
-        </methods>
-      </class> <!-- Nhiem.ThuocTinh.capNhapMauSac -->
-      <class name="Nhiem.ThuocTinh.themMauSacTest">
-        <methods>
-          <include name="TC_TMS_03"/>
-        </methods>
-      </class> <!-- Nhiem.ThuocTinh.themMauSacTest -->
-      <class name="Nhiem.ThuocTinh.taoMaKTTest">
-        <methods>
-          <include name="TC_TAO_MAKT_04"/>
-        </methods>
-      </class> <!-- Nhiem.ThuocTinh.taoMaKTTest -->
-    </classes>
-  </test> <!-- ThuocTinhTest(failed) -->
-</suite> <!-- Failed suite [Test Suites] -->
+</suite> <!-- Failed suite [SanPham] -->

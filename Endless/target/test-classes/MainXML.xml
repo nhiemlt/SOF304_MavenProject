@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suites>
+	<suite name="Test Suites">
+		<test name="DoiMatKhauTest">
+			<packages>
+				<package name="Nhu.DoiMatKhau" />
+			</packages>
+		</test>
+		<test name="KhachHangTest">
+			<packages>
+				<package name="Nhu.KhachHang" />
+			</packages>
+		</test>
+		<test name="KhuyenMaiTest">
+			<packages>
+				<package name="Nhu.KhuyenMai" />
+			</packages>
+		</test>
+		<test name="ServerTest">
+			<packages>
+				<package name="Nhu.Server" />
+			</packages>
+		</test>
+		<test name="LoaiGiayTest">
+			<packages>
+				<package name="Nguyen.LoaiGiay" />
+			</packages>
+		</test>
+		<test name="LoginTest">
+			<packages>
+				<package name="Nguyen.Login" />
+			</packages>
+		</test>
+		<test name="NhaCungCapTest">
+			<packages>
+				<package name="Nguyen.NhaCungCap" />
+			</packages>
+		</test>
+		<test name="NhanVienTest">
+			<packages>
+				<package name="Nguyen.NhanVien" />
+			</packages>
+		</test>
+		<test name="NhapHangTest">
+			<packages>
+				<package name="Nguyen.NhapHang" />
+			</packages>
+		</test>
+		<test name="QuenMatKhauTest">
+			<packages>
+				<package name="Nguyen.QuenMatKhau" />
+			</packages>
+		</test>
+		<test name="EncodeTest">
+			<packages>
+				<package name="Nhiem.Encode" />
+			</packages>
+		</test>
+		<test name="SanPhamTest">
+			<packages>
+				<package name="Nhiem.SanPham" />
+			</packages>
+		</test>
+		<test name="ThongKeTest">
+			<packages>
+				<package name="Nhiem.ThongKe" />
+			</packages>
+		</test>
+		<test name="ThuocTinhTest">
+			<packages>
+				<package name="Nhiem.ThuocTinh" />
+			</packages>
+		</test>
+	</suite>
+</suites>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="SaveTestNGResultToExcel" parallel="false">
+	<test name="Assignment">
+		<classes>
+			<class name="mainTest.TestFile"></class>
+			<mothods>
+				<include name="launchWebsite"></include>
+				<include name="enterLoginInfo"></include>
+				<include name="performLogin"></include>
+			</mothods>
+		</classes>
+	</test>
+</suite>
